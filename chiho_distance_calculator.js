@@ -188,7 +188,7 @@
   let isReprint = false;
 
   // 自動偵測是否為復刻地圖
-  if (mapName && (mapName.includes('復刻') || mapName.toLowerCase().includes('re-run') || mapName.toLowerCase().includes('revival') || mapName.includes('復活') || mapName.includes('復刻版'))) {
+  if (mapName && (mapName.includes('復刻') || mapName.toLowerCase().includes('re-run') || mapName.toLowerCase().includes('revival') || mapName.includes('復活') || mapName.includes('復刻版') || mapName.includes('永遠') || mapName.includes('永選'))) {
     isReprint = true;
   }
 
