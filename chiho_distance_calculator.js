@@ -70,6 +70,10 @@
     // 若沒有 gray_img 類別，代表該獎勵在網頁中已經是彩色（已達成）
     const hasGrayImg = !!block.querySelector('.gray_img');
     if (!hasGrayImg) {
+      // 防呆：如果是 0km 的地圖（尚未遊玩），第一個區塊在網頁上雖為彩色，但實際上尚未獲得
+      if (idx === 0 && currentKm === 0) {
+        return;
+      }
       completedIndices.add(idx);
     }
   });
