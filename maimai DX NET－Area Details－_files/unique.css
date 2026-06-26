@@ -1,0 +1,92 @@
+.circle_totalpoint_header_for_index {
+    width: 230px;
+    height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    top: -1px;
+    left: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_pointranking_header {
+    width: 227px;
+    height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    top: -3px;
+    left: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_totalpoint_header_for_point_reward {
+    width: 230px;
+    height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    top: -5px;
+    left: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_totalpoint_header_for_ranking {
+    width: 230px;
+    height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    top: -2px;
+    left: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_class_table {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 100px auto; /* 左列100px、右列は残り */
+}
+
+.festa_history_team_area {
+    position: relative;
+    width: 200px;
+    top: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.festa_history_team_text_start {
+    position: relative;
+    width: 200px;
+    font-size: 9px;
+    border-radius: 12px;
+    color: #074198;
+    font-weight: bold;
+}
+
+.festa_history_team_name {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 0 2px black, 0 0 2px black;
+    padding: 0 10px 0 10px;
+}
+
+.ref_mark_list {
+    list-style-type: "※ ";
+}
