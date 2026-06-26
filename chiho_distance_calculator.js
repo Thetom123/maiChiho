@@ -78,6 +78,20 @@
     }
   });
 
+  // 判斷是否為括弧包圍的字串，支援多種括弧形式（全形/半形圓括弧、書名號/角括弧、雙角括弧、角型引號等）
+  function isBracketed(str) {
+    if (!str) return false;
+    const s = str.trim();
+    const startChars = ['（', '(', '〈', '《', '<'];
+    const endChars   = ['）', ')', '〉', '》', '>'];
+    for (let i = 0; i < startChars.length; i++) {
+      if (s.startsWith(startChars[i]) && s.endsWith(endChars[i])) {
+        return true;
+      }
+    }
+    return false;
+  }
+
   // 統一的完成狀態判定函數（解決復刻地圖因過濾歌曲與條件鎖導致索引長度不符的問題）
   function isRewardDone(i, cumulative, currentKm, mappedDomIdx) {
     const rem = cumulative - currentKm;
@@ -122,10 +136,7 @@
     const wikiTaskRewards = [];
     const wikiRewardRewards = [];
     processedRewards.forEach((r, idx) => {
-      const isTask = r.unlockEl && (
-        (r.unlockEl.startsWith('（') && r.unlockEl.endsWith('）')) || 
-        (r.unlockEl.startsWith('(') && r.unlockEl.endsWith(')'))
-      );
+      const isTask = r.unlockEl && isBracketed(r.unlockEl);
       if (isTask) {
         wikiTaskRewards.push({ r, originalIdx: idx });
       } else {
@@ -509,7 +520,7 @@
         }
 
         // 若解禁要素帶有括號且括號內是歌曲，如「（熱異常）」，亦將其抽出加入歌曲清單
-        if (cleanUnlock && ((cleanUnlock.startsWith('（') && cleanUnlock.endsWith('）')) || (cleanUnlock.startsWith('(') && cleanUnlock.endsWith(')')))) {
+        if (cleanUnlock && isBracketed(cleanUnlock)) {
           const stripped = cleanUnlock.substring(1, cleanUnlock.length - 1).trim();
           if (stripped) songTitles.add(stripped);
         }
@@ -531,7 +542,7 @@
       const trimmed = text.trim();
       let testText = trimmed;
       // 去除可能包圍在歌曲外的括號進行比對
-      if ((trimmed.startsWith('（') && trimmed.endsWith('）')) || (trimmed.startsWith('(') && trimmed.endsWith(')'))) {
+      if (isBracketed(trimmed)) {
         testText = trimmed.substring(1, trimmed.length - 1).trim();
       }
       const cleaned = cleanStr(testText);
@@ -549,8 +560,7 @@
       const cleanSong = r.song;
 
       // 判斷是否為帶有括號的條件曲（如「（熱異常）」），條件曲在復刻地圖中仍會保留在畫面上
-      const isTaskMusic = (cleanUnlock.startsWith('（') && cleanUnlock.endsWith('）')) || 
-                           (cleanUnlock.startsWith('(') && cleanUnlock.endsWith(')'));
+      const isTaskMusic = isBracketed(cleanUnlock);
 
       let isSongOnly = false;
       if (!isTaskMusic) {
@@ -617,10 +627,7 @@
       const keepIndices = [];
       processedRewards.forEach((r, idx) => {
         const domIdx = wikiToDomMap[idx];
-        const isTask = r.unlockEl && (
-          (r.unlockEl.startsWith('（') && r.unlockEl.endsWith('）')) || 
-          (r.unlockEl.startsWith('(') && r.unlockEl.endsWith(')'))
-        );
+        const isTask = r.unlockEl && isBracketed(r.unlockEl);
         if (isTask && domIdx === -1) {
           return; // 過濾掉
         }
