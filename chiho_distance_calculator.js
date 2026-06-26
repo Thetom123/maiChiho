@@ -97,6 +97,13 @@
 
   // 依據類型自動對齊 DOM 區塊與 Wiki 獎勵里程碑
   function alignRewardsToBlocks(processedRewards, blocks) {
+    // 當獎勵數量與 DOM 區塊數量一致時，直接 1 對 1 順序對齊
+    // 這是非復刻地圖最常見的情況，避免分類錯誤導致跳過
+    if (processedRewards.length === blocks.length) {
+      return processedRewards.map((_, idx) => idx);
+    }
+
+    // 數量不一致時（通常是復刻模式過濾了歌曲），使用智慧對齊
     const domTaskBlocks = [];
     const domRewardBlocks = [];
     blocks.forEach((block, idx) => {
@@ -132,6 +139,16 @@
     const taskCount = Math.min(domTaskBlocks.length, wikiTaskRewards.length);
     for (let i = 0; i < taskCount; i++) {
       wikiToDomMap[wikiTaskRewards[i].originalIdx] = domTaskBlocks[i].originalIdx;
+    }
+
+    // 容錯：若智慧對齊導致過多未對齊項目，回退為順序對齊
+    const unmappedCount = wikiToDomMap.filter(x => x === -1).length;
+    if (unmappedCount > 0 && processedRewards.length <= blocks.length) {
+      const mappedCount = processedRewards.length - unmappedCount;
+      if (unmappedCount >= Math.ceil(mappedCount * 0.25)) {
+        console.warn('[Chiho] 智慧對齊有過多未映射項目，回退為順序對齊');
+        return processedRewards.map((_, idx) => idx < blocks.length ? idx : -1);
+      }
     }
 
     return wikiToDomMap;
