@@ -391,7 +391,7 @@
     if (!str) return false;
     const s = str.trim();
     const startChars = ['（', '(', '〈', '《', '<'];
-    const endChars   = ['）', ')', '〉', '》', '>'];
+    const endChars = ['）', ')', '〉', '》', '>'];
     for (let i = 0; i < startChars.length; i++) {
       if (s.startsWith(startChars[i]) && s.endsWith(endChars[i])) {
         return true;
@@ -412,8 +412,8 @@
       }
       // 容錯機制：如果因為過濾了歌曲而使索引超出網頁 DOM 數量，但網頁最後一個圖標已經完成，則也視為完成
       if (rewardBlocks.length > 0 && completedIndices.has(rewardBlocks.length - 1)) {
-        const maxCumulative = activeMapData && activeMapData.rewards.length > 0 
-          ? activeMapData.rewards[activeMapData.rewards.length - 1].cumulative 
+        const maxCumulative = activeMapData && activeMapData.rewards.length > 0
+          ? activeMapData.rewards[activeMapData.rewards.length - 1].cumulative
           : 0;
         if (cumulative >= maxCumulative) return true;
       }
@@ -453,7 +453,7 @@
     });
 
     const wikiToDomMap = new Array(processedRewards.length).fill(-1);
-    
+
     const rewardCount = Math.min(domRewardBlocks.length, wikiRewardRewards.length);
     for (let i = 0; i < rewardCount; i++) {
       wikiToDomMap[wikiRewardRewards[i].originalIdx] = domRewardBlocks[i].originalIdx;
@@ -654,7 +654,7 @@
             ">➕ 手動建立地圖資料</button>
           </div>
         `;
-        
+
         document.getElementById('chiho-create-manual').onclick = () => {
           activeMapData = {
             mapName: searchName,
@@ -713,7 +713,7 @@
     doc.querySelectorAll('img').forEach(img => {
       const src = img.getAttribute('src') || img.getAttribute('data-src') || '';
       const alt = img.getAttribute('alt') || '';
-      
+
       const filenameMatch = src.match(/\/([^\/]+)\.(png|jpg|jpeg|gif)/i);
       if (filenameMatch) {
         const filename = decodeURIComponent(filenameMatch[1]);
@@ -728,7 +728,7 @@
           if (songName) songTitles.add(songName);
         }
       }
-      
+
       if (alt.toLowerCase().includes('mms')) {
         const parts = alt.split(/\s+mms\s+/i);
         if (parts.length > 1) {
@@ -858,10 +858,10 @@
           const parts = cleanSong.split(/[\n,，、\u3001]/);
           parts.forEach(part => {
             const s = part.trim();
-            if (s && s.length > 1 && !s.includes('&') && !s.includes('category') && 
-                !s.toLowerCase().includes('pops') && !s.toLowerCase().includes('niconico') && 
-                !s.toLowerCase().includes('maimai') && !s.toLowerCase().includes('touhou') && 
-                !s.toLowerCase().includes('game')) {
+            if (s && s.length > 1 && !s.includes('&') && !s.includes('category') &&
+              !s.toLowerCase().includes('pops') && !s.toLowerCase().includes('niconico') &&
+              !s.toLowerCase().includes('maimai') && !s.toLowerCase().includes('touhou') &&
+              !s.toLowerCase().includes('game')) {
               songTitles.add(s);
             }
           });
@@ -884,7 +884,7 @@
     }
 
     const cleanStr = s => s.toLowerCase().replace(/[\s\u3000\-－~～_]/g, '').replace(/[「」『』【】()（）[\]]/g, '').replace(/\*+/g, '');
-    
+
     function checkIsSong(text) {
       if (!text) return false;
       const trimmed = text.trim();
@@ -1011,8 +1011,8 @@
     const addBtn = document.getElementById('chiho-edit-add');
     if (addBtn) {
       addBtn.onclick = () => {
-        const lastCum = activeMapData.rewards.length > 0 
-          ? activeMapData.rewards[activeMapData.rewards.length - 1].cumulative 
+        const lastCum = activeMapData.rewards.length > 0
+          ? activeMapData.rewards[activeMapData.rewards.length - 1].cumulative
           : 0;
         activeMapData.rewards.push({
           no: (activeMapData.rewards.length + 1).toString(),
@@ -1109,8 +1109,8 @@
     if (isEditing) {
       // 編輯模式：對原始 raw list 進行編輯
       activeMapData.rewards.forEach((r, i) => {
-        const displayName = r.unlockEl && r.song && r.song !== '—' && r.song !== '' 
-          ? `${r.unlockEl} [${r.song}]` 
+        const displayName = r.unlockEl && r.song && r.song !== '—' && r.song !== ''
+          ? `${r.unlockEl} [${r.song}]`
           : (r.unlockEl || r.reward);
         h += `
           <div style="padding:6px 10px; border-bottom:1px solid rgba(99,102,241,0.06); display:flex; align-items:center; gap:6px;">
