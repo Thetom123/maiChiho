@@ -421,57 +421,31 @@
     return false;
   }
 
-  // 依據類型自動對齊 DOM 區塊與 Wiki 獎勵里程碑
+  // 依據距離自動對齊 DOM 區塊與 Wiki 獎勵里程碑
   function alignRewardsToBlocks(processedRewards, blocks) {
-    // 當獎勵數量與 DOM 區塊數量一致時，直接 1 對 1 順序對齊
-    // 這是非復刻地圖最常見的情況，避免分類錯誤導致跳過
-    if (processedRewards.length === blocks.length) {
-      return processedRewards.map((_, idx) => idx);
-    }
-
-    // 數量不一致時（通常是復刻模式過濾了歌曲），使用智慧對齊
-    const domTaskBlocks = [];
-    const domRewardBlocks = [];
+    // 建立 DOM 區塊的距離映射
+    const domBlocks = [];
     blocks.forEach((block, idx) => {
-      const isTask = !!block.querySelector('.mapdetail_taskmusic_icon, .mapdetail_perfectchallenge_icon');
-      if (isTask) {
-        domTaskBlocks.push({ block, originalIdx: idx });
-      } else {
-        domRewardBlocks.push({ block, originalIdx: idx });
-      }
-    });
-
-    const wikiTaskRewards = [];
-    const wikiRewardRewards = [];
-    processedRewards.forEach((r, idx) => {
-      const isTask = r.unlockEl && isBracketed(r.unlockEl);
-      if (isTask) {
-        wikiTaskRewards.push({ r, originalIdx: idx });
-      } else {
-        wikiRewardRewards.push({ r, originalIdx: idx });
-      }
+      const txt = block.textContent;
+      const m = txt.match(/(\d[\d,]*)\s*km/i);
+      const dist = m ? parseInt(m[1].replace(/,/g, ''), 10) : null;
+      domBlocks.push({ block, originalIdx: idx, distance: dist });
     });
 
     const wikiToDomMap = new Array(processedRewards.length).fill(-1);
 
-    const rewardCount = Math.min(domRewardBlocks.length, wikiRewardRewards.length);
-    for (let i = 0; i < rewardCount; i++) {
-      wikiToDomMap[wikiRewardRewards[i].originalIdx] = domRewardBlocks[i].originalIdx;
-    }
-
-    const taskCount = Math.min(domTaskBlocks.length, wikiTaskRewards.length);
-    for (let i = 0; i < taskCount; i++) {
-      wikiToDomMap[wikiTaskRewards[i].originalIdx] = domTaskBlocks[i].originalIdx;
-    }
-
-    // 容錯：若智慧對齊導致過多未對齊項目，回退為順序對齊
-    const unmappedCount = wikiToDomMap.filter(x => x === -1).length;
-    if (unmappedCount > 0 && processedRewards.length <= blocks.length) {
-      const mappedCount = processedRewards.length - unmappedCount;
-      if (unmappedCount >= Math.ceil(mappedCount * 0.25)) {
-        console.warn('[Chiho] 智慧對齊有過多未映射項目，回退為順序對齊');
-        return processedRewards.map((_, idx) => idx < blocks.length ? idx : -1);
+    // 第一輪：精確距離對齊
+    processedRewards.forEach((r, idx) => {
+      const match = domBlocks.find(d => d.distance === r.cumulative);
+      if (match) {
+        wikiToDomMap[idx] = match.originalIdx;
       }
+    });
+
+    // 容錯處理：如果有未對齊的項目，且 processedRewards 長度與 blocks 長度相同，則使用順序對齊
+    const unmappedCount = wikiToDomMap.filter(x => x === -1).length;
+    if (unmappedCount > 0 && processedRewards.length === blocks.length) {
+      return processedRewards.map((_, idx) => idx);
     }
 
     return wikiToDomMap;
@@ -489,6 +463,9 @@
       }
     }
   });
+
+  // 全局非歌曲獎勵名稱集合 (從 Wiki 圖片解析收集)
+  const nonSongRewards = new Set();
 
   // 全域狀態
   let activeMapData = null;
@@ -709,14 +686,43 @@
   function parseMap(html, target) {
     const doc = new DOMParser().parseFromString(html, 'text/html');
 
-    // 從所有圖片檔名及 alt 屬性中收集額外的歌曲名稱
+    // 從所有圖片檔名及 alt 屬性中收集額外的歌曲名稱與非歌曲獎勵名稱（如背景/名牌板/角色）
     doc.querySelectorAll('img').forEach(img => {
-      const src = img.getAttribute('src') || img.getAttribute('data-src') || '';
+      let src = img.getAttribute('src') || '';
+      if (src.startsWith('data:')) {
+        src = img.getAttribute('data-src') || '';
+      }
       const alt = img.getAttribute('alt') || '';
 
       const filenameMatch = src.match(/\/([^\/]+)\.(png|jpg|jpeg|gif)/i);
       if (filenameMatch) {
         const filename = decodeURIComponent(filenameMatch[1]);
+        
+        // 判斷是否為非歌曲獎勵（TM_角色, Frame_背景, Plate_底板, Ticket_券, Icon_頭像 等）
+        const isNonSong = filename.startsWith('TM_') || 
+                          filename.startsWith('Frame_') || 
+                          filename.startsWith('Plate_') || 
+                          filename.startsWith('Ticket_') || 
+                          filename.startsWith('Icon_') ||
+                          filename.includes('_tm_') ||
+                          filename.includes('_frame_') ||
+                          filename.includes('_plate_');
+                          
+        if (isNonSong) {
+          let name = filename;
+          const prefixes = ['TM_', 'Frame_', 'Plate_', 'Ticket_', 'Icon_'];
+          for (const p of prefixes) {
+            if (name.startsWith(p)) {
+              name = name.substring(p.length);
+              break;
+            }
+          }
+          name = name.replace(/^(\d+\.?\d*|mms)_/, '');
+          name = name.trim();
+          if (name) nonSongRewards.add(name);
+        }
+
+        // 收集歌曲檔名
         if (filename.includes('_mms_')) {
           const parts = filename.split('_mms_');
           if (parts.length > 1) {
@@ -727,6 +733,31 @@
           const songName = filename.substring(4).trim();
           if (songName) songTitles.add(songName);
         }
+      }
+
+      // 從 alt 屬性解析
+      const altLower = alt.toLowerCase();
+      const isNonSongAlt = altLower.startsWith('tm ') || 
+                           altLower.startsWith('frame ') || 
+                           altLower.startsWith('plate ') || 
+                           altLower.startsWith('ticket ') || 
+                           altLower.startsWith('icon ') ||
+                           alt.includes('背景') ||
+                           alt.includes('名牌板') ||
+                           alt.includes('底板') ||
+                           alt.includes('頭像') ||
+                           alt.includes('旅伴');
+                           
+      if (isNonSongAlt) {
+        let name = alt;
+        const prefixes = ['tm', 'frame', 'plate', 'ticket', 'icon'];
+        const words = alt.split(/\s+/);
+        if (words.length > 1 && prefixes.includes(words[0].toLowerCase())) {
+          name = words.slice(1).join(' ');
+        }
+        name = name.replace(/^(\d+\.?\d*|mms)\s+/, '');
+        name = name.trim();
+        if (name) nonSongRewards.add(name);
       }
 
       if (alt.toLowerCase().includes('mms')) {
@@ -902,6 +933,17 @@
       return false;
     }
 
+    function checkIsNonSong(text) {
+      if (!text) return false;
+      const cleaned = cleanStr(text);
+      for (const item of nonSongRewards) {
+        if (cleanStr(item) === cleaned) {
+          return true;
+        }
+      }
+      return false;
+    }
+
     // 第二階段：計算並賦予 isSongOnly 狀態（僅過濾「解禁歌曲」的里程碑，保留帶有括號的「條件曲/課題曲」里程碑）
     const finalRewards = tempRows.map(r => {
       const cleanUnlock = r.unlockEl;
@@ -912,10 +954,14 @@
 
       let isSongOnly = false;
       if (!isTaskMusic) {
-        if (checkIsSong(cleanUnlock)) {
-          isSongOnly = true;
-        } else if (cleanSong && (!cleanUnlock || cleanUnlock.toLowerCase() === 'none' || cleanStr(cleanUnlock) === cleanStr(cleanSong))) {
-          isSongOnly = true;
+        // 如果該里程碑其實是非歌曲獎勵（例如背景/角色），即使名稱與某首歌曲重疊（如背景名「コスモポップファンクラブ」），也不應視為僅解禁歌曲
+        const isNonSongReward = checkIsNonSong(cleanUnlock);
+        if (!isNonSongReward) {
+          if (checkIsSong(cleanUnlock)) {
+            isSongOnly = true;
+          } else if (cleanSong && (!cleanUnlock || cleanUnlock.toLowerCase() === 'none' || cleanStr(cleanUnlock) === cleanStr(cleanSong))) {
+            isSongOnly = true;
+          }
         }
       }
 
@@ -971,15 +1017,13 @@
     let wikiToDomMap = alignRewardsToBlocks(processedRewards, rewardBlocks);
 
     if (isReprint) {
-      // 容錯過濾：如果是條件曲且在網頁中沒有對應的圖標，說明已經預設解禁不顯示，需從列表中移去以保持對齊
+      // 復刻模式：只保留網頁中實際存在的獎勵區塊（因為部分歌曲與里程碑會被拔除）
       const keepIndices = [];
       processedRewards.forEach((r, idx) => {
         const domIdx = wikiToDomMap[idx];
-        const isTask = r.unlockEl && isBracketed(r.unlockEl);
-        if (isTask && domIdx === -1) {
-          return; // 過濾掉
+        if (domIdx !== -1) {
+          keepIndices.push(idx);
         }
-        keepIndices.push(idx);
       });
       processedRewards = keepIndices.map(idx => processedRewards[idx]);
       // 重新對齊
