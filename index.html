@@ -708,6 +708,46 @@
   // ── 7. 解析 Wiki HTML ──
   function parseMap(html, target) {
     const doc = new DOMParser().parseFromString(html, 'text/html');
+
+    // 從所有圖片檔名及 alt 屬性中收集額外的歌曲名稱
+    doc.querySelectorAll('img').forEach(img => {
+      const src = img.getAttribute('src') || img.getAttribute('data-src') || '';
+      const alt = img.getAttribute('alt') || '';
+      
+      const filenameMatch = src.match(/\/([^\/]+)\.(png|jpg|jpeg|gif)/i);
+      if (filenameMatch) {
+        const filename = decodeURIComponent(filenameMatch[1]);
+        if (filename.includes('_mms_')) {
+          const parts = filename.split('_mms_');
+          if (parts.length > 1) {
+            const songName = parts[1].trim();
+            if (songName) songTitles.add(songName);
+          }
+        } else if (filename.startsWith('mms_')) {
+          const songName = filename.substring(4).trim();
+          if (songName) songTitles.add(songName);
+        }
+      }
+      
+      if (alt.toLowerCase().includes('mms')) {
+        const parts = alt.split(/\s+mms\s+/i);
+        if (parts.length > 1) {
+          const songName = parts[1].trim();
+          if (songName) songTitles.add(songName);
+        } else if (alt.toLowerCase().startsWith('mms ')) {
+          const songName = alt.substring(4).trim();
+          if (songName) songTitles.add(songName);
+        } else {
+          const words = alt.split(/\s+/);
+          const mmsIdx = words.findIndex(w => w.toLowerCase() === 'mms');
+          if (mmsIdx !== -1 && mmsIdx < words.length - 1) {
+            const songName = words.slice(mmsIdx + 1).join(' ').trim();
+            if (songName) songTitles.add(songName);
+          }
+        }
+      }
+    });
+
     const headings = doc.querySelectorAll('.mw-headline');
 
     // 更強大的標準化邏輯：轉小寫、去除空白、橫杠、減號、底線、波浪號、各種括號與引號
