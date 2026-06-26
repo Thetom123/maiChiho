@@ -400,7 +400,7 @@
     return false;
   }
 
-  // 統一的完成狀態判定函數（解決復刻地圖因過濾歌曲與條件鎖導致索引長度不符的問題）
+  // 統一的完成狀態判定函數（解決地圖因過濾歌曲或自訂編輯導致索引長度不符的問題）
   function isRewardDone(i, cumulative, currentKm, mappedDomIdx) {
     const rem = cumulative - currentKm;
     if (rem < 0) return true;
@@ -410,7 +410,7 @@
       } else {
         if (completedIndices.has(i)) return true;
       }
-      // 容錯機制：如果因為過濾了歌曲而使索引超出網頁 DOM 數量，但網頁最後一個圖標已經完成，則也視為完成
+      // 容錯機制：如果因為過濾/編輯而使索引超出網頁 DOM 數量，但網頁最後一個圖標已經完成，則也視為完成
       if (rewardBlocks.length > 0 && completedIndices.has(rewardBlocks.length - 1)) {
         const maxCumulative = activeMapData && activeMapData.rewards.length > 0
           ? activeMapData.rewards[activeMapData.rewards.length - 1].cumulative
@@ -421,31 +421,57 @@
     return false;
   }
 
-  // 依據距離自動對齊 DOM 區塊與 Wiki 獎勵里程碑
+  // 依據類型自動對齊 DOM 區塊與 Wiki 獎勵里程碑
   function alignRewardsToBlocks(processedRewards, blocks) {
-    // 建立 DOM 區塊的距離映射
-    const domBlocks = [];
+    // 當獎勵數量與 DOM 區塊數量一致時，直接 1 對 1 順序對齊
+    // 這是最常見的情況，避免分類錯誤導致跳過
+    if (processedRewards.length === blocks.length) {
+      return processedRewards.map((_, idx) => idx);
+    }
+
+    // 數量不一致時（通常是自訂編輯或 Wiki 資料有異），使用智慧對齊
+    const domTaskBlocks = [];
+    const domRewardBlocks = [];
     blocks.forEach((block, idx) => {
-      const txt = block.textContent;
-      const m = txt.match(/(\d[\d,]*)\s*km/i);
-      const dist = m ? parseInt(m[1].replace(/,/g, ''), 10) : null;
-      domBlocks.push({ block, originalIdx: idx, distance: dist });
+      const isTask = !!block.querySelector('.mapdetail_taskmusic_icon, .mapdetail_perfectchallenge_icon');
+      if (isTask) {
+        domTaskBlocks.push({ block, originalIdx: idx });
+      } else {
+        domRewardBlocks.push({ block, originalIdx: idx });
+      }
+    });
+
+    const wikiTaskRewards = [];
+    const wikiRewardRewards = [];
+    processedRewards.forEach((r, idx) => {
+      const isTask = r.unlockEl && isBracketed(r.unlockEl);
+      if (isTask) {
+        wikiTaskRewards.push({ r, originalIdx: idx });
+      } else {
+        wikiRewardRewards.push({ r, originalIdx: idx });
+      }
     });
 
     const wikiToDomMap = new Array(processedRewards.length).fill(-1);
 
-    // 第一輪：精確距離對齊
-    processedRewards.forEach((r, idx) => {
-      const match = domBlocks.find(d => d.distance === r.cumulative);
-      if (match) {
-        wikiToDomMap[idx] = match.originalIdx;
-      }
-    });
+    const rewardCount = Math.min(domRewardBlocks.length, wikiRewardRewards.length);
+    for (let i = 0; i < rewardCount; i++) {
+      wikiToDomMap[wikiRewardRewards[i].originalIdx] = domRewardBlocks[i].originalIdx;
+    }
 
-    // 容錯處理：如果有未對齊的項目，且 processedRewards 長度與 blocks 長度相同，則使用順序對齊
+    const taskCount = Math.min(domTaskBlocks.length, wikiTaskRewards.length);
+    for (let i = 0; i < taskCount; i++) {
+      wikiToDomMap[wikiTaskRewards[i].originalIdx] = domTaskBlocks[i].originalIdx;
+    }
+
+    // 容錯：若智慧對齊導致過多未對齊項目，回退為順序對齊
     const unmappedCount = wikiToDomMap.filter(x => x === -1).length;
-    if (unmappedCount > 0 && processedRewards.length === blocks.length) {
-      return processedRewards.map((_, idx) => idx);
+    if (unmappedCount > 0 && processedRewards.length <= blocks.length) {
+      const mappedCount = processedRewards.length - unmappedCount;
+      if (unmappedCount >= Math.ceil(mappedCount * 0.25)) {
+        console.warn('[Chiho] 智慧對齊有過多未映射項目，回退為順序對齊');
+        return processedRewards.map((_, idx) => idx < blocks.length ? idx : -1);
+      }
     }
 
     return wikiToDomMap;
@@ -470,12 +496,6 @@
   // 全域狀態
   let activeMapData = null;
   let isEditing = false;
-  let isReprint = false;
-
-  // 自動偵測是否為復刻地圖
-  if (mapName && (mapName.includes('復刻') || mapName.toLowerCase().includes('re-run') || mapName.toLowerCase().includes('revival') || mapName.includes('復活') || mapName.includes('復刻版') || mapName.includes('永遠') || mapName.includes('永選'))) {
-    isReprint = true;
-  }
 
   // ── 4. 顯示面板 ──
   const panel = document.createElement('div');
@@ -537,11 +557,6 @@
           </div>` : ''}
         </div>
         
-        <label style="display:flex; align-items:center; gap:6px; margin-top:10px; font-size:12px; color:#fbbf24; cursor:pointer; user-select:none;">
-          <input id="chiho-reprint-chk" type="checkbox" ${isReprint ? 'checked' : ''} style="cursor:pointer; width:14px; height:14px;">
-          🔄 復刻地圖模式 (自動過濾已下放歌曲)
-        </label>
-        
         ${kmLeftText ? `<div style="margin-top:10px; font-size:12px; color:#94a3b8; background:rgba(15,23,42,0.5); padding:6px 10px; border-radius:6px;">💬 ${kmLeftText}</div>` : ''}
       </div>
 
@@ -584,11 +599,6 @@
     if (activeMapData) refreshUI();
   };
 
-  // 復刻模式手動勾選連動
-  document.getElementById('chiho-reprint-chk').onchange = (e) => {
-    isReprint = e.target.checked;
-    if (activeMapData) refreshUI();
-  };
 
   // ── 5. 查詢按鈕 ──
   document.getElementById('chiho-search-btn').onclick = async () => {
@@ -783,7 +793,7 @@
 
     // 更強大的標準化邏輯：轉小寫、去除空白、橫杠、減號、底線、波浪號、各種括號與引號
     const cleanStr = s => s.toLowerCase()
-      .replace(/[\s\u3000\-－~～_]/g, '')
+      .replace(/[\s\u3000\-－~～_\.]/g, '')
       .replace(/[「」『』【】()（）[\]]/g, '')
       .replace(/\*+/g, '');
 
@@ -914,7 +924,7 @@
       }
     }
 
-    const cleanStr = s => s.toLowerCase().replace(/[\s\u3000\-－~～_]/g, '').replace(/[「」『』【】()（）[\]]/g, '').replace(/\*+/g, '');
+    const cleanStr = s => s.toLowerCase().replace(/[\s\u3000\-－~～_\.]/g, '').replace(/[「」『』【】()（）[\]]/g, '').replace(/\*+/g, '');
 
     function checkIsSong(text) {
       if (!text) return false;
@@ -944,12 +954,12 @@
       return false;
     }
 
-    // 第二階段：計算並賦予 isSongOnly 狀態（僅過濾「解禁歌曲」的里程碑，保留帶有括號的「條件曲/課題曲」里程碑）
+    // 第二階段：判定是否為僅解禁歌曲之里程碑，並識別特別的條件/課題曲
     const finalRewards = tempRows.map(r => {
       const cleanUnlock = r.unlockEl;
       const cleanSong = r.song;
 
-      // 判斷是否為帶有括號的條件曲（如「（熱異常）」），條件曲在復刻地圖中仍會保留在畫面上
+      // 判斷是否為帶有括號的條件曲（如「（熱異常）」）
       const isTaskMusic = isBracketed(cleanUnlock);
 
       let isSongOnly = false;
@@ -976,28 +986,14 @@
 
   function pKm(s) { return s ? parseInt(s.replace(/,/g, '').replace(/\s/g, ''), 10) : NaN; }
 
-  // ── 8.5 處理復刻模式下的獎勵過濾 ──
-  function getProcessRewards(rewards, reprintMode) {
-    if (!reprintMode) {
-      // 一般模式：若有解禁要素及歌曲，同時顯示
-      return rewards.map(r => ({
-        ...r,
-        displayName: r.unlockEl && r.song && r.song !== '—' && r.song !== ''
-          ? `${r.unlockEl} [${r.song}]`
-          : (r.unlockEl || r.song || r.reward)
-      }));
-    } else {
-      // 復刻模式：
-      // 1. 移去僅解禁歌曲的格數（已下放，地圖上被拔除）
-      // 2. 其餘格數僅顯示解禁要素（歌曲本身已下放，故不再顯示歌曲解禁）
-      return rewards
-        .filter(r => !r.isSongOnly)
-        .map((r, idx) => ({
-          ...r,
-          no: (idx + 1).toString(),
-          displayName: r.unlockEl && r.unlockEl !== '—' ? r.unlockEl : r.reward
-        }));
-    }
+  // ── 8.5 處理獎勵名稱格式化 ──
+  function getProcessRewards(rewards) {
+    return rewards.map(r => ({
+      ...r,
+      displayName: r.unlockEl && r.song && r.song !== '—' && r.song !== ''
+        ? `${r.unlockEl} [${r.song}]`
+        : (r.unlockEl || r.song || r.reward)
+    }));
   }
 
   // ── 9. 重繪與刷新 UI 控制 ──
@@ -1012,23 +1008,9 @@
       activeMapData.rewards.sort((a, b) => a.cumulative - b.cumulative);
     }
 
-    // 取得處理後的獎勵列表（根據復刻模式過濾）
-    let processedRewards = getProcessRewards(activeMapData.rewards, isReprint);
+    // 取得處理後的獎勵列表
+    let processedRewards = getProcessRewards(activeMapData.rewards);
     let wikiToDomMap = alignRewardsToBlocks(processedRewards, rewardBlocks);
-
-    if (isReprint) {
-      // 復刻模式：只保留網頁中實際存在的獎勵區塊（因為部分歌曲與里程碑會被拔除）
-      const keepIndices = [];
-      processedRewards.forEach((r, idx) => {
-        const domIdx = wikiToDomMap[idx];
-        if (domIdx !== -1) {
-          keepIndices.push(idx);
-        }
-      });
-      processedRewards = keepIndices.map(idx => processedRewards[idx]);
-      // 重新對齊
-      wikiToDomMap = alignRewardsToBlocks(processedRewards, rewardBlocks);
-    }
 
     // 計算下一個未完成的獎勵索引
     let nextIdx = -1;
@@ -1084,7 +1066,7 @@
         activeMapData.rewards[idx].reward = e.target.value;
         activeMapData.rewards[idx].unlockEl = e.target.value;
         // 即時反映至底層標籤，不重繪輸入框以免失去焦點
-        const liveProcessed = getProcessRewards(activeMapData.rewards, isReprint);
+        const liveProcessed = getProcessRewards(activeMapData.rewards);
         const liveMap = alignRewardsToBlocks(liveProcessed, rewardBlocks);
         injectToPage(liveProcessed, searchKm, completedIndices, nextIdx, liveMap);
       };
@@ -1094,7 +1076,7 @@
       input.oninput = (e) => {
         const idx = parseInt(input.dataset.idx, 10);
         activeMapData.rewards[idx].cumulative = parseInt(e.target.value, 10) || 0;
-        const liveProcessed = getProcessRewards(activeMapData.rewards, isReprint);
+        const liveProcessed = getProcessRewards(activeMapData.rewards);
         const liveMap = alignRewardsToBlocks(liveProcessed, rewardBlocks);
         injectToPage(liveProcessed, searchKm, completedIndices, nextIdx, liveMap);
       };
