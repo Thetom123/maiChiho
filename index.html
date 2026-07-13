@@ -784,14 +784,46 @@
     throw lastErr || new Error("無法透過 CORS 代理伺服器抓取資料");
   }
 
-  const cleanStr = s => s.toLowerCase()
+  const cleanStr = s => s ? s.toLowerCase()
       .replace(/[\s\u3000\-－~～_\.]/g, '')
       .replace(/[「」『』【】()（）[\]]/g, '')
-      .replace(/\*+/g, '');
+      .replace(/\*+/g, '') : '';
+
+  let chihoDatabase = null;
+  async function loadChihoDatabase() {
+    if (chihoDatabase) return chihoDatabase;
+    try {
+      const resp = await fetch('https://raw.githubusercontent.com/Thetom123/maiChiho/main/chiho_data.json');
+      if (resp.ok) {
+        chihoDatabase = await resp.json();
+        console.log('[Chiho] 成功從 GitHub 載入地圖資料庫！');
+        return chihoDatabase;
+      }
+    } catch (e) {
+      console.warn('[Chiho] 無法從 GitHub 載入地圖資料庫，將嘗試即時抓取 Gamerch Wiki:', e);
+    }
+    chihoDatabase = {};
+    return chihoDatabase;
+  }
+
+  // 在背景預先載入資料庫
+  loadChihoDatabase();
 
   async function fetchMapData(name) {
+    const db = await loadChihoDatabase();
     const cleanedSearch = cleanStr(name);
     
+    // 優先在資料庫中匹配
+    for (const key of Object.keys(db)) {
+      if (cleanStr(key) === cleanedSearch || cleanedSearch.includes(cleanStr(key)) || cleanStr(key).includes(cleanedSearch)) {
+        console.log(`[Chiho] 成功從資料庫中匹配地圖「${key}」！`);
+        const data = db[key];
+        data.source = 'GitHub 預編譯資料庫';
+        return data;
+      }
+    }
+
+    console.log(`[Chiho] 資料庫中找不到「${name}」，嘗試從 Gamerch 即時網頁抓取...`);
     let targetUrl = null;
     let targetKey = null;
     for (const key of Object.keys(G_CHIHO_MAP)) {
