@@ -918,8 +918,9 @@
           const bl = isDone ? '#22c55e' : isNext ? '#fbbf24' : 'transparent';
           const pc = isDone ? '#22c55e' : isNext ? '#fbbf24' : '#6366f1';
           const icon = isDone ? '✅' : isNext ? '🎯' : '⏳';
+          const chihoCalcUrl = `https://xydesu.github.io/chiho-calculator/?target=${rem}`;
           const remT = isDone ? '<span style="color:#22c55e;font-weight:600;font-size:11px;">已達成</span>'
-            : `<span style="color:${isNext ? '#fbbf24' : '#94a3b8'};font-weight:${isNext ? '600' : '400'};font-size:${isNext ? '13px' : '11px'};">${rem.toLocaleString()} km</span>`;
+            : `<a href="${chihoCalcUrl}" target="_blank" style="color:${isNext ? '#fbbf24' : '#94a3b8'};font-weight:${isNext ? '600' : '400'};font-size:${isNext ? '13px' : '11px'};text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${rem.toLocaleString()} km</a>`;
 
           h += `<div style="padding:8px 12px; background:${bg}; border-left:3px solid ${bl}; border-bottom:1px solid rgba(99,102,241,0.06); display:flex; align-items:center; gap:8px;">
           <span style="font-size:13px; width:20px; text-align:center;">${icon}</span>
@@ -986,7 +987,11 @@
           font-weight:700; text-shadow:0 1px 2px rgba(0,0,0,0.3);
           box-shadow:0 2px 6px rgba(245,158,11,0.3);
         `;
-          lbl.textContent = isNext ? `🎯 剩 ${rem.toLocaleString()} km` : `剩 ${rem.toLocaleString()} km`;
+          const chihoCalcUrl = `https://xydesu.github.io/chiho-calculator/?target=${rem}`;
+          const linkStyle = 'color:#fff;text-decoration:none;';
+          lbl.innerHTML = isNext
+            ? `🎯 剩 <a href="${chihoCalcUrl}" target="_blank" style="${linkStyle}">${rem.toLocaleString()} km</a>`
+            : `剩 <a href="${chihoCalcUrl}" target="_blank" style="${linkStyle}">${rem.toLocaleString()} km</a>`;
         }
 
         block.appendChild(lbl);
