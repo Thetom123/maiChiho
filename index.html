@@ -386,6 +386,23 @@
     return false;
   }
 
+  const cleanStr = s => s ? s.toLowerCase()
+    .replace(/[\s\u3000\-－~～_\.]/g, '')
+    .replace(/[「」『』【】()（）[\]]/g, '')
+    .replace(/\*+/g, '') : '';
+
+  function checkIsSong(text) {
+    if (!text) return false;
+    const trimmed = text.trim();
+    if (isBracketed(trimmed)) return true;
+    const nonSongKeywords = ['背景', '名牌板', '底板', '頭像', '旅伴', 'チケット', 'ちほー', 'icon', 'frame', 'plate', 'ticket', '券', '角色', '旅行相手'];
+    const cleaned = trimmed.toLowerCase();
+    for (const kw of nonSongKeywords) {
+      if (cleaned.includes(kw)) return false;
+    }
+    return true;
+  }
+
   // 統一的完成狀態判定函數（解決地圖因過濾歌曲或自訂編輯導致索引長度不符的問題）
   function isRewardDone(i, cumulative, currentKm, mappedDomIdx) {
     const rem = cumulative - currentKm;
@@ -944,88 +961,22 @@
 
       const cum = pKm(cumVal);
       if (!isNaN(cum) && cum >= 0) {
-              !s.toLowerCase().includes('pops') && !s.toLowerCase().includes('niconico') &&
-              !s.toLowerCase().includes('maimai') && !s.toLowerCase().includes('touhou') &&
-              !s.toLowerCase().includes('game')) {
-              songTitles.add(s);
-            }
-          });
-        }
+        const cleanReward = rewardVal.replace(/—/g, '').trim();
+        if (!cleanReward) continue;
 
-        // 若解禁要素帶有括號且括號內是歌曲，如「（熱異常）」，亦將其抽出加入歌曲清單
-        if (cleanUnlock && isBracketed(cleanUnlock)) {
-          const stripped = cleanUnlock.substring(1, cleanUnlock.length - 1).trim();
-          if (stripped) songTitles.add(stripped);
-        }
+        const isSong = typeVal.includes('楽曲') || typeVal.includes('曲名') || checkIsSong(cleanReward);
 
-        tempRows.push({
-          no: noVal,
+        parsedRewards.push({
+          no: i.toString(),
           cumulative: cum,
-          unlockEl: cleanUnlock || '—',
-          song: cleanSong || '',
-          reward: cleanUnlock || cleanSong || '—'
+          unlockEl: cleanReward,
+          song: isSong ? cleanReward : '',
+          isSongOnly: isSong,
+          reward: cleanReward
         });
       }
     }
-
-    const cleanStr = s => s.toLowerCase().replace(/[\s\u3000\-－~～_\.]/g, '').replace(/[「」『』【】()（）[\]]/g, '').replace(/\*+/g, '');
-
-    function checkIsSong(text) {
-      if (!text) return false;
-      const trimmed = text.trim();
-      let testText = trimmed;
-      // 去除可能包圍在歌曲外的括號進行比對
-      if (isBracketed(trimmed)) {
-        testText = trimmed.substring(1, trimmed.length - 1).trim();
-      }
-      const cleaned = cleanStr(testText);
-      for (const song of songTitles) {
-        if (cleanStr(song) === cleaned) {
-          return true;
-        }
-      }
-      return false;
-    }
-
-    function checkIsNonSong(text) {
-      if (!text) return false;
-      const cleaned = cleanStr(text);
-      for (const item of nonSongRewards) {
-        if (cleanStr(item) === cleaned) {
-          return true;
-        }
-      }
-      return false;
-    }
-
-    // 第二階段：判定是否為僅解禁歌曲之里程碑，並識別特別的條件/課題曲
-    const finalRewards = tempRows.map(r => {
-      const cleanUnlock = r.unlockEl;
-      const cleanSong = r.song;
-
-      // 判斷是否為帶有括號的條件曲（如「（熱異常）」）
-      const isTaskMusic = isBracketed(cleanUnlock);
-
-      let isSongOnly = false;
-      if (!isTaskMusic) {
-        // 如果該里程碑其實是非歌曲獎勵（例如背景/角色），即使名稱與某首歌曲重疊（如背景名「コスモポップファンクラブ」），也不應視為僅解禁歌曲
-        const isNonSongReward = checkIsNonSong(cleanUnlock);
-        if (!isNonSongReward) {
-          if (checkIsSong(cleanUnlock)) {
-            isSongOnly = true;
-          } else if (cleanSong && (!cleanUnlock || cleanUnlock.toLowerCase() === 'none' || cleanStr(cleanUnlock) === cleanStr(cleanSong))) {
-            isSongOnly = true;
-          }
-        }
-      }
-
-      return {
-        ...r,
-        isSongOnly
-      };
-    });
-
-    return finalRewards;
+    return parsedRewards;
   }
 
   function pKm(s) { return s ? parseInt(s.replace(/,/g, '').replace(/\s/g, ''), 10) : NaN; }

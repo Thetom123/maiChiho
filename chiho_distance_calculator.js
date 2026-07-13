@@ -92,6 +92,23 @@
     return false;
   }
 
+  const cleanStr = s => s ? s.toLowerCase()
+    .replace(/[\s\u3000\-－~～_\.]/g, '')
+    .replace(/[「」『』【】()（）[\]]/g, '')
+    .replace(/\*+/g, '') : '';
+
+  function checkIsSong(text) {
+    if (!text) return false;
+    const trimmed = text.trim();
+    if (isBracketed(trimmed)) return true;
+    const nonSongKeywords = ['背景', '名牌板', '底板', '頭像', '旅伴', 'チケット', 'ちほー', 'icon', 'frame', 'plate', 'ticket', '券', '角色', '旅行相手'];
+    const cleaned = trimmed.toLowerCase();
+    for (const kw of nonSongKeywords) {
+      if (cleaned.includes(kw)) return false;
+    }
+    return true;
+  }
+
   // 統一的完成狀態判定函數（解決地圖因過濾歌曲或自訂編輯導致索引長度不符的問題）
   function isRewardDone(i, cumulative, currentKm, mappedDomIdx) {
     const rem = cumulative - currentKm;
