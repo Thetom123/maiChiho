@@ -133,6 +133,22 @@
       return processedRewards.map((_, idx) => idx);
     }
 
+    // 優先策略：如果過濾掉樂曲類別後，非樂曲獎勵的數量剛好等於 DOM 區塊數量
+    const nonMusicIndices = [];
+    processedRewards.forEach((r, idx) => {
+      if (!isSongLike(r.type)) {
+        nonMusicIndices.push(idx);
+      }
+    });
+
+    if (nonMusicIndices.length === blocks.length) {
+      const wikiToDomMap = new Array(processedRewards.length).fill(-1);
+      nonMusicIndices.forEach((wikiIdx, domIdx) => {
+        wikiToDomMap[wikiIdx] = domIdx;
+      });
+      return wikiToDomMap;
+    }
+
     const domTaskBlocks = [];
     const domRewardBlocks = [];
     blocks.forEach((block, idx) => {
