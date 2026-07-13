@@ -803,7 +803,11 @@
     // 讀取 header 資訊
     const headers = grid[0].map(cell => cell ? cell.textContent.trim().toLowerCase() : '');
 
-    let cumIdx = headers.findIndex(h => h.includes('距離') || h.includes('累計') || h.includes('km'));
+    let cumIdx = headers.findIndex(h => h.includes('km'));
+    if (cumIdx === -1) {
+      cumIdx = headers.findIndex(h => h.includes('距離') || h.includes('累計'));
+    }
+
     let typeIdx = headers.findIndex(h => h.includes('種類'));
     let rewardIdx = headers.findIndex(h => h === '報酬' || h.includes('解禁') || h.includes('要素'));
     if (rewardIdx === -1) {

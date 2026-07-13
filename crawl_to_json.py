@@ -107,10 +107,17 @@ def parse_table(table):
     type_idx = -1
     reward_idx = -1
 
+    # 優先尋找包含 km 的距離欄位（例如 距離[km]），避免誤用舊版的 距離[m]
     for idx, h in enumerate(headers):
-        if "距離" in h or "累計" in h or "km" in h:
+        if "km" in h:
             cum_idx = idx
             break
+
+    if cum_idx == -1:
+        for idx, h in enumerate(headers):
+            if "距離" in h or "累計" in h:
+                cum_idx = idx
+                break
     if cum_idx == -1:
         cum_idx = 0
 

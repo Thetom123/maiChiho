@@ -5278,63 +5278,27 @@
       },
       {
         "no": 2,
-        "cumulative": 10,
-        "type": "楽曲",
-        "name": "Secret Sleuth"
-      },
-      {
-        "no": 3,
-        "cumulative": 40,
+        "cumulative": 27,
         "type": "つあーメンバー",
         "name": "リッツ"
       },
       {
-        "no": 4,
-        "cumulative": 150,
-        "type": "楽曲",
-        "name": "BLACK ROSE"
-      },
-      {
-        "no": 5,
-        "cumulative": 300,
+        "no": 3,
+        "cumulative": 87,
         "type": "つあーメンバー",
         "name": "ニック"
       },
       {
-        "no": 6,
-        "cumulative": 950,
+        "no": 4,
+        "cumulative": 120,
         "type": "つあーメンバー",
         "name": "エリー"
       },
       {
-        "no": 7,
-        "cumulative": 2500,
+        "no": 5,
+        "cumulative": 159,
         "type": "つあーメンバー",
         "name": "ヒュド・ルー"
-      },
-      {
-        "no": 8,
-        "cumulative": 7000,
-        "type": "つあーメンバー",
-        "name": "クレメンス"
-      },
-      {
-        "no": 9,
-        "cumulative": 20000,
-        "type": "つあーメンバー",
-        "name": "ラルフ"
-      },
-      {
-        "no": 10,
-        "cumulative": 34000,
-        "type": "つあーメンバー",
-        "name": "バイロン"
-      },
-      {
-        "no": 11,
-        "cumulative": 52000,
-        "type": "つあーメンバー",
-        "name": "マスティマ"
       }
     ]
   },
@@ -5467,19 +5431,19 @@
     "rewards": [
       {
         "no": 1,
-        "cumulative": 25000,
+        "cumulative": 84,
         "type": "つあーメンバー",
         "name": "ティノ"
       },
       {
         "no": 2,
-        "cumulative": 55000,
+        "cumulative": 168,
         "type": "つあーメンバー",
         "name": "エレノラ"
       },
       {
         "no": 3,
-        "cumulative": 90000,
+        "cumulative": 294,
         "type": "ネームプレート",
         "name": "ヒュド・ルー/ルイの二面性"
       }
@@ -5490,19 +5454,19 @@
     "rewards": [
       {
         "no": 1,
-        "cumulative": 22000,
+        "cumulative": 126,
         "type": "つあーメンバー",
         "name": "ルイ"
       },
       {
         "no": 2,
-        "cumulative": 48000,
+        "cumulative": 252,
         "type": "つあーメンバー",
         "name": "ニック（悪魔憑き）"
       },
       {
         "no": 3,
-        "cumulative": 78000,
+        "cumulative": 378,
         "type": "ネームプレート",
         "name": "黒薔薇病患者の内面"
       }
@@ -9592,37 +9556,37 @@
       },
       {
         "no": 2,
-        "cumulative": 10,
+        "cumulative": 25,
         "type": "楽曲",
         "name": "♡マイマイマイラブ♡"
       },
       {
         "no": 3,
-        "cumulative": 20,
+        "cumulative": 50,
         "type": "つあーメンバー",
         "name": "からめる/ねこ/DJ"
       },
       {
         "no": 4,
-        "cumulative": 100,
+        "cumulative": 80,
         "type": "つあーメンバー",
         "name": "からめる/人/まいった"
       },
       {
         "no": 5,
-        "cumulative": 210,
+        "cumulative": 120,
         "type": "譜面",
         "name": "ENERGY SYNERGY MATRIX(でらっくす譜面)"
       },
       {
         "no": 6,
-        "cumulative": 800,
+        "cumulative": 160,
         "type": "つあーメンバー",
         "name": "からめる/人/刺身"
       },
       {
         "no": 7,
-        "cumulative": 7000,
+        "cumulative": 200,
         "type": "つあーメンバー",
         "name": "からめる/レース"
       }
@@ -13606,49 +13570,49 @@
     "rewards": [
       {
         "no": 1,
-        "cumulative": 99999,
+        "cumulative": 112,
         "type": "つあーメンバー",
         "name": "maimaiちゃん"
       },
       {
         "no": 2,
-        "cumulative": 499999,
+        "cumulative": 532,
         "type": "プレート",
         "name": "HAPPYYYY DX"
       },
       {
         "no": 3,
-        "cumulative": 999999,
+        "cumulative": 1064,
         "type": "つあーメンバー",
         "name": "はっぴー"
       },
       {
         "no": 4,
-        "cumulative": 1499999,
+        "cumulative": 1596,
         "type": "プレート",
         "name": "しゃまみるく"
       },
       {
         "no": 5,
-        "cumulative": 1999999,
+        "cumulative": 2128,
         "type": "つあーメンバー",
         "name": "カメ"
       },
       {
         "no": 6,
-        "cumulative": 2499999,
+        "cumulative": 2660,
         "type": "プレート",
         "name": "maimai 集合"
       },
       {
         "no": 7,
-        "cumulative": 2999999,
+        "cumulative": 3192,
         "type": "つあーメンバー",
         "name": "タイ"
       },
       {
         "no": 8,
-        "cumulative": 3999999,
+        "cumulative": 4256,
         "type": "つあーメンバー",
         "name": "エリザビー"
       }
@@ -14483,31 +14447,31 @@
     "rewards": [
       {
         "no": 1,
-        "cumulative": 250,
+        "cumulative": 14,
         "type": "つあーメンバー",
         "name": "萌木いよか"
       },
       {
         "no": 2,
-        "cumulative": 800,
+        "cumulative": 42,
         "type": "楽曲",
         "name": "共鳴"
       },
       {
         "no": 3,
-        "cumulative": 2900,
+        "cumulative": 84,
         "type": "つあーメンバー",
         "name": "萌木せとか"
       },
       {
         "no": 4,
-        "cumulative": 4000,
+        "cumulative": 126,
         "type": "楽曲",
         "name": "Ututu"
       },
       {
         "no": 5,
-        "cumulative": 6800,
+        "cumulative": 168,
         "type": "ネームプレート",
         "name": "みかんヶ岡ちほー 月夜通り"
       }
@@ -14524,31 +14488,19 @@
       },
       {
         "no": 2,
-        "cumulative": 12,
-        "type": "楽曲",
-        "name": "シエルブルーマルシェ"
-      },
-      {
-        "no": 3,
-        "cumulative": 30,
+        "cumulative": 42,
         "type": "つあーメンバー",
         "name": "萌木ほのか"
       },
       {
-        "no": 4,
-        "cumulative": 40,
-        "type": "楽曲",
-        "name": "ブレインジャックシンドローム"
-      },
-      {
-        "no": 5,
-        "cumulative": 95,
+        "no": 3,
+        "cumulative": 70,
         "type": "つあーメンバー",
         "name": "萌木はるか"
       },
       {
-        "no": 6,
-        "cumulative": 450,
+        "no": 4,
+        "cumulative": 126,
         "type": "ネームプレート",
         "name": "みかんヶ岡ちほー 朝焼け通り"
       }
@@ -16115,61 +16067,61 @@
       },
       {
         "no": 2,
-        "cumulative": 12,
+        "cumulative": 9,
         "type": "つあーメンバー",
         "name": "ジグニュー"
       },
       {
         "no": 3,
-        "cumulative": 80,
+        "cumulative": 39,
         "type": "楽曲",
         "name": "GRÄNDIR"
       },
       {
         "no": 4,
-        "cumulative": 125,
+        "cumulative": 49,
         "type": "つあーメンバー",
         "name": "ジークルーネ"
       },
       {
         "no": 5,
-        "cumulative": 280,
+        "cumulative": 82,
         "type": "つあーメンバー",
         "name": "グリムゲルデ"
       },
       {
         "no": 6,
-        "cumulative": 1250,
+        "cumulative": 134,
         "type": "つあーメンバー",
         "name": "シュヴェルトライテ"
       },
       {
         "no": 7,
-        "cumulative": 5000,
+        "cumulative": 246,
         "type": "つあーメンバー",
         "name": "ヴァルトラウテ"
       },
       {
         "no": 8,
-        "cumulative": 13500,
+        "cumulative": 386,
         "type": "楽曲",
         "name": "渦状銀河のシンフォニエッタ"
       },
       {
         "no": 9,
-        "cumulative": 24500,
+        "cumulative": 554,
         "type": "つあーメンバー",
         "name": "オーディン"
       },
       {
         "no": 10,
-        "cumulative": 47000,
+        "cumulative": 806,
         "type": "楽曲",
         "name": "封焔の135秒"
       },
       {
         "no": 11,
-        "cumulative": 82000,
+        "cumulative": 1072,
         "type": "ネームプレート",
         "name": "天界ちほー2"
       }
