@@ -34,6 +34,19 @@ def clean_str(s):
             .replace("]", "")
             .replace("*", ""))
 
+def is_match(raw1, raw2):
+    s1 = clean_str(raw1)
+    s2 = clean_str(raw2)
+    if not s1 or not s2:
+        return False
+    if s1 == s2:
+        return True
+    num1 = "".join(re.findall(r'\d+', s1))
+    num2 = "".join(re.findall(r'\d+', s2))
+    if num1 != num2:
+        return False
+    return s1 in s2 or s2 in s1
+
 def is_bracketed(s):
     if not s:
         return False
@@ -169,8 +182,7 @@ def parse_map(html, target, hash_val):
             
     if not found:
         for h in headings:
-            h_text = clean_str(h.get_text())
-            if h_text == cleaned_target or h_text in cleaned_target or cleaned_target in h_text:
+            if is_match(h.get_text(), target):
                 found = h
                 break
                 

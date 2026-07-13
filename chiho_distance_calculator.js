@@ -109,6 +109,19 @@
     return true;
   }
 
+  function isMatch(raw1, raw2) {
+    const s1 = cleanStr(raw1);
+    const s2 = cleanStr(raw2);
+    if (!s1 || !s2) return false;
+    if (s1 === s2) return true;
+
+    const num1 = (s1.match(/\d+/g) || []).join('');
+    const num2 = (s2.match(/\d+/g) || []).join('');
+    if (num1 !== num2) return false;
+
+    return s1.includes(s2) || s2.includes(s1);
+  }
+
   // 統一的完成狀態判定函數（解決地圖因過濾歌曲或自訂編輯導致索引長度不符的問題）
   function isRewardDone(i, cumulative, currentKm, mappedDomIdx) {
     const rem = cumulative - currentKm;
@@ -513,11 +526,10 @@
 
     async function fetchMapData(name) {
       const db = await loadChihoDatabase();
-      const cleanedSearch = cleanStr(name);
       
       // 優先在資料庫中匹配
       for (const key of Object.keys(db)) {
-        if (cleanStr(key) === cleanedSearch || cleanedSearch.includes(cleanStr(key)) || cleanStr(key).includes(cleanedSearch)) {
+        if (isMatch(key, name)) {
           console.log(`[Chiho] 成功從資料庫中匹配地圖「${key}」！`);
           const data = db[key];
           data.source = 'GitHub 預編譯資料庫';
@@ -529,7 +541,7 @@
       let targetUrl = null;
       let targetKey = null;
       for (const key of Object.keys(G_CHIHO_MAP)) {
-        if (cleanStr(key) === cleanedSearch || cleanedSearch.includes(cleanStr(key)) || cleanStr(key).includes(cleanedSearch)) {
+        if (isMatch(key, name)) {
           targetUrl = G_CHIHO_MAP[key];
           targetKey = key;
           break;
@@ -548,8 +560,7 @@
             const doc = new DOMParser().parseFromString(html, 'text/html');
             for (const a of doc.querySelectorAll('a')) {
               const linkText = a.textContent.trim();
-              const cleanLinkText = cleanStr(linkText);
-              if (cleanLinkText && (cleanLinkText === cleanedSearch || cleanedSearch.includes(cleanLinkText) || cleanLinkText.includes(cleanLinkText))) {
+              if (isMatch(linkText, name)) {
                 let href = a.getAttribute('href') || '';
                 if (href) {
                   if (!href.startsWith('http')) {
@@ -614,8 +625,7 @@
       
       if (!found) {
         for (const h of headings) {
-          const hText = cleanStr(h.textContent);
-          if (hText === cleanedTarget || hText.includes(cleanedTarget) || cleanedTarget.includes(hText)) {
+          if (isMatch(h.textContent, target)) {
             found = h;
             break;
           }
