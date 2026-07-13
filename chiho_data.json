@@ -105,83 +105,83 @@
       },
       {
         "no": "2",
-        "cumulative": 180,
-        "unlockEl": "Trick tear",
-        "song": "Trick tear",
+        "cumulative": 150,
+        "unlockEl": "Jouez Avec Moi?",
+        "song": "Jouez Avec Moi?",
         "isSongOnly": true,
-        "reward": "Trick tear"
+        "reward": "Jouez Avec Moi?"
       },
       {
         "no": "3",
-        "cumulative": 240,
-        "unlockEl": "シュトルツ",
-        "song": "シュトルツ",
-        "isSongOnly": true,
-        "reward": "シュトルツ"
-      },
-      {
-        "no": "4",
-        "cumulative": 288,
-        "unlockEl": "リヒティカイト",
-        "song": "リヒティカイト",
-        "isSongOnly": true,
-        "reward": "リヒティカイト"
-      },
-      {
-        "no": "5",
-        "cumulative": 468,
-        "unlockEl": "前衛的Landscape",
-        "song": "前衛的Landscape",
-        "isSongOnly": true,
-        "reward": "前衛的Landscape"
-      },
-      {
-        "no": "6",
-        "cumulative": 576,
-        "unlockEl": "エーペルージュ",
-        "song": "エーペルージュ",
-        "isSongOnly": true,
-        "reward": "エーペルージュ"
-      },
-      {
-        "no": "7",
-        "cumulative": 792,
-        "unlockEl": "7sRefちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "7sRefちほー"
-      },
-      {
-        "no": "8",
-        "cumulative": 900,
+        "cumulative": 200,
         "unlockEl": "アシッド",
         "song": "アシッド",
         "isSongOnly": true,
         "reward": "アシッド"
       },
       {
-        "no": "9",
-        "cumulative": 1199,
-        "unlockEl": "躯樹の墓守",
-        "song": "躯樹の墓守",
+        "no": "4",
+        "cumulative": 400,
+        "unlockEl": "白花の天使",
+        "song": "白花の天使",
         "isSongOnly": true,
-        "reward": "躯樹の墓守"
+        "reward": "白花の天使"
+      },
+      {
+        "no": "5",
+        "cumulative": 450,
+        "unlockEl": "ゲルプテディ",
+        "song": "ゲルプテディ",
+        "isSongOnly": true,
+        "reward": "ゲルプテディ"
+      },
+      {
+        "no": "6",
+        "cumulative": 550,
+        "unlockEl": "7sRefちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "7sRefちほー2"
+      },
+      {
+        "no": "7",
+        "cumulative": 600,
+        "unlockEl": "オーランジェット",
+        "song": "オーランジェット",
+        "isSongOnly": true,
+        "reward": "オーランジェット"
+      },
+      {
+        "no": "8",
+        "cumulative": 850,
+        "unlockEl": "Metamorphosism",
+        "song": "Metamorphosism",
+        "isSongOnly": true,
+        "reward": "Metamorphosism"
+      },
+      {
+        "no": "9",
+        "cumulative": 900,
+        "unlockEl": "W?K?Y?",
+        "song": "W?K?Y?",
+        "isSongOnly": true,
+        "reward": "W?K?Y?"
       },
       {
         "no": "10",
         "cumulative": 1200,
-        "unlockEl": "ヨミビトシラズ",
-        "song": "ヨミビトシラズ",
+        "unlockEl": "World's end loneliness",
+        "song": "World's end loneliness",
         "isSongOnly": true,
-        "reward": "ヨミビトシラズ"
+        "reward": "World's end loneliness"
       },
       {
         "no": "11",
         "cumulative": 1300,
-        "unlockEl": "7sRefちほー",
+        "unlockEl": "7sRefちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "7sRefちほー"
+        "reward": "7sRefちほー2"
       }
     ]
   },
@@ -198,83 +198,83 @@
       },
       {
         "no": "2",
-        "cumulative": 180,
-        "unlockEl": "Trick tear",
-        "song": "Trick tear",
+        "cumulative": 150,
+        "unlockEl": "Redemption",
+        "song": "Redemption",
         "isSongOnly": true,
-        "reward": "Trick tear"
+        "reward": "Redemption"
       },
       {
         "no": "3",
-        "cumulative": 240,
-        "unlockEl": "シュトルツ",
-        "song": "シュトルツ",
+        "cumulative": 200,
+        "unlockEl": "フルーンシュピラー",
+        "song": "フルーンシュピラー",
         "isSongOnly": true,
-        "reward": "シュトルツ"
+        "reward": "フルーンシュピラー"
       },
       {
         "no": "4",
-        "cumulative": 288,
-        "unlockEl": "リヒティカイト",
-        "song": "リヒティカイト",
+        "cumulative": 400,
+        "unlockEl": "Ether Second",
+        "song": "Ether Second",
         "isSongOnly": true,
-        "reward": "リヒティカイト"
+        "reward": "Ether Second"
       },
       {
         "no": "5",
-        "cumulative": 468,
-        "unlockEl": "前衛的Landscape",
-        "song": "前衛的Landscape",
+        "cumulative": 450,
+        "unlockEl": "シュヴァルツローゼ",
+        "song": "シュヴァルツローゼ",
         "isSongOnly": true,
-        "reward": "前衛的Landscape"
+        "reward": "シュヴァルツローゼ"
       },
       {
         "no": "6",
-        "cumulative": 576,
-        "unlockEl": "エーペルージュ",
-        "song": "エーペルージュ",
-        "isSongOnly": true,
-        "reward": "エーペルージュ"
+        "cumulative": 550,
+        "unlockEl": "7sRefちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "7sRefちほー3"
       },
       {
         "no": "7",
-        "cumulative": 792,
-        "unlockEl": "7sRefちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "7sRefちほー"
+        "cumulative": 600,
+        "unlockEl": "ヘルブラオ",
+        "song": "ヘルブラオ",
+        "isSongOnly": true,
+        "reward": "ヘルブラオ"
       },
       {
         "no": "8",
-        "cumulative": 900,
-        "unlockEl": "アシッド",
-        "song": "アシッド",
+        "cumulative": 850,
+        "unlockEl": "The Great Banquet",
+        "song": "The Great Banquet",
         "isSongOnly": true,
-        "reward": "アシッド"
+        "reward": "The Great Banquet"
       },
       {
         "no": "9",
-        "cumulative": 1199,
-        "unlockEl": "躯樹の墓守",
-        "song": "躯樹の墓守",
+        "cumulative": 900,
+        "unlockEl": "アシッド（幼少期）",
+        "song": "アシッド（幼少期）",
         "isSongOnly": true,
-        "reward": "躯樹の墓守"
+        "reward": "アシッド（幼少期）"
       },
       {
         "no": "10",
-        "cumulative": 1200,
-        "unlockEl": "ヨミビトシラズ",
-        "song": "ヨミビトシラズ",
+        "cumulative": 1300,
+        "unlockEl": "Straight into the lights",
+        "song": "Straight into the lights",
         "isSongOnly": true,
-        "reward": "ヨミビトシラズ"
+        "reward": "Straight into the lights"
       },
       {
         "no": "11",
-        "cumulative": 1300,
-        "unlockEl": "7sRefちほー",
+        "cumulative": 1400,
+        "unlockEl": "7sRefちほー3",
         "song": "",
         "isSongOnly": false,
-        "reward": "7sRefちほー"
+        "reward": "7sRefちほー3"
       }
     ]
   },
@@ -284,90 +284,218 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "リズ",
-        "song": "リズ",
+        "unlockEl": "W?K?Y?",
+        "song": "W?K?Y?",
         "isSongOnly": true,
-        "reward": "リズ"
+        "reward": "W?K?Y?"
       },
       {
         "no": "2",
-        "cumulative": 180,
-        "unlockEl": "Trick tear",
-        "song": "Trick tear",
+        "cumulative": 25,
+        "unlockEl": "【差出人不明のデータ1】",
+        "song": "【差出人不明のデータ1】",
         "isSongOnly": true,
-        "reward": "Trick tear"
+        "reward": "【差出人不明のデータ1】"
       },
       {
         "no": "3",
-        "cumulative": 240,
-        "unlockEl": "シュトルツ",
-        "song": "シュトルツ",
+        "cumulative": 50,
+        "unlockEl": "ロートスカラ",
+        "song": "ロートスカラ",
         "isSongOnly": true,
-        "reward": "シュトルツ"
+        "reward": "ロートスカラ"
       },
       {
         "no": "4",
-        "cumulative": 288,
-        "unlockEl": "リヒティカイト",
-        "song": "リヒティカイト",
+        "cumulative": 100,
+        "unlockEl": "【差出人不明のデータ2】",
+        "song": "【差出人不明のデータ2】",
         "isSongOnly": true,
-        "reward": "リヒティカイト"
+        "reward": "【差出人不明のデータ2】"
       },
       {
         "no": "5",
-        "cumulative": 468,
-        "unlockEl": "前衛的Landscape",
-        "song": "前衛的Landscape",
+        "cumulative": 150,
+        "unlockEl": "【差出人不明のデータ3】",
+        "song": "【差出人不明のデータ3】",
         "isSongOnly": true,
-        "reward": "前衛的Landscape"
+        "reward": "【差出人不明のデータ3】"
       },
       {
         "no": "6",
-        "cumulative": 576,
-        "unlockEl": "エーペルージュ",
-        "song": "エーペルージュ",
+        "cumulative": 250,
+        "unlockEl": "IMBRUED:FLUX",
+        "song": "IMBRUED:FLUX",
         "isSongOnly": true,
-        "reward": "エーペルージュ"
+        "reward": "IMBRUED:FLUX"
       },
       {
         "no": "7",
-        "cumulative": 792,
-        "unlockEl": "7sRefちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "7sRefちほー"
+        "cumulative": 300,
+        "unlockEl": "【差出人不明のデータ4】",
+        "song": "【差出人不明のデータ4】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ4】"
       },
       {
         "no": "8",
+        "cumulative": 450,
+        "unlockEl": "砂の函",
+        "song": "砂の函",
+        "isSongOnly": true,
+        "reward": "砂の函"
+      },
+      {
+        "no": "9",
+        "cumulative": 500,
+        "unlockEl": "7sRefちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "7sRefちほー4"
+      },
+      {
+        "no": "10",
+        "cumulative": 600,
+        "unlockEl": "【差出人不明のデータ5】",
+        "song": "【差出人不明のデータ5】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ5】"
+      },
+      {
+        "no": "11",
+        "cumulative": 700,
+        "unlockEl": "【差出人不明のデータ6】",
+        "song": "【差出人不明のデータ6】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ6】"
+      },
+      {
+        "no": "12",
+        "cumulative": 800,
+        "unlockEl": "閉ざされた青の扉",
+        "song": "閉ざされた青の扉",
+        "isSongOnly": true,
+        "reward": "閉ざされた青の扉"
+      },
+      {
+        "no": "13",
+        "cumulative": 850,
+        "unlockEl": "閉ざされた白の扉",
+        "song": "閉ざされた白の扉",
+        "isSongOnly": true,
+        "reward": "閉ざされた白の扉"
+      },
+      {
+        "no": "14",
         "cumulative": 900,
+        "unlockEl": "閉ざされた紫の扉",
+        "song": "閉ざされた紫の扉",
+        "isSongOnly": true,
+        "reward": "閉ざされた紫の扉"
+      },
+      {
+        "no": "15",
+        "cumulative": 950,
+        "unlockEl": "閉ざされた黒の扉",
+        "song": "閉ざされた黒の扉",
+        "isSongOnly": true,
+        "reward": "閉ざされた黒の扉"
+      },
+      {
+        "no": "16",
+        "cumulative": 1000,
+        "unlockEl": "閉ざされた黄の扉",
+        "song": "閉ざされた黄の扉",
+        "isSongOnly": true,
+        "reward": "閉ざされた黄の扉"
+      },
+      {
+        "no": "17",
+        "cumulative": 1050,
+        "unlockEl": "閉ざされた赤の扉",
+        "song": "閉ざされた赤の扉",
+        "isSongOnly": true,
+        "reward": "閉ざされた赤の扉"
+      },
+      {
+        "no": "18",
+        "cumulative": 1100,
+        "unlockEl": "【差出人不明のデータ7】",
+        "song": "【差出人不明のデータ7】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ7】"
+      },
+      {
+        "no": "19",
+        "cumulative": 1500,
+        "unlockEl": "Amereistr",
+        "song": "Amereistr",
+        "isSongOnly": true,
+        "reward": "Amereistr"
+      },
+      {
+        "no": "20",
+        "cumulative": 1550,
+        "unlockEl": "【差出人不明のデータ8】",
+        "song": "【差出人不明のデータ8】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ8】"
+      },
+      {
+        "no": "21",
+        "cumulative": 1650,
+        "unlockEl": "7sRefちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "7sRefちほー4"
+      },
+      {
+        "no": "22",
+        "cumulative": 1750,
+        "unlockEl": "【差出人不明のデータ9】",
+        "song": "【差出人不明のデータ9】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ9】"
+      },
+      {
+        "no": "23",
+        "cumulative": 1800,
+        "unlockEl": "【差出人不明のデータ10】",
+        "song": "【差出人不明のデータ10】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ10】"
+      },
+      {
+        "no": "24",
+        "cumulative": 1850,
+        "unlockEl": "【差出人不明のデータ11】",
+        "song": "【差出人不明のデータ11】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ11】"
+      },
+      {
+        "no": "25",
+        "cumulative": 1900,
+        "unlockEl": "【差出人不明のデータ12】",
+        "song": "【差出人不明のデータ12】",
+        "isSongOnly": true,
+        "reward": "【差出人不明のデータ12】"
+      },
+      {
+        "no": "26",
+        "cumulative": 1950,
         "unlockEl": "アシッド",
         "song": "アシッド",
         "isSongOnly": true,
         "reward": "アシッド"
       },
       {
-        "no": "9",
-        "cumulative": 1199,
-        "unlockEl": "躯樹の墓守",
-        "song": "躯樹の墓守",
+        "no": "27",
+        "cumulative": 2000,
+        "unlockEl": "プリズムタワー",
+        "song": "プリズムタワー",
         "isSongOnly": true,
-        "reward": "躯樹の墓守"
-      },
-      {
-        "no": "10",
-        "cumulative": 1200,
-        "unlockEl": "ヨミビトシラズ",
-        "song": "ヨミビトシラズ",
-        "isSongOnly": true,
-        "reward": "ヨミビトシラズ"
-      },
-      {
-        "no": "11",
-        "cumulative": 1300,
-        "unlockEl": "7sRefちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "7sRefちほー"
+        "reward": "プリズムタワー"
       }
     ]
   },
@@ -576,90 +704,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "unlockEl": "フォッサノーバ",
+        "song": "フォッサノーバ",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "フォッサノーバ"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 50,
+        "unlockEl": "地獄",
+        "song": "地獄",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "地獄"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 100,
+        "unlockEl": "ディオティス",
+        "song": "ディオティス",
         "isSongOnly": true,
-        "reward": "リッツ"
+        "reward": "ディオティス"
       },
       {
         "no": "4",
         "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
+        "unlockEl": "クレメンス（エージェント）",
+        "song": "クレメンス（エージェント）",
         "isSongOnly": true,
-        "reward": "BLACK ROSE"
+        "reward": "クレメンス（エージェント）"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
+        "cumulative": 250,
+        "unlockEl": "BLACK ROSEちほー10",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー10"
       },
       {
         "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
+        "cumulative": 300,
+        "unlockEl": "エレノラ（エージェント）",
+        "song": "エレノラ（エージェント）",
         "isSongOnly": true,
-        "reward": "エリー"
+        "reward": "エレノラ（エージェント）"
       },
       {
         "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
+        "cumulative": 350,
+        "unlockEl": "ディオティス（天使）",
+        "song": "ディオティス（天使）",
         "isSongOnly": true,
-        "reward": "ヒュド・ルー"
+        "reward": "ディオティス（天使）"
       },
       {
         "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
+        "cumulative": 450,
+        "unlockEl": "BLACK ROSEちほー10",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー10"
       },
       {
         "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
+        "cumulative": 600,
+        "unlockEl": "シスターシスター",
+        "song": "シスターシスター",
         "isSongOnly": true,
-        "reward": "ラルフ"
+        "reward": "シスターシスター"
       },
       {
         "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
+        "cumulative": 800,
+        "unlockEl": "紫の扉",
+        "song": "紫の扉",
         "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "reward": "紫の扉"
       }
     ]
   },
@@ -669,90 +789,74 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "unlockEl": "アレクサンドラ",
+        "song": "アレクサンドラ",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "アレクサンドラ"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 50,
+        "unlockEl": "オールマスター",
+        "song": "オールマスター",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "オールマスター"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 150,
+        "unlockEl": "サリュティス",
+        "song": "サリュティス",
         "isSongOnly": true,
-        "reward": "リッツ"
+        "reward": "サリュティス"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
+        "cumulative": 250,
+        "unlockEl": "ハンナ",
+        "song": "ハンナ",
         "isSongOnly": true,
-        "reward": "BLACK ROSE"
+        "reward": "ハンナ"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
+        "cumulative": 350,
+        "unlockEl": "STRAY",
+        "song": "STRAY",
         "isSongOnly": true,
-        "reward": "ニック"
+        "reward": "STRAY"
       },
       {
         "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
+        "cumulative": 400,
+        "unlockEl": "BLACK ROSEちほー11",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー11"
       },
       {
         "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
-        "isSongOnly": true,
-        "reward": "ヒュド・ルー"
-      },
-      {
-        "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
-      },
-      {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
+        "cumulative": 500,
         "unlockEl": "バイロン",
         "song": "バイロン",
         "isSongOnly": true,
         "reward": "バイロン"
       },
       {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
+        "no": "8",
+        "cumulative": 700,
+        "unlockEl": "クロノイデア",
+        "song": "クロノイデア",
         "isSongOnly": true,
-        "reward": "マスティマ"
+        "reward": "クロノイデア"
+      },
+      {
+        "no": "9",
+        "cumulative": 800,
+        "unlockEl": "BLACK ROSEちほー11",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー11"
       }
     ]
   },
@@ -761,91 +865,27 @@
     "rewards": [
       {
         "no": "1",
-        "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "cumulative": 25000,
+        "unlockEl": "ティノ",
+        "song": "ティノ",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "ティノ"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 55000,
+        "unlockEl": "エレノラ",
+        "song": "エレノラ",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "エレノラ"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 90000,
+        "unlockEl": "ヒュド・ルー/ルイの二面性",
+        "song": "ヒュド・ルー/ルイの二面性",
         "isSongOnly": true,
-        "reward": "リッツ"
-      },
-      {
-        "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
-        "isSongOnly": true,
-        "reward": "BLACK ROSE"
-      },
-      {
-        "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
-      },
-      {
-        "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
-      },
-      {
-        "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
-        "isSongOnly": true,
-        "reward": "ヒュド・ルー"
-      },
-      {
-        "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
-      },
-      {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "reward": "ヒュド・ルー/ルイの二面性"
       }
     ]
   },
@@ -854,91 +894,27 @@
     "rewards": [
       {
         "no": "1",
-        "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "cumulative": 22000,
+        "unlockEl": "ルイ",
+        "song": "ルイ",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "ルイ"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 48000,
+        "unlockEl": "ニック（悪魔憑き）",
+        "song": "ニック（悪魔憑き）",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "ニック（悪魔憑き）"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 78000,
+        "unlockEl": "黒薔薇病患者の内面",
+        "song": "黒薔薇病患者の内面",
         "isSongOnly": true,
-        "reward": "リッツ"
-      },
-      {
-        "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
-        "isSongOnly": true,
-        "reward": "BLACK ROSE"
-      },
-      {
-        "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
-      },
-      {
-        "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
-      },
-      {
-        "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
-        "isSongOnly": true,
-        "reward": "ヒュド・ルー"
-      },
-      {
-        "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
-      },
-      {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "reward": "黒薔薇病患者の内面"
       }
     ]
   },
@@ -948,90 +924,66 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "unlockEl": "ロー",
+        "song": "ロー",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "ロー"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 42,
+        "unlockEl": "シアトリカル・ケース",
+        "song": "シアトリカル・ケース",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "シアトリカル・ケース"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 84,
+        "unlockEl": "マリー",
+        "song": "マリー",
         "isSongOnly": true,
-        "reward": "リッツ"
+        "reward": "マリー"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
+        "cumulative": 126,
+        "unlockEl": "ハンナ",
+        "song": "ハンナ",
         "isSongOnly": true,
-        "reward": "BLACK ROSE"
+        "reward": "ハンナ"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
+        "cumulative": 252,
+        "unlockEl": "BLACK ROSEちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー3"
       },
       {
         "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
+        "cumulative": 294,
+        "unlockEl": "トリスタン",
+        "song": "トリスタン",
         "isSongOnly": true,
-        "reward": "エリー"
+        "reward": "トリスタン"
       },
       {
         "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
+        "cumulative": 336,
+        "unlockEl": "クレメンス（悪魔）",
+        "song": "クレメンス（悪魔）",
         "isSongOnly": true,
-        "reward": "ヒュド・ルー"
+        "reward": "クレメンス（悪魔）"
       },
       {
         "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
-      },
-      {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "cumulative": 504,
+        "unlockEl": "BLACK ROSEちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー3"
       }
     ]
   },
@@ -1041,90 +993,42 @@
       {
         "no": "1",
         "cumulative": 0,
+        "unlockEl": "アウル(幼少期)",
+        "song": "アウル(幼少期)",
+        "isSongOnly": true,
+        "reward": "アウル(幼少期)"
+      },
+      {
+        "no": "2",
+        "cumulative": 70,
+        "unlockEl": "トリスタン",
+        "song": "トリスタン",
+        "isSongOnly": true,
+        "reward": "トリスタン"
+      },
+      {
+        "no": "3",
+        "cumulative": 200,
+        "unlockEl": "BLACK ROSEちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー4"
+      },
+      {
+        "no": "4",
+        "cumulative": 350,
         "unlockEl": "アウル",
         "song": "アウル",
         "isSongOnly": true,
         "reward": "アウル"
       },
       {
-        "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
-        "isSongOnly": true,
-        "reward": "Secret Sleuth"
-      },
-      {
-        "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
-        "isSongOnly": true,
-        "reward": "リッツ"
-      },
-      {
-        "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
-        "isSongOnly": true,
-        "reward": "BLACK ROSE"
-      },
-      {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
-      },
-      {
-        "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
-      },
-      {
-        "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
-        "isSongOnly": true,
-        "reward": "ヒュド・ルー"
-      },
-      {
-        "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
-      },
-      {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "cumulative": 500,
+        "unlockEl": "BLACK ROSEちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー4"
       }
     ]
   },
@@ -1134,90 +1038,58 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "unlockEl": "エリザ",
+        "song": "エリザ",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "エリザ"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 72,
+        "unlockEl": "カイン",
+        "song": "カイン",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "カイン"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 144,
+        "unlockEl": "ジャック",
+        "song": "ジャック",
         "isSongOnly": true,
-        "reward": "リッツ"
+        "reward": "ジャック"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
-        "isSongOnly": true,
-        "reward": "BLACK ROSE"
+        "cumulative": 252,
+        "unlockEl": "BLACK ROSEちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー5"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
+        "cumulative": 312,
+        "unlockEl": "アナスタシア",
+        "song": "アナスタシア",
         "isSongOnly": true,
-        "reward": "ニック"
+        "reward": "アナスタシア"
       },
       {
         "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
+        "cumulative": 360,
+        "unlockEl": "ラルフ(悪魔憑き)",
+        "song": "ラルフ(悪魔憑き)",
         "isSongOnly": true,
-        "reward": "エリー"
+        "reward": "ラルフ(悪魔憑き)"
       },
       {
         "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
-        "isSongOnly": true,
-        "reward": "ヒュド・ルー"
-      },
-      {
-        "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
-        "isSongOnly": true,
-        "reward": "クレメンス"
-      },
-      {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "cumulative": 500,
+        "unlockEl": "BLACK ROSEちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー5"
       }
     ]
   },
@@ -1227,90 +1099,58 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
-        "isSongOnly": true,
-        "reward": "アウル"
-      },
-      {
-        "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
-        "isSongOnly": true,
-        "reward": "Secret Sleuth"
-      },
-      {
-        "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
-        "isSongOnly": true,
-        "reward": "リッツ"
-      },
-      {
-        "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
-        "isSongOnly": true,
-        "reward": "BLACK ROSE"
-      },
-      {
-        "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
-      },
-      {
-        "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
-      },
-      {
-        "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
-        "isSongOnly": true,
-        "reward": "ヒュド・ルー"
-      },
-      {
-        "no": "8",
-        "cumulative": 7000,
         "unlockEl": "クレメンス",
         "song": "クレメンス",
         "isSongOnly": true,
         "reward": "クレメンス"
       },
       {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
+        "no": "2",
+        "cumulative": 70,
         "unlockEl": "バイロン",
         "song": "バイロン",
         "isSongOnly": true,
         "reward": "バイロン"
       },
       {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
+        "no": "3",
+        "cumulative": 80,
+        "unlockEl": "パーフェクション",
+        "song": "パーフェクション",
         "isSongOnly": true,
-        "reward": "マスティマ"
+        "reward": "パーフェクション"
+      },
+      {
+        "no": "4",
+        "cumulative": 170,
+        "unlockEl": "BLACK ROSEちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー6"
+      },
+      {
+        "no": "5",
+        "cumulative": 240,
+        "unlockEl": "エリー",
+        "song": "エリー",
+        "isSongOnly": true,
+        "reward": "エリー"
+      },
+      {
+        "no": "6",
+        "cumulative": 250,
+        "unlockEl": "デーモンベット",
+        "song": "デーモンベット",
+        "isSongOnly": true,
+        "reward": "デーモンベット"
+      },
+      {
+        "no": "7",
+        "cumulative": 400,
+        "unlockEl": "BLACK ROSEちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー6"
       }
     ]
   },
@@ -1327,83 +1167,59 @@
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
-        "isSongOnly": true,
-        "reward": "Secret Sleuth"
-      },
-      {
-        "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
-        "isSongOnly": true,
-        "reward": "リッツ"
-      },
-      {
-        "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
-        "isSongOnly": true,
-        "reward": "BLACK ROSE"
-      },
-      {
-        "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
-      },
-      {
-        "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
-      },
-      {
-        "no": "7",
-        "cumulative": 2500,
+        "cumulative": 30,
         "unlockEl": "ヒュド・ルー",
         "song": "ヒュド・ルー",
         "isSongOnly": true,
         "reward": "ヒュド・ルー"
       },
       {
-        "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
+        "no": "3",
+        "cumulative": 80,
+        "unlockEl": "エリー",
+        "song": "エリー",
         "isSongOnly": true,
-        "reward": "クレメンス"
+        "reward": "エリー"
       },
       {
-        "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
+        "no": "4",
+        "cumulative": 150,
+        "unlockEl": "BLACK ROSEちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー7"
       },
       {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
+        "no": "5",
+        "cumulative": 200,
         "unlockEl": "マスティマ",
         "song": "マスティマ",
         "isSongOnly": true,
         "reward": "マスティマ"
+      },
+      {
+        "no": "6",
+        "cumulative": 250,
+        "unlockEl": "バイロン(堕天使)",
+        "song": "バイロン(堕天使)",
+        "isSongOnly": true,
+        "reward": "バイロン(堕天使)"
+      },
+      {
+        "no": "7",
+        "cumulative": 400,
+        "unlockEl": "分解収束テイル",
+        "song": "分解収束テイル",
+        "isSongOnly": true,
+        "reward": "分解収束テイル"
+      },
+      {
+        "no": "8",
+        "cumulative": 500,
+        "unlockEl": "BLACK ROSEちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー7"
       }
     ]
   },
@@ -1413,90 +1229,74 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "unlockEl": "ルイ（幼少期）",
+        "song": "ルイ（幼少期）",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "ルイ（幼少期）"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 30,
+        "unlockEl": "ヱデン",
+        "song": "ヱデン",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "ヱデン"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 60,
+        "unlockEl": "SDニック",
+        "song": "SDニック",
         "isSongOnly": true,
-        "reward": "リッツ"
+        "reward": "SDニック"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
+        "cumulative": 110,
+        "unlockEl": "SDブラット",
+        "song": "SDブラット",
         "isSongOnly": true,
-        "reward": "BLACK ROSE"
+        "reward": "SDブラット"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
+        "cumulative": 150,
+        "unlockEl": "SDアウル",
+        "song": "SDアウル",
         "isSongOnly": true,
-        "reward": "ニック"
+        "reward": "SDアウル"
       },
       {
         "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
-        "isSongOnly": true,
-        "reward": "エリー"
+        "cumulative": 200,
+        "unlockEl": "BLACK ROSEちほー8",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー8"
       },
       {
         "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
+        "cumulative": 250,
+        "unlockEl": "ニック＆ブラット",
+        "song": "ニック＆ブラット",
         "isSongOnly": true,
-        "reward": "ヒュド・ルー"
+        "reward": "ニック＆ブラット"
       },
       {
         "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
+        "cumulative": 400,
+        "unlockEl": "にゃーにゃー冒険譚",
+        "song": "にゃーにゃー冒険譚",
         "isSongOnly": true,
-        "reward": "クレメンス"
+        "reward": "にゃーにゃー冒険譚"
       },
       {
         "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "cumulative": 500,
+        "unlockEl": "BLACK ROSEちほー8",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー8"
       }
     ]
   },
@@ -1506,90 +1306,74 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "アウル",
-        "song": "アウル",
+        "unlockEl": "フィッツ公",
+        "song": "フィッツ公",
         "isSongOnly": true,
-        "reward": "アウル"
+        "reward": "フィッツ公"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "Secret Sleuth",
-        "song": "Secret Sleuth",
+        "cumulative": 30,
+        "unlockEl": "Mystic Parade",
+        "song": "Mystic Parade",
         "isSongOnly": true,
-        "reward": "Secret Sleuth"
+        "reward": "Mystic Parade"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "リッツ",
-        "song": "リッツ",
+        "cumulative": 70,
+        "unlockEl": "マティルダ",
+        "song": "マティルダ",
         "isSongOnly": true,
-        "reward": "リッツ"
+        "reward": "マティルダ"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "BLACK ROSE",
-        "song": "BLACK ROSE",
+        "cumulative": 110,
+        "unlockEl": "クリーノス",
+        "song": "クリーノス",
         "isSongOnly": true,
-        "reward": "BLACK ROSE"
+        "reward": "クリーノス"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ニック",
-        "song": "ニック",
-        "isSongOnly": true,
-        "reward": "ニック"
+        "cumulative": 150,
+        "unlockEl": "BLACK ROSEちほー9",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー9"
       },
       {
         "no": "6",
-        "cumulative": 950,
-        "unlockEl": "エリー",
-        "song": "エリー",
+        "cumulative": 200,
+        "unlockEl": "クリーノス（天使）",
+        "song": "クリーノス（天使）",
         "isSongOnly": true,
-        "reward": "エリー"
+        "reward": "クリーノス（天使）"
       },
       {
         "no": "7",
-        "cumulative": 2500,
-        "unlockEl": "ヒュド・ルー",
-        "song": "ヒュド・ルー",
+        "cumulative": 250,
+        "unlockEl": "リッツ（悪魔）",
+        "song": "リッツ（悪魔）",
         "isSongOnly": true,
-        "reward": "ヒュド・ルー"
+        "reward": "リッツ（悪魔）"
       },
       {
         "no": "8",
-        "cumulative": 7000,
-        "unlockEl": "クレメンス",
-        "song": "クレメンス",
+        "cumulative": 400,
+        "unlockEl": "Cry Cry Cry",
+        "song": "Cry Cry Cry",
         "isSongOnly": true,
-        "reward": "クレメンス"
+        "reward": "Cry Cry Cry"
       },
       {
         "no": "9",
-        "cumulative": 20000,
-        "unlockEl": "ラルフ",
-        "song": "ラルフ",
-        "isSongOnly": true,
-        "reward": "ラルフ"
-      },
-      {
-        "no": "10",
-        "cumulative": 34000,
-        "unlockEl": "バイロン",
-        "song": "バイロン",
-        "isSongOnly": true,
-        "reward": "バイロン"
-      },
-      {
-        "no": "11",
-        "cumulative": 52000,
-        "unlockEl": "マスティマ",
-        "song": "マスティマ",
-        "isSongOnly": true,
-        "reward": "マスティマ"
+        "cumulative": 500,
+        "unlockEl": "BLACK ROSEちほー9",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "BLACK ROSEちほー9"
       }
     ]
   },
@@ -2945,90 +2729,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "ナノ",
-        "song": "ナノ",
+        "unlockEl": "スズメ",
+        "song": "スズメ",
         "isSongOnly": true,
-        "reward": "ナノ"
+        "reward": "スズメ"
       },
       {
         "no": "2",
-        "cumulative": 111,
-        "unlockEl": "Never Give Up!",
-        "song": "Never Give Up!",
+        "cumulative": 75,
+        "unlockEl": "真空都市",
+        "song": "真空都市",
         "isSongOnly": true,
-        "reward": "Never Give Up!"
+        "reward": "真空都市"
       },
       {
         "no": "3",
-        "cumulative": 222,
-        "unlockEl": "ローヴェ",
-        "song": "ローヴェ",
+        "cumulative": 150,
+        "unlockEl": "パドザール",
+        "song": "パドザール",
         "isSongOnly": true,
-        "reward": "ローヴェ"
+        "reward": "パドザール"
       },
       {
         "no": "4",
-        "cumulative": 333,
-        "unlockEl": "Starry Colors",
-        "song": "Starry Colors",
+        "cumulative": 300,
+        "unlockEl": "Eternal Return",
+        "song": "Eternal Return",
         "isSongOnly": true,
-        "reward": "Starry Colors"
+        "reward": "Eternal Return"
       },
       {
         "no": "5",
-        "cumulative": 444,
-        "unlockEl": "アサド",
-        "song": "アサド",
-        "isSongOnly": true,
-        "reward": "アサド"
+        "cumulative": 350,
+        "unlockEl": "kawaiiちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "kawaiiちほー2"
       },
       {
         "no": "6",
-        "cumulative": 555,
-        "unlockEl": "kawaiiちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "kawaiiちほー"
+        "cumulative": 450,
+        "unlockEl": "オクト",
+        "song": "オクト",
+        "isSongOnly": true,
+        "reward": "オクト"
       },
       {
         "no": "7",
-        "cumulative": 666,
-        "unlockEl": "テルス",
-        "song": "テルス",
+        "cumulative": 600,
+        "unlockEl": "ぱぱぱらビーチ",
+        "song": "ぱぱぱらビーチ",
         "isSongOnly": true,
-        "reward": "テルス"
+        "reward": "ぱぱぱらビーチ"
       },
       {
         "no": "8",
-        "cumulative": 777,
-        "unlockEl": "ほしぞらスペクタクル",
-        "song": "ほしぞらスペクタクル",
+        "cumulative": 700,
+        "unlockEl": "アモ",
+        "song": "アモ",
         "isSongOnly": true,
-        "reward": "ほしぞらスペクタクル"
+        "reward": "アモ"
       },
       {
         "no": "9",
         "cumulative": 900,
-        "unlockEl": "ドメニカ",
-        "song": "ドメニカ",
+        "unlockEl": "Get U ♭ack",
+        "song": "Get U ♭ack",
         "isSongOnly": true,
-        "reward": "ドメニカ"
+        "reward": "Get U ♭ack"
       },
       {
         "no": "10",
-        "cumulative": 1111,
-        "unlockEl": "VIIIbit Explorer",
-        "song": "VIIIbit Explorer",
-        "isSongOnly": true,
-        "reward": "VIIIbit Explorer"
-      },
-      {
-        "no": "11",
-        "cumulative": 1300,
-        "unlockEl": "kawaiiちほー",
+        "cumulative": 1000,
+        "unlockEl": "kawaiiちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "kawaiiちほー"
+        "reward": "kawaiiちほー2"
       }
     ]
   },
@@ -3123,82 +2899,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "家菊",
+        "song": "家菊",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "家菊"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 75,
+        "unlockEl": "TAKE CONTROL",
+        "song": "TAKE CONTROL",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "TAKE CONTROL"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 150,
+        "unlockEl": "高麗",
+        "song": "高麗",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "高麗"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 300,
+        "unlockEl": "HyperdrivE",
+        "song": "HyperdrivE",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "HyperdrivE"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
-        "isSongOnly": true,
-        "reward": "SIN_BA"
+        "cumulative": 350,
+        "unlockEl": "メトロポリスちほー10",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー10"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
+        "cumulative": 450,
+        "unlockEl": "橘花",
+        "song": "橘花",
         "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "reward": "橘花"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
+        "cumulative": 650,
+        "unlockEl": "Paradoxical Empress",
+        "song": "Paradoxical Empress",
         "isSongOnly": true,
-        "reward": "TO_KI"
+        "reward": "Paradoxical Empress"
       },
       {
         "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
+        "cumulative": 800,
+        "unlockEl": "黒橡",
+        "song": "黒橡",
         "isSongOnly": true,
-        "reward": "TwisteD! XD"
+        "reward": "黒橡"
       },
       {
         "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
+        "cumulative": 1000,
+        "unlockEl": "RONDØ",
+        "song": "RONDØ",
         "isSongOnly": true,
-        "reward": "Blows Up Everything"
+        "reward": "RONDØ"
       },
       {
         "no": "10",
-        "cumulative": 14000,
-        "unlockEl": "黒姫",
-        "song": "黒姫",
-        "isSongOnly": true,
-        "reward": "黒姫"
+        "cumulative": 1200,
+        "unlockEl": "メトロポリスちほー10",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー10"
       }
     ]
   },
@@ -3208,82 +2984,50 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "ピリポ",
+        "song": "ピリポ",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "ピリポ"
       },
       {
         "no": "2",
         "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "unlockEl": "Flashkick",
+        "song": "Flashkick",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Flashkick"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 50,
+        "unlockEl": "ケファ",
+        "song": "ケファ",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "ケファ"
       },
       {
         "no": "4",
         "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "unlockEl": "STEEL TRANSONIC",
+        "song": "STEEL TRANSONIC",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "STEEL TRANSONIC"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 350,
+        "unlockEl": "バルトルメ",
+        "song": "バルトルメ",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "バルトルメ"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
-      },
-      {
-        "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
-        "isSongOnly": true,
-        "reward": "TO_KI"
-      },
-      {
-        "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
-        "isSongOnly": true,
-        "reward": "TwisteD! XD"
-      },
-      {
-        "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
-        "isSongOnly": true,
-        "reward": "Blows Up Everything"
-      },
-      {
-        "no": "10",
-        "cumulative": 14000,
-        "unlockEl": "黒姫",
-        "song": "黒姫",
-        "isSongOnly": true,
-        "reward": "黒姫"
+        "cumulative": 600,
+        "unlockEl": "メトロポリスちほー2 イーシュ襲来",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー2 イーシュ襲来"
       }
     ]
   },
@@ -3292,83 +3036,43 @@
     "rewards": [
       {
         "no": "1",
-        "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "cumulative": 200,
+        "unlockEl": "アンドレアス",
+        "song": "アンドレアス",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "アンドレアス"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 900,
+        "unlockEl": "Stardust Memories",
+        "song": "Stardust Memories",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Stardust Memories"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 3500,
+        "unlockEl": "イーシュ",
+        "song": "イーシュ",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "イーシュ"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 7000,
+        "unlockEl": "My My My",
+        "song": "My My My",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "My My My"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
-        "isSongOnly": true,
-        "reward": "SIN_BA"
-      },
-      {
-        "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
-      },
-      {
-        "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
-        "isSongOnly": true,
-        "reward": "TO_KI"
-      },
-      {
-        "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
-        "isSongOnly": true,
-        "reward": "TwisteD! XD"
-      },
-      {
-        "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
-        "isSongOnly": true,
-        "reward": "Blows Up Everything"
-      },
-      {
-        "no": "10",
-        "cumulative": 14000,
-        "unlockEl": "黒姫",
-        "song": "黒姫",
-        "isSongOnly": true,
-        "reward": "黒姫"
+        "cumulative": 12000,
+        "unlockEl": "メトロポリスちほー2 黒姫の逆襲",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー2 黒姫の逆襲"
       }
     ]
   },
@@ -3378,82 +3082,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "壱王",
+        "song": "壱王",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "壱王"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 84,
+        "unlockEl": "Aetheric Energy",
+        "song": "Aetheric Energy",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Aetheric Energy"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 97,
+        "unlockEl": "仁王",
+        "song": "仁王",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "仁王"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 209,
+        "unlockEl": "Komplexe",
+        "song": "Komplexe",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "Komplexe"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 223,
+        "unlockEl": "雷天",
+        "song": "雷天",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "雷天"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "cumulative": 294,
+        "unlockEl": "メトロポリスちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー3"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
+        "cumulative": 308,
+        "unlockEl": "焔天",
+        "song": "焔天",
         "isSongOnly": true,
-        "reward": "TO_KI"
+        "reward": "焔天"
       },
       {
         "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
+        "cumulative": 420,
+        "unlockEl": "Beautiful Future",
+        "song": "Beautiful Future",
         "isSongOnly": true,
-        "reward": "TwisteD! XD"
+        "reward": "Beautiful Future"
       },
       {
         "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
-        "isSongOnly": true,
-        "reward": "Blows Up Everything"
-      },
-      {
-        "no": "10",
-        "cumulative": 14000,
+        "cumulative": 546,
         "unlockEl": "黒姫",
         "song": "黒姫",
         "isSongOnly": true,
         "reward": "黒姫"
+      },
+      {
+        "no": "10",
+        "cumulative": 756,
+        "unlockEl": "Mutation",
+        "song": "Mutation",
+        "isSongOnly": true,
+        "reward": "Mutation"
+      },
+      {
+        "no": "11",
+        "cumulative": 882,
+        "unlockEl": "メトロポリスちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー3"
       }
     ]
   },
@@ -3463,82 +3175,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "濡羽",
+        "song": "濡羽",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "濡羽"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 72,
+        "unlockEl": "Round Round Spinning Around",
+        "song": "Round Round Spinning Around",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Round Round Spinning Around"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 108,
+        "unlockEl": "高麗",
+        "song": "高麗",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "高麗"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 216,
+        "unlockEl": "Alcyone",
+        "song": "Alcyone",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "Alcyone"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 288,
+        "unlockEl": "黒橡",
+        "song": "黒橡",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "黒橡"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "cumulative": 396,
+        "unlockEl": "メトロポリスちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー4"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
+        "cumulative": 468,
+        "unlockEl": "赤墨",
+        "song": "赤墨",
         "isSongOnly": true,
-        "reward": "TO_KI"
+        "reward": "赤墨"
       },
       {
         "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
+        "cumulative": 612,
+        "unlockEl": "Raven Emperor",
+        "song": "Raven Emperor",
         "isSongOnly": true,
-        "reward": "TwisteD! XD"
+        "reward": "Raven Emperor"
       },
       {
         "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
+        "cumulative": 720,
+        "unlockEl": "紫黒",
+        "song": "紫黒",
         "isSongOnly": true,
-        "reward": "Blows Up Everything"
+        "reward": "紫黒"
       },
       {
         "no": "10",
-        "cumulative": 14000,
-        "unlockEl": "黒姫",
-        "song": "黒姫",
+        "cumulative": 900,
+        "unlockEl": "Yorugao",
+        "song": "Yorugao",
         "isSongOnly": true,
-        "reward": "黒姫"
+        "reward": "Yorugao"
+      },
+      {
+        "no": "11",
+        "cumulative": 1000,
+        "unlockEl": "メトロポリスちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー4"
       }
     ]
   },
@@ -3548,82 +3268,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "家菊",
+        "song": "家菊",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "家菊"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 35,
+        "unlockEl": "Irresistible",
+        "song": "Irresistible",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Irresistible"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 80,
+        "unlockEl": "橘花",
+        "song": "橘花",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "橘花"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 150,
+        "unlockEl": "HAGAKIRI",
+        "song": "HAGAKIRI",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "HAGAKIRI"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 210,
+        "unlockEl": "黒桜",
+        "song": "黒桜",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "黒桜"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "cumulative": 270,
+        "unlockEl": "メトロポリスちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー5"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
+        "cumulative": 330,
+        "unlockEl": "紫藤",
+        "song": "紫藤",
         "isSongOnly": true,
-        "reward": "TO_KI"
+        "reward": "紫藤"
       },
       {
         "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
+        "cumulative": 500,
+        "unlockEl": "HECATONCHEIR",
+        "song": "HECATONCHEIR",
         "isSongOnly": true,
-        "reward": "TwisteD! XD"
+        "reward": "HECATONCHEIR"
       },
       {
         "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
+        "cumulative": 600,
+        "unlockEl": "藪椿",
+        "song": "藪椿",
         "isSongOnly": true,
-        "reward": "Blows Up Everything"
+        "reward": "藪椿"
       },
       {
         "no": "10",
-        "cumulative": 14000,
-        "unlockEl": "黒姫",
-        "song": "黒姫",
+        "cumulative": 800,
+        "unlockEl": "N3V3R G3T OV3R",
+        "song": "N3V3R G3T OV3R",
         "isSongOnly": true,
-        "reward": "黒姫"
+        "reward": "N3V3R G3T OV3R"
+      },
+      {
+        "no": "11",
+        "cumulative": 900,
+        "unlockEl": "メトロポリスちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー5"
       }
     ]
   },
@@ -3633,82 +3361,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
-        "isSongOnly": true,
-        "reward": "SAM_RAI"
-      },
-      {
-        "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
-        "isSongOnly": true,
-        "reward": "Scarlet Wings"
-      },
-      {
-        "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
-        "isSongOnly": true,
-        "reward": "BEN_KEI"
-      },
-      {
-        "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
-        "isSongOnly": true,
-        "reward": "Technicians High"
-      },
-      {
-        "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
-        "isSongOnly": true,
-        "reward": "SIN_BA"
-      },
-      {
-        "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
-      },
-      {
-        "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
-        "isSongOnly": true,
-        "reward": "TO_KI"
-      },
-      {
-        "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
-        "isSongOnly": true,
-        "reward": "TwisteD! XD"
-      },
-      {
-        "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
-        "isSongOnly": true,
-        "reward": "Blows Up Everything"
-      },
-      {
-        "no": "10",
-        "cumulative": 14000,
         "unlockEl": "黒姫",
         "song": "黒姫",
         "isSongOnly": true,
         "reward": "黒姫"
+      },
+      {
+        "no": "2",
+        "cumulative": 70,
+        "unlockEl": "You Mean the World to Me",
+        "song": "You Mean the World to Me",
+        "isSongOnly": true,
+        "reward": "You Mean the World to Me"
+      },
+      {
+        "no": "3",
+        "cumulative": 120,
+        "unlockEl": "紫黒",
+        "song": "紫黒",
+        "isSongOnly": true,
+        "reward": "紫黒"
+      },
+      {
+        "no": "4",
+        "cumulative": 220,
+        "unlockEl": "Neon Kingdom",
+        "song": "Neon Kingdom",
+        "isSongOnly": true,
+        "reward": "Neon Kingdom"
+      },
+      {
+        "no": "5",
+        "cumulative": 300,
+        "unlockEl": "高麗",
+        "song": "高麗",
+        "isSongOnly": true,
+        "reward": "高麗"
+      },
+      {
+        "no": "6",
+        "cumulative": 380,
+        "unlockEl": "メトロポリスちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー6"
+      },
+      {
+        "no": "7",
+        "cumulative": 460,
+        "unlockEl": "濡羽",
+        "song": "濡羽",
+        "isSongOnly": true,
+        "reward": "濡羽"
+      },
+      {
+        "no": "8",
+        "cumulative": 600,
+        "unlockEl": "#狂った民族２ PRAVARGYAZOOQA",
+        "song": "#狂った民族２ PRAVARGYAZOOQA",
+        "isSongOnly": true,
+        "reward": "#狂った民族２ PRAVARGYAZOOQA"
+      },
+      {
+        "no": "9",
+        "cumulative": 700,
+        "unlockEl": "イーシュ",
+        "song": "イーシュ",
+        "isSongOnly": true,
+        "reward": "イーシュ"
+      },
+      {
+        "no": "10",
+        "cumulative": 1000,
+        "unlockEl": "VSpook!",
+        "song": "VSpook!",
+        "isSongOnly": true,
+        "reward": "VSpook!"
+      },
+      {
+        "no": "11",
+        "cumulative": 1100,
+        "unlockEl": "メトロポリスちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー6"
       }
     ]
   },
@@ -3718,82 +3454,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "イーシュ（プロトタイプI）*1",
+        "song": "イーシュ（プロトタイプI）*1",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "イーシュ（プロトタイプI）*1"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 70,
+        "unlockEl": "ぽわわん劇場",
+        "song": "ぽわわん劇場",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "ぽわわん劇場"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 120,
+        "unlockEl": "ケファ",
+        "song": "ケファ",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "ケファ"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 220,
+        "unlockEl": "my flow",
+        "song": "my flow",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "my flow"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 300,
+        "unlockEl": "バルトルメ",
+        "song": "バルトルメ",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "バルトルメ"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "cumulative": 380,
+        "unlockEl": "メトロポリスちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー7"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
+        "cumulative": 460,
+        "unlockEl": "マトフェイ",
+        "song": "マトフェイ",
         "isSongOnly": true,
-        "reward": "TO_KI"
+        "reward": "マトフェイ"
       },
       {
         "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
+        "cumulative": 600,
+        "unlockEl": "POWER OF UNITY",
+        "song": "POWER OF UNITY",
         "isSongOnly": true,
-        "reward": "TwisteD! XD"
+        "reward": "POWER OF UNITY"
       },
       {
         "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
-        "isSongOnly": true,
-        "reward": "Blows Up Everything"
-      },
-      {
-        "no": "10",
-        "cumulative": 14000,
+        "cumulative": 700,
         "unlockEl": "黒姫",
         "song": "黒姫",
         "isSongOnly": true,
         "reward": "黒姫"
+      },
+      {
+        "no": "10",
+        "cumulative": 900,
+        "unlockEl": "Energizing Flame",
+        "song": "Energizing Flame",
+        "isSongOnly": true,
+        "reward": "Energizing Flame"
+      },
+      {
+        "no": "11",
+        "cumulative": 1000,
+        "unlockEl": "メトロポリスちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー7"
       }
     ]
   },
@@ -3803,82 +3547,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "黒楼十夜子",
+        "song": "黒楼十夜子",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "黒楼十夜子"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 70,
+        "unlockEl": "Cider P@rty",
+        "song": "Cider P@rty",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Cider P@rty"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 120,
+        "unlockEl": "黒姫（プロトタイプ）",
+        "song": "黒姫（プロトタイプ）",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "黒姫（プロトタイプ）"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
+        "cumulative": 300,
+        "unlockEl": "勦滅",
+        "song": "勦滅",
         "isSongOnly": true,
-        "reward": "Technicians High"
+        "reward": "勦滅"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 400,
+        "unlockEl": "黒楼哉輝",
+        "song": "黒楼哉輝",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "黒楼哉輝"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
-        "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "cumulative": 500,
+        "unlockEl": "メトロポリスちほー8",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー8"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
+        "cumulative": 650,
+        "unlockEl": "Lunatic Vibes",
+        "song": "Lunatic Vibes",
         "isSongOnly": true,
-        "reward": "TO_KI"
+        "reward": "Lunatic Vibes"
       },
       {
         "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
+        "cumulative": 800,
+        "unlockEl": "紅丸（プロトタイプ）",
+        "song": "紅丸（プロトタイプ）",
         "isSongOnly": true,
-        "reward": "TwisteD! XD"
+        "reward": "紅丸（プロトタイプ）"
       },
       {
         "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
+        "cumulative": 1000,
+        "unlockEl": "Bloody Trail",
+        "song": "Bloody Trail",
         "isSongOnly": true,
-        "reward": "Blows Up Everything"
+        "reward": "Bloody Trail"
       },
       {
         "no": "10",
-        "cumulative": 14000,
-        "unlockEl": "黒姫",
-        "song": "黒姫",
-        "isSongOnly": true,
-        "reward": "黒姫"
+        "cumulative": 1100,
+        "unlockEl": "メトロポリスちほー8",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー8"
       }
     ]
   },
@@ -3888,82 +3632,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "SAM_RAI",
-        "song": "SAM_RAI",
+        "unlockEl": "リグエル",
+        "song": "リグエル",
         "isSongOnly": true,
-        "reward": "SAM_RAI"
+        "reward": "リグエル"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "Scarlet Wings",
-        "song": "Scarlet Wings",
+        "cumulative": 150,
+        "unlockEl": "Flashback",
+        "song": "Flashback",
         "isSongOnly": true,
-        "reward": "Scarlet Wings"
+        "reward": "Flashback"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "BEN_KEI",
-        "song": "BEN_KEI",
+        "cumulative": 200,
+        "unlockEl": "酒呑童子",
+        "song": "酒呑童子",
         "isSongOnly": true,
-        "reward": "BEN_KEI"
+        "reward": "酒呑童子"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "Technicians High",
-        "song": "Technicians High",
-        "isSongOnly": true,
-        "reward": "Technicians High"
+        "cumulative": 350,
+        "unlockEl": "メトロポリスちほー9",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー9"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "SIN_BA",
-        "song": "SIN_BA",
+        "cumulative": 500,
+        "unlockEl": "濡羽",
+        "song": "濡羽",
         "isSongOnly": true,
-        "reward": "SIN_BA"
+        "reward": "濡羽"
       },
       {
         "no": "6",
-        "cumulative": 400,
-        "unlockEl": "魔ジョ狩リ",
-        "song": "魔ジョ狩リ",
+        "cumulative": 650,
+        "unlockEl": "Colorfull:Encounter",
+        "song": "Colorfull:Encounter",
         "isSongOnly": true,
-        "reward": "魔ジョ狩リ"
+        "reward": "Colorfull:Encounter"
       },
       {
         "no": "7",
-        "cumulative": 1200,
-        "unlockEl": "TO_KI",
-        "song": "TO_KI",
-        "isSongOnly": true,
-        "reward": "TO_KI"
-      },
-      {
-        "no": "8",
-        "cumulative": 4500,
-        "unlockEl": "TwisteD! XD",
-        "song": "TwisteD! XD",
-        "isSongOnly": true,
-        "reward": "TwisteD! XD"
-      },
-      {
-        "no": "9",
-        "cumulative": 8500,
-        "unlockEl": "Blows Up Everything",
-        "song": "Blows Up Everything",
-        "isSongOnly": true,
-        "reward": "Blows Up Everything"
-      },
-      {
-        "no": "10",
-        "cumulative": 14000,
+        "cumulative": 850,
         "unlockEl": "黒姫",
         "song": "黒姫",
         "isSongOnly": true,
         "reward": "黒姫"
+      },
+      {
+        "no": "8",
+        "cumulative": 1000,
+        "unlockEl": "メトロポリスちほー9",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "メトロポリスちほー9"
+      },
+      {
+        "no": "9",
+        "cumulative": 1200,
+        "unlockEl": "雨露霜雪",
+        "song": "雨露霜雪",
+        "isSongOnly": true,
+        "reward": "雨露霜雪"
+      },
+      {
+        "no": "10",
+        "cumulative": 1400,
+        "unlockEl": "黒の扉",
+        "song": "黒の扉",
+        "isSongOnly": true,
+        "reward": "黒の扉"
       }
     ]
   },
@@ -4220,90 +3964,98 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "らいむっくま",
-        "song": "らいむっくま",
+        "unlockEl": "乙姫",
+        "song": "乙姫",
         "isSongOnly": true,
-        "reward": "らいむっくま"
+        "reward": "乙姫"
       },
       {
         "no": "2",
-        "cumulative": 41,
-        "unlockEl": "ぼくたちいつでも　しゅわっしゅわ！",
-        "song": "ぼくたちいつでも　しゅわっしゅわ！",
+        "cumulative": 30,
+        "unlockEl": "Paradisoda",
+        "song": "Paradisoda",
         "isSongOnly": true,
-        "reward": "ぼくたちいつでも　しゅわっしゅわ！"
+        "reward": "Paradisoda"
       },
       {
         "no": "3",
         "cumulative": 70,
-        "unlockEl": "れもんっくま",
-        "song": "れもんっくま",
+        "unlockEl": "ラズ",
+        "song": "ラズ",
         "isSongOnly": true,
-        "reward": "れもんっくま"
+        "reward": "ラズ"
       },
       {
         "no": "4",
-        "cumulative": 126,
-        "unlockEl": "Boys O’Clock",
-        "song": "Boys O’Clock",
+        "cumulative": 120,
+        "unlockEl": "VANTABLACK RAVER",
+        "song": "VANTABLACK RAVER",
         "isSongOnly": true,
-        "reward": "Boys O’Clock"
+        "reward": "VANTABLACK RAVER"
       },
       {
         "no": "5",
-        "cumulative": 154,
-        "unlockEl": "でらっくま(※)",
-        "song": "でらっくま(※)",
+        "cumulative": 170,
+        "unlockEl": "シフォン",
+        "song": "シフォン",
         "isSongOnly": true,
-        "reward": "でらっくま(※)"
+        "reward": "シフォン"
       },
       {
         "no": "6",
-        "cumulative": 210,
-        "unlockEl": "しゅわしゅわちほー",
+        "cumulative": 230,
+        "unlockEl": "しゅわしゅわちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "しゅわしゅわちほー"
+        "reward": "しゅわしゅわちほー2"
       },
       {
         "no": "7",
-        "cumulative": 237,
-        "unlockEl": "らん",
-        "song": "らん",
+        "cumulative": 290,
+        "unlockEl": "ソルト",
+        "song": "ソルト",
         "isSongOnly": true,
-        "reward": "らん"
+        "reward": "ソルト"
       },
       {
         "no": "8",
-        "cumulative": 294,
-        "unlockEl": "居並ぶ穀物と溜息まじりの運送屋",
-        "song": "居並ぶ穀物と溜息まじりの運送屋",
+        "cumulative": 360,
+        "unlockEl": "時計の国のジェミニ",
+        "song": "時計の国のジェミニ",
         "isSongOnly": true,
-        "reward": "居並ぶ穀物と溜息まじりの運送屋"
+        "reward": "時計の国のジェミニ"
       },
       {
         "no": "9",
-        "cumulative": 322,
-        "unlockEl": "どりー",
-        "song": "どりー",
+        "cumulative": 440,
+        "unlockEl": "しゃま",
+        "song": "しゃま",
         "isSongOnly": true,
-        "reward": "どりー"
+        "reward": "しゃま"
       },
       {
         "no": "10",
-        "cumulative": 504,
-        "unlockEl": "ARAIS",
-        "song": "ARAIS",
+        "cumulative": 530,
+        "unlockEl": "みるく",
+        "song": "みるく",
         "isSongOnly": true,
-        "reward": "ARAIS"
+        "reward": "みるく"
       },
       {
         "no": "11",
-        "cumulative": 630,
-        "unlockEl": "しゅわしゅわちほー",
+        "cumulative": 666,
+        "unlockEl": "Xenovcipher",
+        "song": "Xenovcipher",
+        "isSongOnly": true,
+        "reward": "Xenovcipher"
+      },
+      {
+        "no": "12",
+        "cumulative": 800,
+        "unlockEl": "しゅわしゅわちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "しゅわしゅわちほー"
+        "reward": "しゅわしゅわちほー2"
       }
     ]
   },
@@ -4499,82 +4251,74 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "でらっくま",
-        "song": "でらっくま",
+        "unlockEl": "あおはるっくま",
+        "song": "あおはるっくま",
         "isSongOnly": true,
-        "reward": "でらっくま"
+        "reward": "あおはるっくま"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "でらっくmaimai♪てんてこまい!",
-        "song": "でらっくmaimai♪てんてこまい!",
+        "cumulative": 12,
+        "unlockEl": "ここからはじまるプロローグ。",
+        "song": "ここからはじまるプロローグ。",
         "isSongOnly": true,
-        "reward": "でらっくmaimai♪てんてこまい!"
+        "reward": "ここからはじまるプロローグ。"
       },
       {
         "no": "3",
         "cumulative": 30,
-        "unlockEl": "いえてぃっくま",
-        "song": "いえてぃっくま",
+        "unlockEl": "にんじゃっくま",
+        "song": "にんじゃっくま",
         "isSongOnly": true,
-        "reward": "いえてぃっくま"
+        "reward": "にんじゃっくま"
       },
       {
         "no": "4",
         "cumulative": 40,
-        "unlockEl": "超常マイマイン",
-        "song": "超常マイマイン",
+        "unlockEl": "絡めトリック利己ライザー",
+        "song": "絡めトリック利己ライザー",
         "isSongOnly": true,
-        "reward": "超常マイマイン"
+        "reward": "絡めトリック利己ライザー"
       },
       {
         "no": "5",
         "cumulative": 95,
-        "unlockEl": "りすっくま",
-        "song": "りすっくま",
+        "unlockEl": "どらごっくま",
+        "song": "どらごっくま",
         "isSongOnly": true,
-        "reward": "りすっくま"
+        "reward": "どらごっくま"
       },
       {
         "no": "6",
         "cumulative": 250,
-        "unlockEl": "P-qoq",
-        "song": "P-qoq",
+        "unlockEl": "モ°ルモ°ル",
+        "song": "モ°ルモ°ル",
         "isSongOnly": true,
-        "reward": "P-qoq"
+        "reward": "モ°ルモ°ル"
       },
       {
         "no": "7",
         "cumulative": 800,
-        "unlockEl": "ぱんだっくま",
-        "song": "ぱんだっくま",
+        "unlockEl": "えんじぇっくま",
+        "song": "えんじぇっくま",
         "isSongOnly": true,
-        "reward": "ぱんだっくま"
+        "reward": "えんじぇっくま"
       },
       {
         "no": "8",
-        "cumulative": 2900,
-        "unlockEl": "バーチャルダム　ネーション",
-        "song": "バーチャルダム　ネーション",
+        "cumulative": 3200,
+        "unlockEl": "UniTas",
+        "song": "UniTas",
         "isSongOnly": true,
-        "reward": "バーチャルダム　ネーション"
+        "reward": "UniTas"
       },
       {
         "no": "9",
-        "cumulative": 4000,
-        "unlockEl": "みつよしっくま",
-        "song": "みつよしっくま",
+        "cumulative": 5600,
+        "unlockEl": "くろばらっくま",
+        "song": "くろばらっくま",
         "isSongOnly": true,
-        "reward": "みつよしっくま"
-      },
-      {
-        "no": "10",
-        "cumulative": 6800,
-        "unlockEl": "MAXRAGE",
-        "song": "MAXRAGE",
-        "isSongOnly": true,
-        "reward": "MAXRAGE"
+        "reward": "くろばらっくま"
       }
     ]
   },
@@ -4685,98 +4429,114 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "maiぱっど",
-        "song": "maiぱっど",
+        "unlockEl": "しゃま（さーくるぷらす）",
+        "song": "しゃま（さーくるぷらす）",
         "isSongOnly": true,
-        "reward": "maiぱっど"
+        "reward": "しゃま（さーくるぷらす）"
       },
       {
         "no": "2",
         "cumulative": 30,
-        "unlockEl": "CiRCLE CAMPAiGN",
-        "song": "CiRCLE CAMPAiGN",
+        "unlockEl": "KNØCK ØUT!!",
+        "song": "KNØCK ØUT!!",
         "isSongOnly": true,
-        "reward": "CiRCLE CAMPAiGN"
+        "reward": "KNØCK ØUT!!"
       },
       {
         "no": "3",
         "cumulative": 50,
-        "unlockEl": "らいむっくま（さーくる）",
-        "song": "らいむっくま（さーくる）",
+        "unlockEl": "シフォン（さーくるぷらす）",
+        "song": "シフォン（さーくるぷらす）",
         "isSongOnly": true,
-        "reward": "らいむっくま（さーくる）"
+        "reward": "シフォン（さーくるぷらす）"
       },
       {
         "no": "4",
-        "cumulative": 125,
-        "unlockEl": "れもんっくま（さーくる）",
-        "song": "れもんっくま（さーくる）",
+        "cumulative": 100,
+        "unlockEl": "乙姫（Aides）",
+        "song": "乙姫（Aides）",
         "isSongOnly": true,
-        "reward": "れもんっくま（さーくる）"
+        "reward": "乙姫（Aides）"
       },
       {
         "no": "5",
-        "cumulative": 200,
-        "unlockEl": "でらっくま（さーくる）",
-        "song": "でらっくま（さーくる）",
+        "cumulative": 150,
+        "unlockEl": "Aides",
+        "song": "Aides",
         "isSongOnly": true,
-        "reward": "でらっくま（さーくる）"
+        "reward": "Aides"
       },
       {
         "no": "6",
-        "cumulative": 300,
-        "unlockEl": "Magical Paradox",
-        "song": "Magical Paradox",
-        "isSongOnly": true,
-        "reward": "Magical Paradox"
+        "cumulative": 175,
+        "unlockEl": "トリコロちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "トリコロちほー2"
       },
       {
         "no": "7",
-        "cumulative": 350,
-        "unlockEl": "トリコロちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "トリコロちほー"
+        "cumulative": 200,
+        "unlockEl": "ソルト（Treasure Chest Expedition）",
+        "song": "ソルト（Treasure Chest Expedition）",
+        "isSongOnly": true,
+        "reward": "ソルト（Treasure Chest Expedition）"
       },
       {
         "no": "8",
-        "cumulative": 400,
-        "unlockEl": "シフォン（さーくる）",
-        "song": "シフォン（さーくる）",
+        "cumulative": 250,
+        "unlockEl": "ラズ（Treasure Chest Expedition）",
+        "song": "ラズ（Treasure Chest Expedition）",
         "isSongOnly": true,
-        "reward": "シフォン（さーくる）"
+        "reward": "ラズ（Treasure Chest Expedition）"
       },
       {
         "no": "9",
-        "cumulative": 475,
-        "unlockEl": "しゃま（さーくる）",
-        "song": "しゃま（さーくる）",
+        "cumulative": 300,
+        "unlockEl": "シフォン（Treasure Chest Expedition）",
+        "song": "シフォン（Treasure Chest Expedition）",
         "isSongOnly": true,
-        "reward": "しゃま（さーくる）"
+        "reward": "シフォン（Treasure Chest Expedition）"
       },
       {
         "no": "10",
-        "cumulative": 550,
-        "unlockEl": "乙姫（廃墟にいますキャンペーン）",
-        "song": "乙姫（廃墟にいますキャンペーン）",
+        "cumulative": 400,
+        "unlockEl": "Treasure Chest Expedition",
+        "song": "Treasure Chest Expedition",
         "isSongOnly": true,
-        "reward": "乙姫（廃墟にいますキャンペーン）"
+        "reward": "Treasure Chest Expedition"
       },
       {
         "no": "11",
-        "cumulative": 700,
-        "unlockEl": "殿ッ！？ご乱心！？",
-        "song": "殿ッ！？ご乱心！？",
+        "cumulative": 450,
+        "unlockEl": "しゃま（Break The Speakers）",
+        "song": "しゃま（Break The Speakers）",
         "isSongOnly": true,
-        "reward": "殿ッ！？ご乱心！？"
+        "reward": "しゃま（Break The Speakers）"
       },
       {
         "no": "12",
+        "cumulative": 500,
+        "unlockEl": "みるく（Break The Speakers）",
+        "song": "みるく（Break The Speakers）",
+        "isSongOnly": true,
+        "reward": "みるく（Break The Speakers）"
+      },
+      {
+        "no": "13",
+        "cumulative": 700,
+        "unlockEl": "ソテリア",
+        "song": "ソテリア",
+        "isSongOnly": true,
+        "reward": "ソテリア"
+      },
+      {
+        "no": "14",
         "cumulative": 800,
-        "unlockEl": "トリコロちほー",
+        "unlockEl": "トリコロちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "トリコロちほー"
+        "reward": "トリコロちほー2"
       }
     ]
   },
@@ -4887,98 +4647,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "ラズ（ふぇすてぃばる）",
-        "song": "ラズ（ふぇすてぃばる）",
+        "unlockEl": "ラズ（ツムギボシ）",
+        "song": "ラズ（ツムギボシ）",
         "isSongOnly": true,
-        "reward": "ラズ（ふぇすてぃばる）"
+        "reward": "ラズ（ツムギボシ）"
       },
       {
         "no": "2",
         "cumulative": 30,
-        "unlockEl": "ホシシズク",
-        "song": "ホシシズク",
+        "unlockEl": "トノサマビーム",
+        "song": "トノサマビーム",
         "isSongOnly": true,
-        "reward": "ホシシズク"
+        "reward": "トノサマビーム"
       },
       {
         "no": "3",
         "cumulative": 70,
-        "unlockEl": "シフォン（ふぇすてぃばる）",
-        "song": "シフォン（ふぇすてぃばる）",
+        "unlockEl": "シフォン（ツムギボシ）",
+        "song": "シフォン（ツムギボシ）",
         "isSongOnly": true,
-        "reward": "シフォン（ふぇすてぃばる）"
+        "reward": "シフォン（ツムギボシ）"
       },
       {
         "no": "4",
         "cumulative": 120,
-        "unlockEl": "Rainbow Rush Story",
-        "song": "Rainbow Rush Story",
+        "unlockEl": "enchanted wanderer",
+        "song": "enchanted wanderer",
         "isSongOnly": true,
-        "reward": "Rainbow Rush Story"
+        "reward": "enchanted wanderer"
       },
       {
         "no": "5",
         "cumulative": 170,
-        "unlockEl": "ソルト（ふぇすてぃばる）",
-        "song": "ソルト（ふぇすてぃばる）",
+        "unlockEl": "ソルト（ツムギボシ）",
+        "song": "ソルト（ツムギボシ）",
         "isSongOnly": true,
-        "reward": "ソルト（ふぇすてぃばる）"
+        "reward": "ソルト（ツムギボシ）"
       },
       {
         "no": "6",
         "cumulative": 230,
-        "unlockEl": "ハピフェスちほー",
+        "unlockEl": "ハピフェスちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "ハピフェスちほー"
+        "reward": "ハピフェスちほー2"
       },
       {
         "no": "7",
         "cumulative": 290,
-        "unlockEl": "でらっくま（ふぇすてぃばる）",
-        "song": "でらっくま（ふぇすてぃばる）",
+        "unlockEl": "ダンディ・ダン（ツムギボシ）",
+        "song": "ダンディ・ダン（ツムギボシ）",
         "isSongOnly": true,
-        "reward": "でらっくま（ふぇすてぃばる）"
+        "reward": "ダンディ・ダン（ツムギボシ）"
       },
       {
         "no": "8",
         "cumulative": 360,
-        "unlockEl": "Tricolor⁂circuS",
-        "song": "Tricolor⁂circuS",
+        "unlockEl": "Comet Panto Men!",
+        "song": "Comet Panto Men!",
         "isSongOnly": true,
-        "reward": "Tricolor⁂circuS"
+        "reward": "Comet Panto Men!"
       },
       {
         "no": "9",
         "cumulative": 440,
-        "unlockEl": "らいむっくま（ふぇすてぃばる）",
-        "song": "らいむっくま（ふぇすてぃばる）",
+        "unlockEl": "エリザビー（ツムギボシ）",
+        "song": "エリザビー（ツムギボシ）",
         "isSongOnly": true,
-        "reward": "らいむっくま（ふぇすてぃばる）"
+        "reward": "エリザビー（ツムギボシ）"
       },
       {
         "no": "10",
-        "cumulative": 530,
-        "unlockEl": "れもんっくま（ふぇすてぃばる）",
-        "song": "れもんっくま（ふぇすてぃばる）",
+        "cumulative": 700,
+        "unlockEl": "ツムギボシ",
+        "song": "ツムギボシ",
         "isSongOnly": true,
-        "reward": "れもんっくま（ふぇすてぃばる）"
+        "reward": "ツムギボシ"
       },
       {
         "no": "11",
-        "cumulative": 700,
-        "unlockEl": "［X］",
-        "song": "［X］",
-        "isSongOnly": true,
-        "reward": "［X］"
-      },
-      {
-        "no": "12",
         "cumulative": 800,
-        "unlockEl": "ハピフェスちほー",
+        "unlockEl": "ハピフェスちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "ハピフェスちほー"
+        "reward": "ハピフェスちほー2"
       }
     ]
   },
@@ -5105,114 +4857,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "乙姫（ばでぃーず）",
-        "song": "乙姫（ばでぃーず）",
+        "unlockEl": "乙姫（ばでぃーずぷらす）",
+        "song": "乙姫（ばでぃーずぷらす）",
         "isSongOnly": true,
-        "reward": "乙姫（ばでぃーず）"
+        "reward": "乙姫（ばでぃーずぷらす）"
       },
       {
         "no": "2",
-        "cumulative": 15,
-        "unlockEl": "ラズ（ばでぃーず）",
-        "song": "ラズ（ばでぃーず）",
+        "cumulative": 30,
+        "unlockEl": "エスオーエス",
+        "song": "エスオーエス",
         "isSongOnly": true,
-        "reward": "ラズ（ばでぃーず）"
+        "reward": "エスオーエス"
       },
       {
         "no": "3",
-        "cumulative": 30,
-        "unlockEl": "NOIZY BOUNCE",
-        "song": "NOIZY BOUNCE",
+        "cumulative": 70,
+        "unlockEl": "ラズ（ばでぃーずぷらす）",
+        "song": "ラズ（ばでぃーずぷらす）",
         "isSongOnly": true,
-        "reward": "NOIZY BOUNCE"
+        "reward": "ラズ（ばでぃーずぷらす）"
       },
       {
         "no": "4",
-        "cumulative": 70,
-        "unlockEl": "SDダンディ・ダン",
-        "song": "SDダンディ・ダン",
+        "cumulative": 140,
+        "unlockEl": "のじゃロリック",
+        "song": "のじゃロリック",
         "isSongOnly": true,
-        "reward": "SDダンディ・ダン"
+        "reward": "のじゃロリック"
       },
       {
         "no": "5",
-        "cumulative": 120,
-        "unlockEl": "サンバディ！",
-        "song": "サンバディ！",
+        "cumulative": 200,
+        "unlockEl": "乙姫（のじゃロリック）",
+        "song": "乙姫（のじゃロリック）",
         "isSongOnly": true,
-        "reward": "サンバディ！"
+        "reward": "乙姫（のじゃロリック）"
       },
       {
         "no": "6",
-        "cumulative": 160,
-        "unlockEl": "SD亀",
-        "song": "SD亀",
-        "isSongOnly": true,
-        "reward": "SD亀"
+        "cumulative": 280,
+        "unlockEl": "パーリィちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "パーリィちほー2"
       },
       {
         "no": "7",
-        "cumulative": 210,
-        "unlockEl": "SD鯛",
-        "song": "SD鯛",
+        "cumulative": 400,
+        "unlockEl": "Edelweiss",
+        "song": "Edelweiss",
         "isSongOnly": true,
-        "reward": "SD鯛"
+        "reward": "Edelweiss"
       },
       {
         "no": "8",
-        "cumulative": 260,
-        "unlockEl": "パーリィちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "パーリィちほー"
+        "cumulative": 550,
+        "unlockEl": "ラズ（のじゃロリック）",
+        "song": "ラズ（のじゃロリック）",
+        "isSongOnly": true,
+        "reward": "ラズ（のじゃロリック）"
       },
       {
         "no": "9",
-        "cumulative": 330,
-        "unlockEl": "SD光吉猛修",
-        "song": "SD光吉猛修",
+        "cumulative": 800,
+        "unlockEl": "QuiQ",
+        "song": "QuiQ",
         "isSongOnly": true,
-        "reward": "SD光吉猛修"
+        "reward": "QuiQ"
       },
       {
         "no": "10",
-        "cumulative": 400,
-        "unlockEl": "Horoscope Express",
-        "song": "Horoscope Express",
-        "isSongOnly": true,
-        "reward": "Horoscope Express"
-      },
-      {
-        "no": "11",
-        "cumulative": 500,
-        "unlockEl": "しゃま（Party☆People☆Princess）",
-        "song": "しゃま（Party☆People☆Princess）",
-        "isSongOnly": true,
-        "reward": "しゃま（Party☆People☆Princess）"
-      },
-      {
-        "no": "12",
-        "cumulative": 600,
-        "unlockEl": "みるく（Party☆People☆Princess）",
-        "song": "みるく（Party☆People☆Princess）",
-        "isSongOnly": true,
-        "reward": "みるく（Party☆People☆Princess）"
-      },
-      {
-        "no": "13",
-        "cumulative": 700,
-        "unlockEl": "Party☆People☆Princess",
-        "song": "Party☆People☆Princess",
-        "isSongOnly": true,
-        "reward": "Party☆People☆Princess"
-      },
-      {
-        "no": "14",
-        "cumulative": 800,
-        "unlockEl": "パーリィちほー",
+        "cumulative": 900,
+        "unlockEl": "パーリィちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "パーリィちほー"
+        "reward": "パーリィちほー2"
       }
     ]
   },
@@ -5315,90 +5035,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "でらっくま（ゆにばーす）",
-        "song": "でらっくま（ゆにばーす）",
+        "unlockEl": "ちびみるく(※)",
+        "song": "ちびみるく(※)",
         "isSongOnly": true,
-        "reward": "でらっくま（ゆにばーす）"
+        "reward": "ちびみるく(※)"
       },
       {
         "no": "2",
-        "cumulative": 36,
-        "unlockEl": "とびだせ！TO THE COSMIC!!",
-        "song": "とびだせ！TO THE COSMIC!!",
+        "cumulative": 35,
+        "unlockEl": "ミルキースター・シューティングスター",
+        "song": "ミルキースター・シューティングスター",
         "isSongOnly": true,
-        "reward": "とびだせ！TO THE COSMIC!!"
+        "reward": "ミルキースター・シューティングスター"
       },
       {
         "no": "3",
-        "cumulative": 72,
-        "unlockEl": "れもんっくま（ゆにばーす）",
-        "song": "れもんっくま（ゆにばーす）",
+        "cumulative": 70,
+        "unlockEl": "SDしゃま",
+        "song": "SDしゃま",
         "isSongOnly": true,
-        "reward": "れもんっくま（ゆにばーす）"
+        "reward": "SDしゃま"
       },
       {
         "no": "4",
-        "cumulative": 180,
-        "unlockEl": "噛み係",
-        "song": "噛み係",
+        "cumulative": 120,
+        "unlockEl": "ｉｓｏｐｈｏｔｅ",
+        "song": "ｉｓｏｐｈｏｔｅ",
         "isSongOnly": true,
-        "reward": "噛み係"
+        "reward": "ｉｓｏｐｈｏｔｅ"
       },
       {
         "no": "5",
-        "cumulative": 216,
-        "unlockEl": "らいむっくま（ゆにばーす）",
-        "song": "らいむっくま（ゆにばーす）",
+        "cumulative": 180,
+        "unlockEl": "SDみるく",
+        "song": "SDみるく",
         "isSongOnly": true,
-        "reward": "らいむっくま（ゆにばーす）"
+        "reward": "SDみるく"
       },
       {
         "no": "6",
-        "cumulative": 276,
-        "unlockEl": "宇宙すてーしょんちほー",
+        "cumulative": 240,
+        "unlockEl": "宇宙すてーしょんちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "宇宙すてーしょんちほー"
+        "reward": "宇宙すてーしょんちほー2"
       },
       {
         "no": "7",
-        "cumulative": 324,
-        "unlockEl": "しゃま（ゆにばーす）",
-        "song": "しゃま（ゆにばーす）",
+        "cumulative": 300,
+        "unlockEl": "金の牛乳瓶",
+        "song": "金の牛乳瓶",
         "isSongOnly": true,
-        "reward": "しゃま（ゆにばーす）"
+        "reward": "金の牛乳瓶"
       },
       {
         "no": "8",
-        "cumulative": 468,
-        "unlockEl": "トリアージ",
-        "song": "トリアージ",
+        "cumulative": 450,
+        "unlockEl": "パラマウント☆ショータイム！！",
+        "song": "パラマウント☆ショータイム！！",
         "isSongOnly": true,
-        "reward": "トリアージ"
+        "reward": "パラマウント☆ショータイム！！"
       },
       {
         "no": "9",
-        "cumulative": 504,
-        "unlockEl": "みるく（ゆにばーす）",
-        "song": "みるく（ゆにばーす）",
+        "cumulative": 550,
+        "unlockEl": "Joker",
+        "song": "Joker",
         "isSongOnly": true,
-        "reward": "みるく（ゆにばーす）"
+        "reward": "Joker"
       },
       {
         "no": "10",
-        "cumulative": 684,
-        "unlockEl": "NAGAREBOSHI☆ROCKET",
-        "song": "NAGAREBOSHI☆ROCKET",
+        "cumulative": 700,
+        "unlockEl": "Strive against fate",
+        "song": "Strive against fate",
         "isSongOnly": true,
-        "reward": "NAGAREBOSHI☆ROCKET"
+        "reward": "Strive against fate"
       },
       {
         "no": "11",
         "cumulative": 800,
-        "unlockEl": "宇宙すてーしょんちほー",
+        "unlockEl": "宇宙すてーしょんちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "宇宙すてーしょんちほー"
+        "reward": "宇宙すてーしょんちほー2"
       }
     ]
   },
@@ -5461,50 +5181,50 @@
       {
         "no": "1",
         "cumulative": 3000,
-        "unlockEl": "しゅわっしゅわ！　～りゅうぐう～",
-        "song": "しゅわっしゅわ！　～りゅうぐう～",
+        "unlockEl": "約束のしゅわーらんど",
+        "song": "約束のしゅわーらんど",
         "isSongOnly": true,
-        "reward": "しゅわっしゅわ！　～りゅうぐう～"
+        "reward": "約束のしゅわーらんど"
       },
       {
         "no": "2",
         "cumulative": 20000,
-        "unlockEl": "竜宮城のなつやすみ",
-        "song": "竜宮城のなつやすみ",
+        "unlockEl": "らいむっくま＆れもんっくま",
+        "song": "らいむっくま＆れもんっくま",
         "isSongOnly": true,
-        "reward": "竜宮城のなつやすみ"
+        "reward": "らいむっくま＆れもんっくま"
       },
       {
         "no": "3",
         "cumulative": 40000,
-        "unlockEl": "しゅわっしゅわ！　～かふぇみるく～",
-        "song": "しゅわっしゅわ！　～かふぇみるく～",
+        "unlockEl": "ぱりぴっくま",
+        "song": "ぱりぴっくま",
         "isSongOnly": true,
-        "reward": "しゅわっしゅわ！　～かふぇみるく～"
+        "reward": "ぱりぴっくま"
       },
       {
         "no": "4",
         "cumulative": 60000,
-        "unlockEl": "本日のCAFE　MiLKはおやすみです。",
-        "song": "本日のCAFE　MiLKはおやすみです。",
+        "unlockEl": "すりりんぐでしゅわりんぐ、じゃ！",
+        "song": "すりりんぐでしゅわりんぐ、じゃ！",
         "isSongOnly": true,
-        "reward": "本日のCAFE　MiLKはおやすみです。"
+        "reward": "すりりんぐでしゅわりんぐ、じゃ！"
       },
       {
         "no": "5",
         "cumulative": 80000,
-        "unlockEl": "しゅわっしゅわ！　～しゃまみるく～",
-        "song": "しゅわっしゅわ！　～しゃまみるく～",
+        "unlockEl": "はっぴーばかんす",
+        "song": "はっぴーばかんす",
         "isSongOnly": true,
-        "reward": "しゅわっしゅわ！　～しゃまみるく～"
+        "reward": "はっぴーばかんす"
       },
       {
         "no": "6",
         "cumulative": 100000,
-        "unlockEl": "クリームソーダ、ひとくちほしいにゃ～！",
-        "song": "クリームソーダ、ひとくちほしいにゃ～！",
+        "unlockEl": "光吉カーニバル",
+        "song": "光吉カーニバル",
         "isSongOnly": true,
-        "reward": "クリームソーダ、ひとくちほしいにゃ～！"
+        "reward": "光吉カーニバル"
       }
     ]
   },
@@ -5583,66 +5303,66 @@
       {
         "no": "1",
         "cumulative": 99999,
-        "unlockEl": "しゃま",
-        "song": "しゃま",
+        "unlockEl": "maimaiちゃん",
+        "song": "maimaiちゃん",
         "isSongOnly": true,
-        "reward": "しゃま"
+        "reward": "maimaiちゃん"
       },
       {
         "no": "2",
-        "cumulative": 999999,
-        "unlockEl": "みるく",
-        "song": "みるく",
+        "cumulative": 499999,
+        "unlockEl": "HAPPYYYY DX",
+        "song": "HAPPYYYY DX",
         "isSongOnly": true,
-        "reward": "みるく"
+        "reward": "HAPPYYYY DX"
       },
       {
         "no": "3",
-        "cumulative": 1999999,
-        "unlockEl": "乙姫",
-        "song": "乙姫",
+        "cumulative": 999999,
+        "unlockEl": "はっぴー",
+        "song": "はっぴー",
         "isSongOnly": true,
-        "reward": "乙姫"
+        "reward": "はっぴー"
       },
       {
         "no": "4",
-        "cumulative": 2999999,
-        "unlockEl": "ラズ",
-        "song": "ラズ",
+        "cumulative": 1499999,
+        "unlockEl": "しゃまみるく",
+        "song": "しゃまみるく",
         "isSongOnly": true,
-        "reward": "ラズ"
+        "reward": "しゃまみるく"
       },
       {
         "no": "5",
-        "cumulative": 3999999,
-        "unlockEl": "ソルト",
-        "song": "ソルト",
+        "cumulative": 1999999,
+        "unlockEl": "カメ",
+        "song": "カメ",
         "isSongOnly": true,
-        "reward": "ソルト"
+        "reward": "カメ"
       },
       {
         "no": "6",
-        "cumulative": 4999999,
-        "unlockEl": "シフォン",
-        "song": "シフォン",
+        "cumulative": 2499999,
+        "unlockEl": "maimai 集合",
+        "song": "maimai 集合",
         "isSongOnly": true,
-        "reward": "シフォン"
+        "reward": "maimai 集合"
       },
       {
         "no": "7",
-        "cumulative": 9999999,
-        "unlockEl": "たぬっくま",
-        "song": "たぬっくま",
+        "cumulative": 2999999,
+        "unlockEl": "タイ",
+        "song": "タイ",
         "isSongOnly": true,
-        "reward": "たぬっくま"
+        "reward": "タイ"
       },
       {
-        "no": "9",
-        "cumulative": 99999999,
-        "unlockEl": "おねむっくま",
-        "song": "おねむっくま",
+        "no": "8",
+        "cumulative": 3999999,
+        "unlockEl": "エリザビー",
+        "song": "エリザビー",
         "isSongOnly": true,
-        "reward": "おねむっくま"
+        "reward": "エリザビー"
       }
     ]
   },
@@ -5801,98 +5521,98 @@
       {
         "no": "4",
         "cumulative": 3000,
-        "unlockEl": "サークルちほー*22",
+        "unlockEl": "サークルちほー2*24",
         "song": "",
         "isSongOnly": false,
-        "reward": "サークルちほー*22"
+        "reward": "サークルちほー2*24"
       },
       {
         "no": "6",
         "cumulative": 20000,
-        "unlockEl": "サークルちほー*23",
+        "unlockEl": "サークルちほー2*25",
         "song": "",
         "isSongOnly": false,
-        "reward": "サークルちほー*23"
+        "reward": "サークルちほー2*25"
       },
       {
         "no": "7",
         "cumulative": 25000,
-        "unlockEl": "ハッハー！地力、ありまーす！",
-        "song": "ハッハー！地力、ありまーす！",
+        "unlockEl": "はっぴーちゃんがデカすぎるんですけど",
+        "song": "はっぴーちゃんがデカすぎるんですけど",
         "isSongOnly": true,
-        "reward": "ハッハー！地力、ありまーす！"
+        "reward": "はっぴーちゃんがデカすぎるんですけど"
       },
       {
         "no": "8",
         "cumulative": 30000,
-        "unlockEl": "EX定時",
-        "song": "EX定時",
+        "unlockEl": "１２ＭＢだったり唆したりもする",
+        "song": "１２ＭＢだったり唆したりもする",
         "isSongOnly": true,
-        "reward": "EX定時"
+        "reward": "１２ＭＢだったり唆したりもする"
       },
       {
         "no": "9",
         "cumulative": 35000,
-        "unlockEl": "バイト終わったから業務行ってくる！",
-        "song": "バイト終わったから業務行ってくる！",
+        "unlockEl": "3人の俺が誕生",
+        "song": "3人の俺が誕生",
         "isSongOnly": true,
-        "reward": "バイト終わったから業務行ってくる！"
+        "reward": "3人の俺が誕生"
       },
       {
         "no": "10",
         "cumulative": 40000,
-        "unlockEl": "だめだ今日文字読めない",
-        "song": "だめだ今日文字読めない",
+        "unlockEl": "仕方がないけど、形式上は土下座してほしい",
+        "song": "仕方がないけど、形式上は土下座してほしい",
         "isSongOnly": true,
-        "reward": "だめだ今日文字読めない"
+        "reward": "仕方がないけど、形式上は土下座してほしい"
       },
       {
         "no": "11",
         "cumulative": 50000,
-        "unlockEl": "横転祭りが……",
-        "song": "横転祭りが……",
+        "unlockEl": "やばすぎマルチタスク",
+        "song": "やばすぎマルチタスク",
         "isSongOnly": true,
-        "reward": "横転祭りが……"
+        "reward": "やばすぎマルチタスク"
       },
       {
         "no": "12",
         "cumulative": 60000,
-        "unlockEl": "占いジャンケン頼む",
-        "song": "占いジャンケン頼む",
+        "unlockEl": "寒いって聞いたことないですね",
+        "song": "寒いって聞いたことないですね",
         "isSongOnly": true,
-        "reward": "占いジャンケン頼む"
+        "reward": "寒いって聞いたことないですね"
       },
       {
         "no": "13",
         "cumulative": 70000,
-        "unlockEl": "平成ジジイゾーンがあって助かった",
-        "song": "平成ジジイゾーンがあって助かった",
+        "unlockEl": "サルベージお手伝いニキ募集",
+        "song": "サルベージお手伝いニキ募集",
         "isSongOnly": true,
-        "reward": "平成ジジイゾーンがあって助かった"
+        "reward": "サルベージお手伝いニキ募集"
       },
       {
         "no": "14",
         "cumulative": 80000,
-        "unlockEl": "パワフルパーティ野郎",
-        "song": "パワフルパーティ野郎",
+        "unlockEl": "16小節の不労所得",
+        "song": "16小節の不労所得",
         "isSongOnly": true,
-        "reward": "パワフルパーティ野郎"
+        "reward": "16小節の不労所得"
       },
       {
         "no": "15",
         "cumulative": 90000,
-        "unlockEl": "俺悪くないけどなんかすまん",
-        "song": "俺悪くないけどなんかすまん",
+        "unlockEl": "苦しい時ほど笑ってもろて",
+        "song": "苦しい時ほど笑ってもろて",
         "isSongOnly": true,
-        "reward": "俺悪くないけどなんかすまん"
+        "reward": "苦しい時ほど笑ってもろて"
       },
       {
         "no": "16",
         "cumulative": 100000,
-        "unlockEl": "神は何人居てもいい",
-        "song": "神は何人居てもいい",
+        "unlockEl": "いや〜、やっぱ入れないと本気の大暴れ出来ないんで……！",
+        "song": "いや〜、やっぱ入れないと本気の大暴れ出来ないんで……！",
         "isSongOnly": true,
-        "reward": "神は何人居てもいい"
+        "reward": "いや〜、やっぱ入れないと本気の大暴れ出来ないんで……！"
       }
     ]
   },
@@ -6002,99 +5722,123 @@
     "rewards": [
       {
         "no": "1",
-        "cumulative": 3000,
-        "unlockEl": "バディーズちほー*14",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "バディーズちほー*14"
+        "cumulative": 500,
+        "unlockEl": "プレゼント×1個",
+        "song": "プレゼント×1個",
+        "isSongOnly": true,
+        "reward": "プレゼント×1個"
       },
       {
         "no": "2",
-        "cumulative": 20000,
-        "unlockEl": "バディーズちほー*15",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "バディーズちほー*15"
+        "cumulative": 1500,
+        "unlockEl": "プレゼント×1個",
+        "song": "プレゼント×1個",
+        "isSongOnly": true,
+        "reward": "プレゼント×1個"
       },
       {
         "no": "3",
-        "cumulative": 25000,
-        "unlockEl": "デスメタルハネムーン",
-        "song": "デスメタルハネムーン",
+        "cumulative": 2500,
+        "unlockEl": "プレゼント×1個",
+        "song": "プレゼント×1個",
         "isSongOnly": true,
-        "reward": "デスメタルハネムーン"
+        "reward": "プレゼント×1個"
       },
       {
         "no": "4",
-        "cumulative": 30000,
-        "unlockEl": "概念化しようかなと思って",
-        "song": "概念化しようかなと思って",
-        "isSongOnly": true,
-        "reward": "概念化しようかなと思って"
-      },
-      {
-        "no": "5",
-        "cumulative": 35000,
-        "unlockEl": "夜残ってたけどどうなったかは謎",
-        "song": "夜残ってたけどどうなったかは謎",
-        "isSongOnly": true,
-        "reward": "夜残ってたけどどうなったかは謎"
+        "cumulative": 3000,
+        "unlockEl": "バディーズちほー2*16",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "バディーズちほー2*16"
       },
       {
         "no": "6",
-        "cumulative": 40000,
-        "unlockEl": "普通に実体だった",
-        "song": "普通に実体だった",
-        "isSongOnly": true,
-        "reward": "普通に実体だった"
+        "cumulative": 20000,
+        "unlockEl": "バディーズちほー2*17",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "バディーズちほー2*17"
       },
       {
         "no": "7",
-        "cumulative": 50000,
-        "unlockEl": "Neo old Style",
-        "song": "Neo old Style",
+        "cumulative": 25000,
+        "unlockEl": "くす玉にします！！！！",
+        "song": "くす玉にします！！！！",
         "isSongOnly": true,
-        "reward": "Neo old Style"
+        "reward": "くす玉にします！！！！"
       },
       {
         "no": "8",
-        "cumulative": 60000,
-        "unlockEl": "オレの仕事道具だよ",
-        "song": "オレの仕事道具だよ",
+        "cumulative": 30000,
+        "unlockEl": "筆が進んでる時に限って早い",
+        "song": "筆が進んでる時に限って早い",
         "isSongOnly": true,
-        "reward": "オレの仕事道具だよ"
+        "reward": "筆が進んでる時に限って早い"
       },
       {
         "no": "9",
-        "cumulative": 70000,
-        "unlockEl": "ちゃんとして…ﾁｬｰﾝ",
-        "song": "ちゃんとして…ﾁｬｰﾝ",
+        "cumulative": 35000,
+        "unlockEl": "後ろ喜んでないよ！",
+        "song": "後ろ喜んでないよ！",
         "isSongOnly": true,
-        "reward": "ちゃんとして…ﾁｬｰﾝ"
+        "reward": "後ろ喜んでないよ！"
       },
       {
         "no": "10",
-        "cumulative": 80000,
-        "unlockEl": "なるべくﾃﾞﾃﾞｰﾝとでっかい印象",
-        "song": "なるべくﾃﾞﾃﾞｰﾝとでっかい印象",
+        "cumulative": 40000,
+        "unlockEl": "しらんしらんしらんで喋ってる。",
+        "song": "しらんしらんしらんで喋ってる。",
         "isSongOnly": true,
-        "reward": "なるべくﾃﾞﾃﾞｰﾝとでっかい印象"
+        "reward": "しらんしらんしらんで喋ってる。"
       },
       {
         "no": "11",
-        "cumulative": 90000,
-        "unlockEl": "水曜18時たすけてほしい枠",
-        "song": "水曜18時たすけてほしい枠",
+        "cumulative": 50000,
+        "unlockEl": "イエーイ！愚問！",
+        "song": "イエーイ！愚問！",
         "isSongOnly": true,
-        "reward": "水曜18時たすけてほしい枠"
+        "reward": "イエーイ！愚問！"
       },
       {
         "no": "12",
-        "cumulative": 100000,
-        "unlockEl": "もちにもちに",
-        "song": "もちにもちに",
+        "cumulative": 60000,
+        "unlockEl": "問題解決が上手",
+        "song": "問題解決が上手",
         "isSongOnly": true,
-        "reward": "もちにもちに"
+        "reward": "問題解決が上手"
+      },
+      {
+        "no": "13",
+        "cumulative": 70000,
+        "unlockEl": "たぶんきっとうれしかったんでしょう",
+        "song": "たぶんきっとうれしかったんでしょう",
+        "isSongOnly": true,
+        "reward": "たぶんきっとうれしかったんでしょう"
+      },
+      {
+        "no": "14",
+        "cumulative": 80000,
+        "unlockEl": "どこから攻めるか、、",
+        "song": "どこから攻めるか、、",
+        "isSongOnly": true,
+        "reward": "どこから攻めるか、、"
+      },
+      {
+        "no": "15",
+        "cumulative": 90000,
+        "unlockEl": "めっちゃ席に居ます",
+        "song": "めっちゃ席に居ます",
+        "isSongOnly": true,
+        "reward": "めっちゃ席に居ます"
+      },
+      {
+        "no": "16",
+        "cumulative": 100000,
+        "unlockEl": "モチベーションバグ",
+        "song": "モチベーションバグ",
+        "isSongOnly": true,
+        "reward": "モチベーションバグ"
       }
     ]
   },
@@ -6205,98 +5949,98 @@
       {
         "no": "1",
         "cumulative": 3000,
-        "unlockEl": "フェスティバルちほー*10",
+        "unlockEl": "フェスティバルちほー2*12",
         "song": "",
         "isSongOnly": false,
-        "reward": "フェスティバルちほー*10"
+        "reward": "フェスティバルちほー2*12"
       },
       {
         "no": "2",
         "cumulative": 20000,
-        "unlockEl": "フェスティバルちほー*11",
+        "unlockEl": "フェスティバルちほー2*13",
         "song": "",
         "isSongOnly": false,
-        "reward": "フェスティバルちほー*11"
+        "reward": "フェスティバルちほー2*13"
       },
       {
         "no": "3",
         "cumulative": 25000,
-        "unlockEl": "し、仕事が早すぎる",
-        "song": "し、仕事が早すぎる",
+        "unlockEl": "あなたの実力から逃げるな",
+        "song": "あなたの実力から逃げるな",
         "isSongOnly": true,
-        "reward": "し、仕事が早すぎる"
+        "reward": "あなたの実力から逃げるな"
       },
       {
         "no": "4",
         "cumulative": 30000,
-        "unlockEl": "インターネットパワー",
-        "song": "インターネットパワー",
+        "unlockEl": "ガッツポーズしたらできた",
+        "song": "ガッツポーズしたらできた",
         "isSongOnly": true,
-        "reward": "インターネットパワー"
+        "reward": "ガッツポーズしたらできた"
       },
       {
         "no": "5",
         "cumulative": 35000,
-        "unlockEl": "もまいらさんくす",
-        "song": "もまいらさんくす",
+        "unlockEl": "そういう需要もある",
+        "song": "そういう需要もある",
         "isSongOnly": true,
-        "reward": "もまいらさんくす"
+        "reward": "そういう需要もある"
       },
       {
         "no": "6",
         "cumulative": 40000,
-        "unlockEl": "つかれたつかれたつかれた！解散！",
-        "song": "つかれたつかれたつかれた！解散！",
+        "unlockEl": "中学生辺りが目覚めそう",
+        "song": "中学生辺りが目覚めそう",
         "isSongOnly": true,
-        "reward": "つかれたつかれたつかれた！解散！"
+        "reward": "中学生辺りが目覚めそう"
       },
       {
         "no": "7",
         "cumulative": 50000,
-        "unlockEl": "KING of パワー",
-        "song": "KING of パワー",
+        "unlockEl": "緩急の急しかない",
+        "song": "緩急の急しかない",
         "isSongOnly": true,
-        "reward": "KING of パワー"
+        "reward": "緩急の急しかない"
       },
       {
         "no": "8",
         "cumulative": 60000,
-        "unlockEl": "金なら出しますから・・・",
-        "song": "金なら出しますから・・・",
+        "unlockEl": "これは天才のアサイン",
+        "song": "これは天才のアサイン",
         "isSongOnly": true,
-        "reward": "金なら出しますから・・・"
+        "reward": "これは天才のアサイン"
       },
       {
         "no": "9",
         "cumulative": 70000,
-        "unlockEl": "企業努力配置",
-        "song": "企業努力配置",
+        "unlockEl": "信用可能人物",
+        "song": "信用可能人物",
         "isSongOnly": true,
-        "reward": "企業努力配置"
+        "reward": "信用可能人物"
       },
       {
         "no": "10",
         "cumulative": 80000,
-        "unlockEl": "そろそろ新人ではない",
-        "song": "そろそろ新人ではない",
+        "unlockEl": "「「致命的で草」」",
+        "song": "「「致命的で草」」",
         "isSongOnly": true,
-        "reward": "そろそろ新人ではない"
+        "reward": "「「致命的で草」」"
       },
       {
         "no": "11",
         "cumulative": 90000,
-        "unlockEl": "この後爆破します",
-        "song": "この後爆破します",
+        "unlockEl": "オレはいったい何をしてるんだろう",
+        "song": "オレはいったい何をしてるんだろう",
         "isSongOnly": true,
-        "reward": "この後爆破します"
+        "reward": "オレはいったい何をしてるんだろう"
       },
       {
         "no": "12",
         "cumulative": 100000,
-        "unlockEl": "マジの超特大",
-        "song": "マジの超特大",
+        "unlockEl": "289年後に販売されます",
+        "song": "289年後に販売されます",
         "isSongOnly": true,
-        "reward": "マジの超特大"
+        "reward": "289年後に販売されます"
       }
     ]
   },
@@ -6455,98 +6199,98 @@
       {
         "no": "4",
         "cumulative": 3000,
-        "unlockEl": "プリズムちほー*18",
+        "unlockEl": "プリズムちほー2*20",
         "song": "",
         "isSongOnly": false,
-        "reward": "プリズムちほー*18"
+        "reward": "プリズムちほー2*20"
       },
       {
         "no": "6",
         "cumulative": 20000,
-        "unlockEl": "プリズムちほー*19",
+        "unlockEl": "プリズムちほー2*21",
         "song": "",
         "isSongOnly": false,
-        "reward": "プリズムちほー*19"
+        "reward": "プリズムちほー2*21"
       },
       {
         "no": "7",
         "cumulative": 25000,
-        "unlockEl": "いくらでもモルモットになります",
-        "song": "いくらでもモルモットになります",
+        "unlockEl": "僕はイヤホンが欲しかっただけなのに…",
+        "song": "僕はイヤホンが欲しかっただけなのに…",
         "isSongOnly": true,
-        "reward": "いくらでもモルモットになります"
+        "reward": "僕はイヤホンが欲しかっただけなのに…"
       },
       {
         "no": "8",
         "cumulative": 30000,
-        "unlockEl": "全て取り除きたいんですよね",
-        "song": "全て取り除きたいんですよね",
+        "unlockEl": "牛乳に…勝ちたい…ッ！！",
+        "song": "牛乳に…勝ちたい…ッ！！",
         "isSongOnly": true,
-        "reward": "全て取り除きたいんですよね"
+        "reward": "牛乳に…勝ちたい…ッ！！"
       },
       {
         "no": "9",
         "cumulative": 35000,
-        "unlockEl": "生産者の顔が見える配置",
-        "song": "生産者の顔が見える配置",
+        "unlockEl": "さっきから別世界の話を聞いてる気分に…",
+        "song": "さっきから別世界の話を聞いてる気分に…",
         "isSongOnly": true,
-        "reward": "生産者の顔が見える配置"
+        "reward": "さっきから別世界の話を聞いてる気分に…"
       },
       {
         "no": "10",
         "cumulative": 40000,
-        "unlockEl": "普通は、そう普通ですね。",
-        "song": "普通は、そう普通ですね。",
+        "unlockEl": "救われる命があった！",
+        "song": "救われる命があった！",
         "isSongOnly": true,
-        "reward": "普通は、そう普通ですね。"
+        "reward": "救われる命があった！"
       },
       {
         "no": "11",
         "cumulative": 50000,
-        "unlockEl": "圧倒的オカン",
-        "song": "圧倒的オカン",
+        "unlockEl": "まだなりません みんなずるい",
+        "song": "まだなりません みんなずるい",
         "isSongOnly": true,
-        "reward": "圧倒的オカン"
+        "reward": "まだなりません みんなずるい"
       },
       {
         "no": "12",
         "cumulative": 60000,
-        "unlockEl": "ザ人間きつい場所ベスト10のひとつ",
-        "song": "ザ人間きつい場所ベスト10のひとつ",
+        "unlockEl": "また一つ賢くなった…感謝……",
+        "song": "また一つ賢くなった…感謝……",
         "isSongOnly": true,
-        "reward": "ザ人間きつい場所ベスト10のひとつ"
+        "reward": "また一つ賢くなった…感謝……"
       },
       {
         "no": "13",
         "cumulative": 70000,
-        "unlockEl": "しゃがまないと無理なのよ",
-        "song": "しゃがまないと無理なのよ",
+        "unlockEl": "取り締まりたいその笑顔",
+        "song": "取り締まりたいその笑顔",
         "isSongOnly": true,
-        "reward": "しゃがまないと無理なのよ"
+        "reward": "取り締まりたいその笑顔"
       },
       {
         "no": "14",
         "cumulative": 80000,
-        "unlockEl": "大体峠に居ます",
-        "song": "大体峠に居ます",
+        "unlockEl": "外しただけなのになんか壊れちゃって…",
+        "song": "外しただけなのになんか壊れちゃって…",
         "isSongOnly": true,
-        "reward": "大体峠に居ます"
+        "reward": "外しただけなのになんか壊れちゃって…"
       },
       {
         "no": "15",
         "cumulative": 90000,
-        "unlockEl": "区分 マネー",
-        "song": "区分 マネー",
+        "unlockEl": "今、まさに鉄火場にいます",
+        "song": "今、まさに鉄火場にいます",
         "isSongOnly": true,
-        "reward": "区分 マネー"
+        "reward": "今、まさに鉄火場にいます"
       },
       {
         "no": "16",
         "cumulative": 100000,
-        "unlockEl": "エンドオブエンドコンテンツ",
-        "song": "エンドオブエンドコンテンツ",
+        "unlockEl": "時間超過王",
+        "song": "時間超過王",
         "isSongOnly": true,
-        "reward": "エンドオブエンドコンテンツ"
+        "reward": "時間超過王"
       }
     ]
   },
@@ -6609,50 +6353,98 @@
       {
         "no": "1",
         "cumulative": 3000,
-        "unlockEl": "ユニバースちほー*5",
+        "unlockEl": "ユニバースちほー2*7",
         "song": "",
         "isSongOnly": false,
-        "reward": "ユニバースちほー*5"
+        "reward": "ユニバースちほー2*7"
       },
       {
         "no": "2",
         "cumulative": 20000,
-        "unlockEl": "ユニバースちほー*6",
+        "unlockEl": "ユニバースちほー2*8",
         "song": "",
         "isSongOnly": false,
-        "reward": "ユニバースちほー*6"
+        "reward": "ユニバースちほー2*8"
       },
       {
         "no": "3",
-        "cumulative": 40000,
-        "unlockEl": "でらっくmaimai♪てんてこまい!",
-        "song": "でらっくmaimai♪てんてこまい!",
+        "cumulative": 25000,
+        "unlockEl": "お前の中の-100号出せよ！！",
+        "song": "お前の中の-100号出せよ！！",
         "isSongOnly": true,
-        "reward": "でらっくmaimai♪てんてこまい!"
+        "reward": "お前の中の-100号出せよ！！"
       },
       {
         "no": "4",
-        "cumulative": 60000,
-        "unlockEl": "でらっくmaimai♪てんてこまい!",
-        "song": "でらっくmaimai♪てんてこまい!",
+        "cumulative": 30000,
+        "unlockEl": "神譜面できた？",
+        "song": "神譜面できた？",
         "isSongOnly": true,
-        "reward": "でらっくmaimai♪てんてこまい!"
+        "reward": "神譜面できた？"
       },
       {
         "no": "5",
-        "cumulative": 80000,
-        "unlockEl": "絡めトリック利己ライザー",
-        "song": "絡めトリック利己ライザー",
+        "cumulative": 35000,
+        "unlockEl": "うどん(そば)*9",
+        "song": "うどん(そば)*9",
         "isSongOnly": true,
-        "reward": "絡めトリック利己ライザー"
+        "reward": "うどん(そば)*9"
       },
       {
         "no": "6",
-        "cumulative": 100000,
-        "unlockEl": "絡めトリック利己ライザー",
-        "song": "絡めトリック利己ライザー",
+        "cumulative": 40000,
+        "unlockEl": "パーフェクトオンスケ",
+        "song": "パーフェクトオンスケ",
         "isSongOnly": true,
-        "reward": "絡めトリック利己ライザー"
+        "reward": "パーフェクトオンスケ"
+      },
+      {
+        "no": "7",
+        "cumulative": 50000,
+        "unlockEl": "工数ガン無視",
+        "song": "工数ガン無視",
+        "isSongOnly": true,
+        "reward": "工数ガン無視"
+      },
+      {
+        "no": "8",
+        "cumulative": 60000,
+        "unlockEl": "勤怠登録をしてコレに「いいね！」",
+        "song": "勤怠登録をしてコレに「いいね！」",
+        "isSongOnly": true,
+        "reward": "勤怠登録をしてコレに「いいね！」"
+      },
+      {
+        "no": "9",
+        "cumulative": 70000,
+        "unlockEl": "遅れます。多分エアコンのせいです。",
+        "song": "遅れます。多分エアコンのせいです。",
+        "isSongOnly": true,
+        "reward": "遅れます。多分エアコンのせいです。"
+      },
+      {
+        "no": "10",
+        "cumulative": 80000,
+        "unlockEl": "レールのないジェットコースターみたい",
+        "song": "レールのないジェットコースターみたい",
+        "isSongOnly": true,
+        "reward": "レールのないジェットコースターみたい"
+      },
+      {
+        "no": "11",
+        "cumulative": 90000,
+        "unlockEl": "これの思い出を出しました。２",
+        "song": "これの思い出を出しました。２",
+        "isSongOnly": true,
+        "reward": "これの思い出を出しました。２"
+      },
+      {
+        "no": "12",
+        "cumulative": 100000,
+        "unlockEl": "多分操作まちがってるだけじゃない？",
+        "song": "多分操作まちがってるだけじゃない？",
+        "isSongOnly": true,
+        "reward": "多分操作まちがってるだけじゃない？"
       }
     ]
   },
@@ -6860,63 +6652,63 @@
       },
       {
         "no": "2",
-        "cumulative": 28,
-        "unlockEl": "REAL VOICE",
-        "song": "REAL VOICE",
+        "cumulative": 36,
+        "unlockEl": "星めぐり、果ての君へ。",
+        "song": "星めぐり、果ての君へ。",
         "isSongOnly": true,
-        "reward": "REAL VOICE"
+        "reward": "星めぐり、果ての君へ。"
       },
       {
         "no": "3",
-        "cumulative": 42,
+        "cumulative": 96,
+        "unlockEl": "トキヤ",
+        "song": "トキヤ",
+        "isSongOnly": true,
+        "reward": "トキヤ"
+      },
+      {
+        "no": "4",
+        "cumulative": 156,
+        "unlockEl": "スローアライズ",
+        "song": "スローアライズ",
+        "isSongOnly": true,
+        "reward": "スローアライズ"
+      },
+      {
+        "no": "5",
+        "cumulative": 228,
+        "unlockEl": "コハク",
+        "song": "コハク",
+        "isSongOnly": true,
+        "reward": "コハク"
+      },
+      {
+        "no": "6",
+        "cumulative": 312,
+        "unlockEl": "スカイストリートちほ―2",
+        "song": "スカイストリートちほ―2",
+        "isSongOnly": true,
+        "reward": "スカイストリートちほ―2"
+      },
+      {
+        "no": "7",
+        "cumulative": 324,
         "unlockEl": "アカツキ",
         "song": "アカツキ",
         "isSongOnly": true,
         "reward": "アカツキ"
       },
       {
-        "no": "4",
-        "cumulative": 70,
-        "unlockEl": "ユメヒバナ",
-        "song": "ユメヒバナ",
-        "isSongOnly": true,
-        "reward": "ユメヒバナ"
-      },
-      {
-        "no": "5",
-        "cumulative": 84,
-        "unlockEl": "ナノハ",
-        "song": "ナノハ",
-        "isSongOnly": true,
-        "reward": "ナノハ"
-      },
-      {
-        "no": "6",
-        "cumulative": 112,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
-      },
-      {
-        "no": "7",
-        "cumulative": 126,
-        "unlockEl": "ソウ",
-        "song": "ソウ",
-        "isSongOnly": true,
-        "reward": "ソウ"
-      },
-      {
         "no": "8",
-        "cumulative": 154,
-        "unlockEl": "オリフィス",
-        "song": "オリフィス",
+        "cumulative": 408,
+        "unlockEl": "生命不詳",
+        "song": "生命不詳",
         "isSongOnly": true,
-        "reward": "オリフィス"
+        "reward": "生命不詳"
       },
       {
         "no": "9",
-        "cumulative": 168,
+        "cumulative": 432,
         "unlockEl": "ノア",
         "song": "ノア",
         "isSongOnly": true,
@@ -6924,19 +6716,19 @@
       },
       {
         "no": "10",
-        "cumulative": 280,
-        "unlockEl": "パラボラ",
-        "song": "パラボラ",
+        "cumulative": 540,
+        "unlockEl": "チエルカ／エソテリカ",
+        "song": "チエルカ／エソテリカ",
         "isSongOnly": true,
-        "reward": "パラボラ"
+        "reward": "チエルカ／エソテリカ"
       },
       {
         "no": "11",
-        "cumulative": 336,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "cumulative": 612,
+        "unlockEl": "スカイストリートちほ―2",
+        "song": "スカイストリートちほ―2",
+        "isSongOnly": true,
+        "reward": "スカイストリートちほ―2"
       }
     ]
   },
@@ -6946,90 +6738,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "モモ",
-        "song": "モモ",
-        "isSongOnly": true,
-        "reward": "モモ"
-      },
-      {
-        "no": "2",
-        "cumulative": 28,
-        "unlockEl": "REAL VOICE",
-        "song": "REAL VOICE",
-        "isSongOnly": true,
-        "reward": "REAL VOICE"
-      },
-      {
-        "no": "3",
-        "cumulative": 42,
         "unlockEl": "アカツキ",
         "song": "アカツキ",
         "isSongOnly": true,
         "reward": "アカツキ"
       },
       {
-        "no": "4",
-        "cumulative": 70,
-        "unlockEl": "ユメヒバナ",
-        "song": "ユメヒバナ",
+        "no": "2",
+        "cumulative": 35,
+        "unlockEl": "RIFFRAIN",
+        "song": "RIFFRAIN",
         "isSongOnly": true,
-        "reward": "ユメヒバナ"
+        "reward": "RIFFRAIN"
+      },
+      {
+        "no": "3",
+        "cumulative": 80,
+        "unlockEl": "コハク",
+        "song": "コハク",
+        "isSongOnly": true,
+        "reward": "コハク"
+      },
+      {
+        "no": "4",
+        "cumulative": 150,
+        "unlockEl": "Falling",
+        "song": "Falling",
+        "isSongOnly": true,
+        "reward": "Falling"
       },
       {
         "no": "5",
-        "cumulative": 84,
-        "unlockEl": "ナノハ",
-        "song": "ナノハ",
+        "cumulative": 210,
+        "unlockEl": "暁",
+        "song": "暁",
         "isSongOnly": true,
-        "reward": "ナノハ"
+        "reward": "暁"
       },
       {
         "no": "6",
-        "cumulative": 112,
-        "unlockEl": "スカイストリートちほー",
+        "cumulative": 270,
+        "unlockEl": "スカイストリートちほー3",
         "song": "",
         "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "reward": "スカイストリートちほー3"
       },
       {
         "no": "7",
-        "cumulative": 126,
-        "unlockEl": "ソウ",
-        "song": "ソウ",
-        "isSongOnly": true,
-        "reward": "ソウ"
-      },
-      {
-        "no": "8",
-        "cumulative": 154,
-        "unlockEl": "オリフィス",
-        "song": "オリフィス",
-        "isSongOnly": true,
-        "reward": "オリフィス"
-      },
-      {
-        "no": "9",
-        "cumulative": 168,
+        "cumulative": 330,
         "unlockEl": "ノア",
         "song": "ノア",
         "isSongOnly": true,
         "reward": "ノア"
       },
       {
-        "no": "10",
-        "cumulative": 280,
-        "unlockEl": "パラボラ",
-        "song": "パラボラ",
+        "no": "8",
+        "cumulative": 500,
+        "unlockEl": "ピリオドサイン",
+        "song": "ピリオドサイン",
         "isSongOnly": true,
-        "reward": "パラボラ"
+        "reward": "ピリオドサイン"
+      },
+      {
+        "no": "9",
+        "cumulative": 600,
+        "unlockEl": "ソウ",
+        "song": "ソウ",
+        "isSongOnly": true,
+        "reward": "ソウ"
+      },
+      {
+        "no": "10",
+        "cumulative": 800,
+        "unlockEl": "群青シグナル",
+        "song": "群青シグナル",
+        "isSongOnly": true,
+        "reward": "群青シグナル"
       },
       {
         "no": "11",
-        "cumulative": 336,
-        "unlockEl": "スカイストリートちほー",
+        "cumulative": 900,
+        "unlockEl": "スカイストリートちほー3",
         "song": "",
         "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "reward": "スカイストリートちほー3"
       }
     ]
   },
@@ -7039,90 +6831,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "モモ",
-        "song": "モモ",
-        "isSongOnly": true,
-        "reward": "モモ"
-      },
-      {
-        "no": "2",
-        "cumulative": 28,
-        "unlockEl": "REAL VOICE",
-        "song": "REAL VOICE",
-        "isSongOnly": true,
-        "reward": "REAL VOICE"
-      },
-      {
-        "no": "3",
-        "cumulative": 42,
         "unlockEl": "アカツキ",
         "song": "アカツキ",
         "isSongOnly": true,
         "reward": "アカツキ"
       },
       {
-        "no": "4",
-        "cumulative": 70,
-        "unlockEl": "ユメヒバナ",
-        "song": "ユメヒバナ",
+        "no": "2",
+        "cumulative": 30,
+        "unlockEl": "アンバークロニクル",
+        "song": "アンバークロニクル",
         "isSongOnly": true,
-        "reward": "ユメヒバナ"
+        "reward": "アンバークロニクル"
+      },
+      {
+        "no": "3",
+        "cumulative": 70,
+        "unlockEl": "ノア（過去）",
+        "song": "ノア（過去）",
+        "isSongOnly": true,
+        "reward": "ノア（過去）"
+      },
+      {
+        "no": "4",
+        "cumulative": 150,
+        "unlockEl": "スカイストリートちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "スカイストリートちほー4"
       },
       {
         "no": "5",
-        "cumulative": 84,
-        "unlockEl": "ナノハ",
-        "song": "ナノハ",
+        "cumulative": 250,
+        "unlockEl": "リフヴェイン",
+        "song": "リフヴェイン",
         "isSongOnly": true,
-        "reward": "ナノハ"
+        "reward": "リフヴェイン"
       },
       {
         "no": "6",
-        "cumulative": 112,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "cumulative": 300,
+        "unlockEl": "コハク",
+        "song": "コハク",
+        "isSongOnly": true,
+        "reward": "コハク"
       },
       {
         "no": "7",
-        "cumulative": 126,
-        "unlockEl": "ソウ",
-        "song": "ソウ",
+        "cumulative": 450,
+        "unlockEl": "宵の鳥",
+        "song": "宵の鳥",
         "isSongOnly": true,
-        "reward": "ソウ"
+        "reward": "宵の鳥"
       },
       {
         "no": "8",
-        "cumulative": 154,
-        "unlockEl": "オリフィス",
-        "song": "オリフィス",
+        "cumulative": 530,
+        "unlockEl": "アカツキ（正装）",
+        "song": "アカツキ（正装）",
         "isSongOnly": true,
-        "reward": "オリフィス"
+        "reward": "アカツキ（正装）"
       },
       {
         "no": "9",
-        "cumulative": 168,
-        "unlockEl": "ノア",
-        "song": "ノア",
+        "cumulative": 800,
+        "unlockEl": "Kairos",
+        "song": "Kairos",
         "isSongOnly": true,
-        "reward": "ノア"
+        "reward": "Kairos"
       },
       {
         "no": "10",
-        "cumulative": 280,
-        "unlockEl": "パラボラ",
-        "song": "パラボラ",
-        "isSongOnly": true,
-        "reward": "パラボラ"
-      },
-      {
-        "no": "11",
-        "cumulative": 336,
-        "unlockEl": "スカイストリートちほー",
+        "cumulative": 900,
+        "unlockEl": "スカイストリートちほー4",
         "song": "",
         "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "reward": "スカイストリートちほー4"
       }
     ]
   },
@@ -7132,90 +6916,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "モモ",
-        "song": "モモ",
-        "isSongOnly": true,
-        "reward": "モモ"
-      },
-      {
-        "no": "2",
-        "cumulative": 28,
-        "unlockEl": "REAL VOICE",
-        "song": "REAL VOICE",
-        "isSongOnly": true,
-        "reward": "REAL VOICE"
-      },
-      {
-        "no": "3",
-        "cumulative": 42,
-        "unlockEl": "アカツキ",
-        "song": "アカツキ",
-        "isSongOnly": true,
-        "reward": "アカツキ"
-      },
-      {
-        "no": "4",
-        "cumulative": 70,
-        "unlockEl": "ユメヒバナ",
-        "song": "ユメヒバナ",
-        "isSongOnly": true,
-        "reward": "ユメヒバナ"
-      },
-      {
-        "no": "5",
-        "cumulative": 84,
-        "unlockEl": "ナノハ",
-        "song": "ナノハ",
-        "isSongOnly": true,
-        "reward": "ナノハ"
-      },
-      {
-        "no": "6",
-        "cumulative": 112,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
-      },
-      {
-        "no": "7",
-        "cumulative": 126,
-        "unlockEl": "ソウ",
-        "song": "ソウ",
-        "isSongOnly": true,
-        "reward": "ソウ"
-      },
-      {
-        "no": "8",
-        "cumulative": 154,
-        "unlockEl": "オリフィス",
-        "song": "オリフィス",
-        "isSongOnly": true,
-        "reward": "オリフィス"
-      },
-      {
-        "no": "9",
-        "cumulative": 168,
         "unlockEl": "ノア",
         "song": "ノア",
         "isSongOnly": true,
         "reward": "ノア"
       },
       {
-        "no": "10",
-        "cumulative": 280,
-        "unlockEl": "パラボラ",
-        "song": "パラボラ",
+        "no": "2",
+        "cumulative": 35,
+        "unlockEl": "フェイクフェイス・フェイルセイフ",
+        "song": "フェイクフェイス・フェイルセイフ",
         "isSongOnly": true,
-        "reward": "パラボラ"
+        "reward": "フェイクフェイス・フェイルセイフ"
+      },
+      {
+        "no": "3",
+        "cumulative": 80,
+        "unlockEl": "ソウ",
+        "song": "ソウ",
+        "isSongOnly": true,
+        "reward": "ソウ"
+      },
+      {
+        "no": "4",
+        "cumulative": 150,
+        "unlockEl": "シックスプラン",
+        "song": "シックスプラン",
+        "isSongOnly": true,
+        "reward": "シックスプラン"
+      },
+      {
+        "no": "5",
+        "cumulative": 210,
+        "unlockEl": "トキヤ",
+        "song": "トキヤ",
+        "isSongOnly": true,
+        "reward": "トキヤ"
+      },
+      {
+        "no": "6",
+        "cumulative": 270,
+        "unlockEl": "スカイストリートちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "スカイストリートちほー5"
+      },
+      {
+        "no": "7",
+        "cumulative": 330,
+        "unlockEl": "ナノハ",
+        "song": "ナノハ",
+        "isSongOnly": true,
+        "reward": "ナノハ"
+      },
+      {
+        "no": "8",
+        "cumulative": 500,
+        "unlockEl": "フタタビ",
+        "song": "フタタビ",
+        "isSongOnly": true,
+        "reward": "フタタビ"
+      },
+      {
+        "no": "9",
+        "cumulative": 600,
+        "unlockEl": "ユウキ",
+        "song": "ユウキ",
+        "isSongOnly": true,
+        "reward": "ユウキ"
+      },
+      {
+        "no": "10",
+        "cumulative": 800,
+        "unlockEl": "ふらふらふら、",
+        "song": "ふらふらふら、",
+        "isSongOnly": true,
+        "reward": "ふらふらふら、"
       },
       {
         "no": "11",
-        "cumulative": 336,
-        "unlockEl": "スカイストリートちほー",
+        "cumulative": 900,
+        "unlockEl": "スカイストリートちほー5",
         "song": "",
         "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "reward": "スカイストリートちほー5"
       }
     ]
   },
@@ -7225,90 +7009,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "モモ",
-        "song": "モモ",
-        "isSongOnly": true,
-        "reward": "モモ"
-      },
-      {
-        "no": "2",
-        "cumulative": 28,
-        "unlockEl": "REAL VOICE",
-        "song": "REAL VOICE",
-        "isSongOnly": true,
-        "reward": "REAL VOICE"
-      },
-      {
-        "no": "3",
-        "cumulative": 42,
         "unlockEl": "アカツキ",
         "song": "アカツキ",
         "isSongOnly": true,
         "reward": "アカツキ"
       },
       {
-        "no": "4",
-        "cumulative": 70,
-        "unlockEl": "ユメヒバナ",
-        "song": "ユメヒバナ",
+        "no": "2",
+        "cumulative": 30,
+        "unlockEl": "パラドクスイヴ",
+        "song": "パラドクスイヴ",
         "isSongOnly": true,
-        "reward": "ユメヒバナ"
+        "reward": "パラドクスイヴ"
+      },
+      {
+        "no": "3",
+        "cumulative": 100,
+        "unlockEl": "コハク",
+        "song": "コハク",
+        "isSongOnly": true,
+        "reward": "コハク"
+      },
+      {
+        "no": "4",
+        "cumulative": 150,
+        "unlockEl": "スカイストリートちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "スカイストリートちほー6"
       },
       {
         "no": "5",
-        "cumulative": 84,
-        "unlockEl": "ナノハ",
-        "song": "ナノハ",
+        "cumulative": 200,
+        "unlockEl": "天空の王",
+        "song": "天空の王",
         "isSongOnly": true,
-        "reward": "ナノハ"
+        "reward": "天空の王"
       },
       {
         "no": "6",
-        "cumulative": 112,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "cumulative": 300,
+        "unlockEl": "YKWTD",
+        "song": "YKWTD",
+        "isSongOnly": true,
+        "reward": "YKWTD"
       },
       {
         "no": "7",
-        "cumulative": 126,
-        "unlockEl": "ソウ",
-        "song": "ソウ",
+        "cumulative": 350,
+        "unlockEl": "大地の王",
+        "song": "大地の王",
         "isSongOnly": true,
-        "reward": "ソウ"
+        "reward": "大地の王"
       },
       {
         "no": "8",
-        "cumulative": 154,
-        "unlockEl": "オリフィス",
-        "song": "オリフィス",
-        "isSongOnly": true,
-        "reward": "オリフィス"
+        "cumulative": 450,
+        "unlockEl": "スカイストリートちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "スカイストリートちほー6"
       },
       {
         "no": "9",
-        "cumulative": 168,
-        "unlockEl": "ノア",
-        "song": "ノア",
+        "cumulative": 600,
+        "unlockEl": "184億回のマルチトニック",
+        "song": "184億回のマルチトニック",
         "isSongOnly": true,
-        "reward": "ノア"
+        "reward": "184億回のマルチトニック"
       },
       {
         "no": "10",
-        "cumulative": 280,
-        "unlockEl": "パラボラ",
-        "song": "パラボラ",
+        "cumulative": 800,
+        "unlockEl": "青の扉",
+        "song": "青の扉",
         "isSongOnly": true,
-        "reward": "パラボラ"
-      },
-      {
-        "no": "11",
-        "cumulative": 336,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "reward": "青の扉"
       }
     ]
   },
@@ -7318,90 +7094,82 @@
       {
         "no": "1",
         "cumulative": 0,
+        "unlockEl": "トキヤ（ぬいぐるみ）",
+        "song": "トキヤ（ぬいぐるみ）",
+        "isSongOnly": true,
+        "reward": "トキヤ（ぬいぐるみ）"
+      },
+      {
+        "no": "2",
+        "cumulative": 150,
+        "unlockEl": "スローグロー",
+        "song": "スローグロー",
+        "isSongOnly": true,
+        "reward": "スローグロー"
+      },
+      {
+        "no": "3",
+        "cumulative": 200,
         "unlockEl": "モモ",
         "song": "モモ",
         "isSongOnly": true,
         "reward": "モモ"
       },
       {
-        "no": "2",
-        "cumulative": 28,
-        "unlockEl": "REAL VOICE",
-        "song": "REAL VOICE",
-        "isSongOnly": true,
-        "reward": "REAL VOICE"
-      },
-      {
-        "no": "3",
-        "cumulative": 42,
-        "unlockEl": "アカツキ",
-        "song": "アカツキ",
-        "isSongOnly": true,
-        "reward": "アカツキ"
-      },
-      {
         "no": "4",
-        "cumulative": 70,
-        "unlockEl": "ユメヒバナ",
-        "song": "ユメヒバナ",
+        "cumulative": 350,
+        "unlockEl": "コハク",
+        "song": "コハク",
         "isSongOnly": true,
-        "reward": "ユメヒバナ"
+        "reward": "コハク"
       },
       {
         "no": "5",
-        "cumulative": 84,
-        "unlockEl": "ナノハ",
-        "song": "ナノハ",
+        "cumulative": 500,
+        "unlockEl": "ECHO,",
+        "song": "ECHO,",
         "isSongOnly": true,
-        "reward": "ナノハ"
+        "reward": "ECHO,"
       },
       {
         "no": "6",
-        "cumulative": 112,
-        "unlockEl": "スカイストリートちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "スカイストリートちほー"
-      },
-      {
-        "no": "7",
-        "cumulative": 126,
-        "unlockEl": "ソウ",
-        "song": "ソウ",
-        "isSongOnly": true,
-        "reward": "ソウ"
-      },
-      {
-        "no": "8",
-        "cumulative": 154,
-        "unlockEl": "オリフィス",
-        "song": "オリフィス",
-        "isSongOnly": true,
-        "reward": "オリフィス"
-      },
-      {
-        "no": "9",
-        "cumulative": 168,
+        "cumulative": 600,
         "unlockEl": "ノア",
         "song": "ノア",
         "isSongOnly": true,
         "reward": "ノア"
       },
       {
-        "no": "10",
-        "cumulative": 280,
-        "unlockEl": "パラボラ",
-        "song": "パラボラ",
+        "no": "7",
+        "cumulative": 800,
+        "unlockEl": "Phase: Theatre",
+        "song": "Phase: Theatre",
         "isSongOnly": true,
-        "reward": "パラボラ"
+        "reward": "Phase: Theatre"
       },
       {
-        "no": "11",
-        "cumulative": 336,
-        "unlockEl": "スカイストリートちほー",
+        "no": "8",
+        "cumulative": 900,
+        "unlockEl": "スカイストリートちほー7",
         "song": "",
         "isSongOnly": false,
-        "reward": "スカイストリートちほー"
+        "reward": "スカイストリートちほー7"
+      },
+      {
+        "no": "9",
+        "cumulative": 1200,
+        "unlockEl": "Sky Trails",
+        "song": "Sky Trails",
+        "isSongOnly": true,
+        "reward": "Sky Trails"
+      },
+      {
+        "no": "10",
+        "cumulative": 1400,
+        "unlockEl": "スカイストリートちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "スカイストリートちほー7"
       }
     ]
   },
@@ -7472,82 +7240,114 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "星咲 あかり",
-        "song": "星咲 あかり",
+        "unlockEl": "星咲 あかり（Transcend Lights）",
+        "song": "星咲 あかり（Transcend Lights）",
         "isSongOnly": true,
-        "reward": "星咲 あかり"
+        "reward": "星咲 あかり（Transcend Lights）"
       },
       {
         "no": "2",
-        "cumulative": 10,
-        "unlockEl": "最強 the サマータイム!!!!!",
-        "song": "最強 the サマータイム!!!!!",
+        "cumulative": 35,
+        "unlockEl": "藤沢 柚子（Transcend Lights）",
+        "song": "藤沢 柚子（Transcend Lights）",
         "isSongOnly": true,
-        "reward": "最強 the サマータイム!!!!!"
+        "reward": "藤沢 柚子（Transcend Lights）"
       },
       {
         "no": "3",
-        "cumulative": 40,
-        "unlockEl": "藤沢 柚子",
-        "song": "藤沢 柚子",
+        "cumulative": 70,
+        "unlockEl": "三角 葵（Transcend Lights）",
+        "song": "三角 葵（Transcend Lights）",
         "isSongOnly": true,
-        "reward": "藤沢 柚子"
+        "reward": "三角 葵（Transcend Lights）"
       },
       {
         "no": "4",
-        "cumulative": 120,
-        "unlockEl": "三角 葵",
-        "song": "三角 葵",
+        "cumulative": 75,
+        "unlockEl": "Transcend Lights",
+        "song": "Transcend Lights",
         "isSongOnly": true,
-        "reward": "三角 葵"
+        "reward": "Transcend Lights"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "日向 千夏",
-        "song": "日向 千夏",
+        "cumulative": 110,
+        "unlockEl": "高瀬 梨緒（シュータードレス）",
+        "song": "高瀬 梨緒（シュータードレス）",
         "isSongOnly": true,
-        "reward": "日向 千夏"
+        "reward": "高瀬 梨緒（シュータードレス）"
       },
       {
         "no": "6",
-        "cumulative": 1000,
-        "unlockEl": "タテマエと本心の大乱闘",
-        "song": "タテマエと本心の大乱闘",
+        "cumulative": 150,
+        "unlockEl": "結城 莉玖（シュータードレス）",
+        "song": "結城 莉玖（シュータードレス）",
         "isSongOnly": true,
-        "reward": "タテマエと本心の大乱闘"
+        "reward": "結城 莉玖（シュータードレス）"
       },
       {
         "no": "7",
-        "cumulative": 2000,
-        "unlockEl": "藍原 椿",
-        "song": "藍原 椿",
+        "cumulative": 190,
+        "unlockEl": "藍原 椿（シュータードレス）",
+        "song": "藍原 椿（シュータードレス）",
         "isSongOnly": true,
-        "reward": "藍原 椿"
+        "reward": "藍原 椿（シュータードレス）"
       },
       {
         "no": "8",
-        "cumulative": 3600,
-        "unlockEl": "UTAKATA",
-        "song": "UTAKATA",
+        "cumulative": 200,
+        "unlockEl": "撩乱乙女†無双劇",
+        "song": "撩乱乙女†無双劇",
         "isSongOnly": true,
-        "reward": "UTAKATA"
+        "reward": "撩乱乙女†無双劇"
       },
       {
         "no": "9",
-        "cumulative": 6000,
-        "unlockEl": "九條 楓",
-        "song": "九條 楓",
+        "cumulative": 250,
+        "unlockEl": "日向 千夏（Transcend Lights）",
+        "song": "日向 千夏（Transcend Lights）",
         "isSongOnly": true,
-        "reward": "九條 楓"
+        "reward": "日向 千夏（Transcend Lights）"
       },
       {
         "no": "10",
-        "cumulative": 19000,
-        "unlockEl": "オンゲキちほー",
+        "cumulative": 300,
+        "unlockEl": "皇城 セツナ（Transcend Lights）",
+        "song": "皇城 セツナ（Transcend Lights）",
+        "isSongOnly": true,
+        "reward": "皇城 セツナ（Transcend Lights）"
+      },
+      {
+        "no": "11",
+        "cumulative": 390,
+        "unlockEl": "See The Light",
+        "song": "See The Light",
+        "isSongOnly": true,
+        "reward": "See The Light"
+      },
+      {
+        "no": "12",
+        "cumulative": 450,
+        "unlockEl": "オンゲキちほー5",
         "song": "",
         "isSongOnly": false,
-        "reward": "オンゲキちほー"
+        "reward": "オンゲキちほー5"
+      },
+      {
+        "no": "13",
+        "cumulative": 540,
+        "unlockEl": "エータ・ベータ・イータ",
+        "song": "エータ・ベータ・イータ",
+        "isSongOnly": true,
+        "reward": "エータ・ベータ・イータ"
+      },
+      {
+        "no": "14",
+        "cumulative": 600,
+        "unlockEl": "オンゲキちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "オンゲキちほー5"
       }
     ]
   },
@@ -7634,74 +7434,74 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "バハムート",
-        "song": "バハムート",
+        "unlockEl": "アスク",
+        "song": "アスク",
         "isSongOnly": true,
-        "reward": "バハムート"
+        "reward": "アスク"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "キリキリ舞Mine",
-        "song": "キリキリ舞Mine",
+        "cumulative": 100,
+        "unlockEl": "隠密あんみつDX",
+        "song": "隠密あんみつDX",
         "isSongOnly": true,
-        "reward": "キリキリ舞Mine"
+        "reward": "隠密あんみつDX"
       },
       {
         "no": "3",
-        "cumulative": 50,
-        "unlockEl": "ニーズヘッグ",
-        "song": "ニーズヘッグ",
+        "cumulative": 150,
+        "unlockEl": "LED",
+        "song": "LED",
         "isSongOnly": true,
-        "reward": "ニーズヘッグ"
+        "reward": "LED"
       },
       {
         "no": "4",
-        "cumulative": 140,
-        "unlockEl": "福宿音屋魂音泉",
-        "song": "福宿音屋魂音泉",
+        "cumulative": 300,
+        "unlockEl": "地球",
+        "song": "地球",
         "isSongOnly": true,
-        "reward": "福宿音屋魂音泉"
+        "reward": "地球"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ファフニール",
-        "song": "ファフニール",
-        "isSongOnly": true,
-        "reward": "ファフニール"
+        "cumulative": 400,
+        "unlockEl": "ドラゴンちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "ドラゴンちほー2"
       },
       {
         "no": "6",
         "cumulative": 600,
-        "unlockEl": "Now or Never",
-        "song": "Now or Never",
+        "unlockEl": "Churros Parlor",
+        "song": "Churros Parlor",
         "isSongOnly": true,
-        "reward": "Now or Never"
+        "reward": "Churros Parlor"
       },
       {
         "no": "7",
-        "cumulative": 1750,
-        "unlockEl": "ラタトスク",
-        "song": "ラタトスク",
+        "cumulative": 700,
+        "unlockEl": "エムブラ",
+        "song": "エムブラ",
         "isSongOnly": true,
-        "reward": "ラタトスク"
+        "reward": "エムブラ"
       },
       {
         "no": "8",
-        "cumulative": 5000,
-        "unlockEl": "一か罰",
-        "song": "一か罰",
+        "cumulative": 1000,
+        "unlockEl": "超熊猫的周遊記（ワンダーパンダートラベラー）",
+        "song": "超熊猫的周遊記（ワンダーパンダートラベラー）",
         "isSongOnly": true,
-        "reward": "一か罰"
+        "reward": "超熊猫的周遊記（ワンダーパンダートラベラー）"
       },
       {
         "no": "9",
-        "cumulative": 9400,
-        "unlockEl": "フレーズベルグ",
-        "song": "フレーズベルグ",
-        "isSongOnly": true,
-        "reward": "フレーズベルグ"
+        "cumulative": 1111,
+        "unlockEl": "ドラゴンちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "ドラゴンちほー2"
       }
     ]
   },
@@ -7711,74 +7511,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "バハムート",
-        "song": "バハムート",
+        "unlockEl": "エムブラ",
+        "song": "エムブラ",
         "isSongOnly": true,
-        "reward": "バハムート"
+        "reward": "エムブラ"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "キリキリ舞Mine",
-        "song": "キリキリ舞Mine",
+        "cumulative": 30,
+        "unlockEl": "RE:INCARNATED DRAGNER",
+        "song": "RE:INCARNATED DRAGNER",
         "isSongOnly": true,
-        "reward": "キリキリ舞Mine"
+        "reward": "RE:INCARNATED DRAGNER"
       },
       {
         "no": "3",
-        "cumulative": 50,
-        "unlockEl": "ニーズヘッグ",
-        "song": "ニーズヘッグ",
+        "cumulative": 70,
+        "unlockEl": "クエレブレ",
+        "song": "クエレブレ",
         "isSongOnly": true,
-        "reward": "ニーズヘッグ"
+        "reward": "クエレブレ"
       },
       {
         "no": "4",
         "cumulative": 140,
-        "unlockEl": "福宿音屋魂音泉",
-        "song": "福宿音屋魂音泉",
+        "unlockEl": "Beginning together!",
+        "song": "Beginning together!",
         "isSongOnly": true,
-        "reward": "福宿音屋魂音泉"
+        "reward": "Beginning together!"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ファフニール",
-        "song": "ファフニール",
+        "cumulative": 200,
+        "unlockEl": "シグルズ",
+        "song": "シグルズ",
         "isSongOnly": true,
-        "reward": "ファフニール"
+        "reward": "シグルズ"
       },
       {
         "no": "6",
-        "cumulative": 600,
-        "unlockEl": "Now or Never",
-        "song": "Now or Never",
-        "isSongOnly": true,
-        "reward": "Now or Never"
+        "cumulative": 280,
+        "unlockEl": "ドラゴンちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "ドラゴンちほー3"
       },
       {
         "no": "7",
-        "cumulative": 1750,
-        "unlockEl": "ラタトスク",
-        "song": "ラタトスク",
+        "cumulative": 400,
+        "unlockEl": "Shining Ray ～僕らの絆～",
+        "song": "Shining Ray ～僕らの絆～",
         "isSongOnly": true,
-        "reward": "ラタトスク"
+        "reward": "Shining Ray ～僕らの絆～"
       },
       {
         "no": "8",
-        "cumulative": 5000,
-        "unlockEl": "一か罰",
-        "song": "一か罰",
+        "cumulative": 550,
+        "unlockEl": "アスク",
+        "song": "アスク",
         "isSongOnly": true,
-        "reward": "一か罰"
+        "reward": "アスク"
       },
       {
         "no": "9",
-        "cumulative": 9400,
-        "unlockEl": "フレーズベルグ",
-        "song": "フレーズベルグ",
+        "cumulative": 800,
+        "unlockEl": "DEVOTION",
+        "song": "DEVOTION",
         "isSongOnly": true,
-        "reward": "フレーズベルグ"
+        "reward": "DEVOTION"
+      },
+      {
+        "no": "10",
+        "cumulative": 900,
+        "unlockEl": "ドラゴンちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "ドラゴンちほー3"
       }
     ]
   },
@@ -7788,74 +7596,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "バハムート",
-        "song": "バハムート",
+        "unlockEl": "シグルズ",
+        "song": "シグルズ",
         "isSongOnly": true,
-        "reward": "バハムート"
+        "reward": "シグルズ"
       },
       {
         "no": "2",
-        "cumulative": 12,
-        "unlockEl": "キリキリ舞Mine",
-        "song": "キリキリ舞Mine",
+        "cumulative": 50,
+        "unlockEl": "概して過誤",
+        "song": "概して過誤",
         "isSongOnly": true,
-        "reward": "キリキリ舞Mine"
+        "reward": "概して過誤"
       },
       {
         "no": "3",
-        "cumulative": 50,
-        "unlockEl": "ニーズヘッグ",
-        "song": "ニーズヘッグ",
+        "cumulative": 100,
+        "unlockEl": "ブリュレ",
+        "song": "ブリュレ",
         "isSongOnly": true,
-        "reward": "ニーズヘッグ"
+        "reward": "ブリュレ"
       },
       {
         "no": "4",
-        "cumulative": 140,
-        "unlockEl": "福宿音屋魂音泉",
-        "song": "福宿音屋魂音泉",
-        "isSongOnly": true,
-        "reward": "福宿音屋魂音泉"
+        "cumulative": 250,
+        "unlockEl": "ドラゴンちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "ドラゴンちほー4"
       },
       {
         "no": "5",
-        "cumulative": 300,
-        "unlockEl": "ファフニール",
-        "song": "ファフニール",
+        "cumulative": 350,
+        "unlockEl": "カラメル",
+        "song": "カラメル",
         "isSongOnly": true,
-        "reward": "ファフニール"
+        "reward": "カラメル"
       },
       {
         "no": "6",
-        "cumulative": 600,
-        "unlockEl": "Now or Never",
-        "song": "Now or Never",
+        "cumulative": 550,
+        "unlockEl": "Unfinished Epic",
+        "song": "Unfinished Epic",
         "isSongOnly": true,
-        "reward": "Now or Never"
+        "reward": "Unfinished Epic"
       },
       {
         "no": "7",
-        "cumulative": 1750,
-        "unlockEl": "ラタトスク",
-        "song": "ラタトスク",
+        "cumulative": 600,
+        "unlockEl": "ドラゴンの王",
+        "song": "ドラゴンの王",
         "isSongOnly": true,
-        "reward": "ラタトスク"
+        "reward": "ドラゴンの王"
       },
       {
         "no": "8",
-        "cumulative": 5000,
-        "unlockEl": "一か罰",
-        "song": "一か罰",
-        "isSongOnly": true,
-        "reward": "一か罰"
+        "cumulative": 800,
+        "unlockEl": "ドラゴンちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "ドラゴンちほー4"
       },
       {
         "no": "9",
-        "cumulative": 9400,
-        "unlockEl": "フレーズベルグ",
-        "song": "フレーズベルグ",
+        "cumulative": 1000,
+        "unlockEl": "忙シー日",
+        "song": "忙シー日",
         "isSongOnly": true,
-        "reward": "フレーズベルグ"
+        "reward": "忙シー日"
+      },
+      {
+        "no": "10",
+        "cumulative": 1200,
+        "unlockEl": "赤の扉",
+        "song": "赤の扉",
+        "isSongOnly": true,
+        "reward": "赤の扉"
       }
     ]
   },
@@ -8190,60 +8006,84 @@
     "mapName": "天界ちほー2",
     "rewards": [
       {
-        "no": "1",
-        "cumulative": 0,
-        "unlockEl": "百合咲ミカ",
-        "song": "百合咲ミカ",
-        "isSongOnly": true,
-        "reward": "百合咲ミカ"
-      },
-      {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 12,
+        "unlockEl": "ジグニュー",
+        "song": "ジグニュー",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "ジグニュー"
       },
       {
         "no": "3",
-        "cumulative": 60,
-        "unlockEl": "白銅寺アズリ",
-        "song": "白銅寺アズリ",
+        "cumulative": 80,
+        "unlockEl": "GRÄNDIR",
+        "song": "GRÄNDIR",
         "isSongOnly": true,
-        "reward": "白銅寺アズリ"
+        "reward": "GRÄNDIR"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "兎花宮イオフィ",
-        "song": "兎花宮イオフィ",
+        "cumulative": 125,
+        "unlockEl": "ジークルーネ",
+        "song": "ジークルーネ",
         "isSongOnly": true,
-        "reward": "兎花宮イオフィ"
+        "reward": "ジークルーネ"
       },
       {
         "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "cumulative": 280,
+        "unlockEl": "グリムゲルデ",
+        "song": "グリムゲルデ",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "グリムゲルデ"
       },
       {
         "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
+        "cumulative": 1250,
+        "unlockEl": "シュヴェルトライテ",
+        "song": "シュヴェルトライテ",
         "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "reward": "シュヴェルトライテ"
       },
       {
         "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "cumulative": 5000,
+        "unlockEl": "ヴァルトラウテ",
+        "song": "ヴァルトラウテ",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "ヴァルトラウテ"
+      },
+      {
+        "no": "8",
+        "cumulative": 13500,
+        "unlockEl": "渦状銀河のシンフォニエッタ",
+        "song": "渦状銀河のシンフォニエッタ",
+        "isSongOnly": true,
+        "reward": "渦状銀河のシンフォニエッタ"
+      },
+      {
+        "no": "9",
+        "cumulative": 24500,
+        "unlockEl": "オーディン",
+        "song": "オーディン",
+        "isSongOnly": true,
+        "reward": "オーディン"
+      },
+      {
+        "no": "10",
+        "cumulative": 47000,
+        "unlockEl": "封焔の135秒",
+        "song": "封焔の135秒",
+        "isSongOnly": true,
+        "reward": "封焔の135秒"
+      },
+      {
+        "no": "11",
+        "cumulative": 82000,
+        "unlockEl": "天界ちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー2"
       }
     ]
   },
@@ -8260,51 +8100,75 @@
       },
       {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 84,
+        "unlockEl": "ワンダーシャッフェンの法則",
+        "song": "ワンダーシャッフェンの法則",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "ワンダーシャッフェンの法則"
       },
       {
         "no": "3",
-        "cumulative": 60,
+        "cumulative": 168,
+        "unlockEl": "八剱月アルマ",
+        "song": "八剱月アルマ",
+        "isSongOnly": true,
+        "reward": "八剱月アルマ"
+      },
+      {
+        "no": "4",
+        "cumulative": 252,
         "unlockEl": "白銅寺アズリ",
         "song": "白銅寺アズリ",
         "isSongOnly": true,
         "reward": "白銅寺アズリ"
       },
       {
-        "no": "4",
-        "cumulative": 150,
-        "unlockEl": "兎花宮イオフィ",
-        "song": "兎花宮イオフィ",
-        "isSongOnly": true,
-        "reward": "兎花宮イオフィ"
-      },
-      {
         "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "cumulative": 420,
+        "unlockEl": "BIRTH",
+        "song": "BIRTH",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "BIRTH"
       },
       {
         "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
+        "cumulative": 504,
+        "unlockEl": "白法院ラグ",
+        "song": "白法院ラグ",
         "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "reward": "白法院ラグ"
       },
       {
         "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "cumulative": 672,
+        "unlockEl": "天界ちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー3"
+      },
+      {
+        "no": "8",
+        "cumulative": 840,
+        "unlockEl": "八剱月アルマ（堕天）",
+        "song": "八剱月アルマ（堕天）",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "八剱月アルマ（堕天）"
+      },
+      {
+        "no": "9",
+        "cumulative": 1260,
+        "unlockEl": "Regulus",
+        "song": "Regulus",
+        "isSongOnly": true,
+        "reward": "Regulus"
+      },
+      {
+        "no": "10",
+        "cumulative": 1386,
+        "unlockEl": "天界ちほー3",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー3"
       }
     ]
   },
@@ -8314,58 +8178,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "百合咲ミカ",
-        "song": "百合咲ミカ",
+        "unlockEl": "ルキ",
+        "song": "ルキ",
         "isSongOnly": true,
-        "reward": "百合咲ミカ"
+        "reward": "ルキ"
       },
       {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 36,
+        "unlockEl": "華の集落、秋のお届け",
+        "song": "華の集落、秋のお届け",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "華の集落、秋のお届け"
       },
       {
         "no": "3",
-        "cumulative": 60,
-        "unlockEl": "白銅寺アズリ",
-        "song": "白銅寺アズリ",
+        "cumulative": 72,
+        "unlockEl": "ラキ",
+        "song": "ラキ",
         "isSongOnly": true,
-        "reward": "白銅寺アズリ"
+        "reward": "ラキ"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "兎花宮イオフィ",
-        "song": "兎花宮イオフィ",
+        "cumulative": 180,
+        "unlockEl": "星詠みとデスペラード",
+        "song": "星詠みとデスペラード",
         "isSongOnly": true,
-        "reward": "兎花宮イオフィ"
+        "reward": "星詠みとデスペラード"
       },
       {
         "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "cumulative": 252,
+        "unlockEl": "アトロ",
+        "song": "アトロ",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "アトロ"
       },
       {
         "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
-        "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "cumulative": 360,
+        "unlockEl": "天界ちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー4"
       },
       {
         "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "cumulative": 396,
+        "unlockEl": "クロト",
+        "song": "クロト",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "クロト"
+      },
+      {
+        "no": "8",
+        "cumulative": 432,
+        "unlockEl": "ルシファー",
+        "song": "ルシファー",
+        "isSongOnly": true,
+        "reward": "ルシファー"
+      },
+      {
+        "no": "9",
+        "cumulative": 540,
+        "unlockEl": "BLACK SWAN",
+        "song": "BLACK SWAN",
+        "isSongOnly": true,
+        "reward": "BLACK SWAN"
+      },
+      {
+        "no": "10",
+        "cumulative": 800,
+        "unlockEl": "天界ちほー4",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー4"
       }
     ]
   },
@@ -8382,15 +8270,15 @@
       },
       {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 70,
+        "unlockEl": "星空パーティーチューン",
+        "song": "星空パーティーチューン",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "星空パーティーチューン"
       },
       {
         "no": "3",
-        "cumulative": 60,
+        "cumulative": 120,
         "unlockEl": "白銅寺アズリ",
         "song": "白銅寺アズリ",
         "isSongOnly": true,
@@ -8398,35 +8286,67 @@
       },
       {
         "no": "4",
-        "cumulative": 150,
+        "cumulative": 220,
+        "unlockEl": "チューリングの跡",
+        "song": "チューリングの跡",
+        "isSongOnly": true,
+        "reward": "チューリングの跡"
+      },
+      {
+        "no": "5",
+        "cumulative": 300,
+        "unlockEl": "白法院ラグ",
+        "song": "白法院ラグ",
+        "isSongOnly": true,
+        "reward": "白法院ラグ"
+      },
+      {
+        "no": "6",
+        "cumulative": 380,
+        "unlockEl": "天界ちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー5"
+      },
+      {
+        "no": "7",
+        "cumulative": 460,
         "unlockEl": "兎花宮イオフィ",
         "song": "兎花宮イオフィ",
         "isSongOnly": true,
         "reward": "兎花宮イオフィ"
       },
       {
-        "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "no": "8",
+        "cumulative": 600,
+        "unlockEl": "Swift Swing",
+        "song": "Swift Swing",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "Swift Swing"
       },
       {
-        "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
+        "no": "9",
+        "cumulative": 700,
+        "unlockEl": "庭白ガヴィ",
+        "song": "庭白ガヴィ",
         "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "reward": "庭白ガヴィ"
       },
       {
-        "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "no": "10",
+        "cumulative": 900,
+        "unlockEl": "Sage",
+        "song": "Sage",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "Sage"
+      },
+      {
+        "no": "11",
+        "cumulative": 1000,
+        "unlockEl": "天界ちほー5",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー5"
       }
     ]
   },
@@ -8436,58 +8356,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "百合咲ミカ",
-        "song": "百合咲ミカ",
+        "unlockEl": "ディアン",
+        "song": "ディアン",
         "isSongOnly": true,
-        "reward": "百合咲ミカ"
+        "reward": "ディアン"
       },
       {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 150,
+        "unlockEl": "Beat Opera op.1",
+        "song": "Beat Opera op.1",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "Beat Opera op.1"
       },
       {
         "no": "3",
-        "cumulative": 60,
-        "unlockEl": "白銅寺アズリ",
-        "song": "白銅寺アズリ",
+        "cumulative": 200,
+        "unlockEl": "レヌス",
+        "song": "レヌス",
         "isSongOnly": true,
-        "reward": "白銅寺アズリ"
+        "reward": "レヌス"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "兎花宮イオフィ",
-        "song": "兎花宮イオフィ",
+        "cumulative": 400,
+        "unlockEl": "星見草",
+        "song": "星見草",
         "isSongOnly": true,
-        "reward": "兎花宮イオフィ"
+        "reward": "星見草"
       },
       {
         "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "cumulative": 450,
+        "unlockEl": "ルフタ",
+        "song": "ルフタ",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "ルフタ"
       },
       {
         "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
-        "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "cumulative": 550,
+        "unlockEl": "天界ちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー6"
       },
       {
         "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "cumulative": 600,
+        "unlockEl": "ヴァハ",
+        "song": "ヴァハ",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "ヴァハ"
+      },
+      {
+        "no": "8",
+        "cumulative": 850,
+        "unlockEl": "”411Ψ892”",
+        "song": "”411Ψ892”",
+        "isSongOnly": true,
+        "reward": "”411Ψ892”"
+      },
+      {
+        "no": "9",
+        "cumulative": 900,
+        "unlockEl": "ブリギット",
+        "song": "ブリギット",
+        "isSongOnly": true,
+        "reward": "ブリギット"
+      },
+      {
+        "no": "10",
+        "cumulative": 1300,
+        "unlockEl": "康莊大道",
+        "song": "康莊大道",
+        "isSongOnly": true,
+        "reward": "康莊大道"
+      },
+      {
+        "no": "11",
+        "cumulative": 1400,
+        "unlockEl": "天界ちほー6",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー6"
       }
     ]
   },
@@ -8497,58 +8449,90 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "百合咲ミカ",
-        "song": "百合咲ミカ",
+        "unlockEl": "コカビエル",
+        "song": "コカビエル",
         "isSongOnly": true,
-        "reward": "百合咲ミカ"
+        "reward": "コカビエル"
       },
       {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 150,
+        "unlockEl": "Geranium",
+        "song": "Geranium",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "Geranium"
       },
       {
         "no": "3",
-        "cumulative": 60,
-        "unlockEl": "白銅寺アズリ",
-        "song": "白銅寺アズリ",
+        "cumulative": 200,
+        "unlockEl": "アルマ",
+        "song": "アルマ",
         "isSongOnly": true,
-        "reward": "白銅寺アズリ"
+        "reward": "アルマ"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "兎花宮イオフィ",
-        "song": "兎花宮イオフィ",
+        "cumulative": 400,
+        "unlockEl": "The Cursed Doll",
+        "song": "The Cursed Doll",
         "isSongOnly": true,
-        "reward": "兎花宮イオフィ"
+        "reward": "The Cursed Doll"
       },
       {
         "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "cumulative": 450,
+        "unlockEl": "アルオス",
+        "song": "アルオス",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "アルオス"
       },
       {
         "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
-        "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "cumulative": 550,
+        "unlockEl": "天界ちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー7"
       },
       {
         "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "cumulative": 600,
+        "unlockEl": "セレプリス",
+        "song": "セレプリス",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "セレプリス"
+      },
+      {
+        "no": "8",
+        "cumulative": 850,
+        "unlockEl": "RondeauX of RagnaroQ",
+        "song": "RondeauX of RagnaroQ",
+        "isSongOnly": true,
+        "reward": "RondeauX of RagnaroQ"
+      },
+      {
+        "no": "9",
+        "cumulative": 900,
+        "unlockEl": "ルシファー",
+        "song": "ルシファー",
+        "isSongOnly": true,
+        "reward": "ルシファー"
+      },
+      {
+        "no": "10",
+        "cumulative": 1300,
+        "unlockEl": "ℝ∈Χ LUNATiCA",
+        "song": "ℝ∈Χ LUNATiCA",
+        "isSongOnly": true,
+        "reward": "ℝ∈Χ LUNATiCA"
+      },
+      {
+        "no": "11",
+        "cumulative": 1400,
+        "unlockEl": "天界ちほー7",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー7"
       }
     ]
   },
@@ -8558,58 +8542,82 @@
       {
         "no": "1",
         "cumulative": 0,
-        "unlockEl": "百合咲ミカ",
-        "song": "百合咲ミカ",
+        "unlockEl": "ヴィリーウス",
+        "song": "ヴィリーウス",
         "isSongOnly": true,
-        "reward": "百合咲ミカ"
+        "reward": "ヴィリーウス"
       },
       {
         "no": "2",
-        "cumulative": 40,
-        "unlockEl": "アポカリプスに反逆の焔を焚べろ",
-        "song": "アポカリプスに反逆の焔を焚べろ",
+        "cumulative": 50,
+        "unlockEl": "Ourania",
+        "song": "Ourania",
         "isSongOnly": true,
-        "reward": "アポカリプスに反逆の焔を焚べろ"
+        "reward": "Ourania"
       },
       {
         "no": "3",
-        "cumulative": 60,
-        "unlockEl": "白銅寺アズリ",
-        "song": "白銅寺アズリ",
+        "cumulative": 100,
+        "unlockEl": "モンベルド",
+        "song": "モンベルド",
         "isSongOnly": true,
-        "reward": "白銅寺アズリ"
+        "reward": "モンベルド"
       },
       {
         "no": "4",
-        "cumulative": 150,
-        "unlockEl": "兎花宮イオフィ",
-        "song": "兎花宮イオフィ",
-        "isSongOnly": true,
-        "reward": "兎花宮イオフィ"
+        "cumulative": 200,
+        "unlockEl": "天界ちほー8",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー8"
       },
       {
         "no": "5",
-        "cumulative": 2000,
-        "unlockEl": "TEmPTaTiON",
-        "song": "TEmPTaTiON",
+        "cumulative": 300,
+        "unlockEl": "八剱月アルマ",
+        "song": "八剱月アルマ",
         "isSongOnly": true,
-        "reward": "TEmPTaTiON"
+        "reward": "八剱月アルマ"
       },
       {
         "no": "6",
-        "cumulative": 4000,
-        "unlockEl": "白王院ラグ",
-        "song": "白王院ラグ",
+        "cumulative": 500,
+        "unlockEl": "天蓋",
+        "song": "天蓋",
         "isSongOnly": true,
-        "reward": "白王院ラグ"
+        "reward": "天蓋"
       },
       {
         "no": "7",
-        "cumulative": 20000,
-        "unlockEl": "兎花宮サラ",
-        "song": "兎花宮サラ",
+        "cumulative": 550,
+        "unlockEl": "白法院ラグ",
+        "song": "白法院ラグ",
         "isSongOnly": true,
-        "reward": "兎花宮サラ"
+        "reward": "白法院ラグ"
+      },
+      {
+        "no": "8",
+        "cumulative": 700,
+        "unlockEl": "天界ちほー8",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "天界ちほー8"
+      },
+      {
+        "no": "9",
+        "cumulative": 900,
+        "unlockEl": "Deicide",
+        "song": "Deicide",
+        "isSongOnly": true,
+        "reward": "Deicide"
+      },
+      {
+        "no": "10",
+        "cumulative": 1100,
+        "unlockEl": "白の扉",
+        "song": "白の扉",
+        "isSongOnly": true,
+        "reward": "白の扉"
       }
     ]
   },
@@ -8704,62 +8712,62 @@
       {
         "no": "1",
         "cumulative": 0,
+        "unlockEl": "ミクマリ",
+        "song": "ミクマリ",
+        "isSongOnly": true,
+        "reward": "ミクマリ"
+      },
+      {
+        "no": "2",
+        "cumulative": 75,
+        "unlockEl": "ミクマリ",
+        "song": "ミクマリ",
+        "isSongOnly": true,
+        "reward": "ミクマリ"
+      },
+      {
+        "no": "3",
+        "cumulative": 150,
+        "unlockEl": "クロツネ",
+        "song": "クロツネ",
+        "isSongOnly": true,
+        "reward": "クロツネ"
+      },
+      {
+        "no": "4",
+        "cumulative": 300,
+        "unlockEl": "雲外蒼電 -Dreaming Voltage-",
+        "song": "雲外蒼電 -Dreaming Voltage-",
+        "isSongOnly": true,
+        "reward": "雲外蒼電 -Dreaming Voltage-"
+      },
+      {
+        "no": "5",
+        "cumulative": 350,
+        "unlockEl": "高天原ちほー2",
+        "song": "",
+        "isSongOnly": false,
+        "reward": "高天原ちほー2"
+      },
+      {
+        "no": "6",
+        "cumulative": 450,
         "unlockEl": "ニギ",
         "song": "ニギ",
         "isSongOnly": true,
         "reward": "ニギ"
       },
       {
-        "no": "2",
-        "cumulative": 70,
-        "unlockEl": "オオヒメ",
-        "song": "オオヒメ",
-        "isSongOnly": true,
-        "reward": "オオヒメ"
-      },
-      {
-        "no": "3",
-        "cumulative": 170,
-        "unlockEl": "Last Samurai",
-        "song": "Last Samurai",
-        "isSongOnly": true,
-        "reward": "Last Samurai"
-      },
-      {
-        "no": "4",
-        "cumulative": 270,
-        "unlockEl": "アマヒコ",
-        "song": "アマヒコ",
-        "isSongOnly": true,
-        "reward": "アマヒコ"
-      },
-      {
-        "no": "5",
-        "cumulative": 400,
-        "unlockEl": "蒼穹舞楽",
-        "song": "蒼穹舞楽",
-        "isSongOnly": true,
-        "reward": "蒼穹舞楽"
-      },
-      {
-        "no": "6",
-        "cumulative": 530,
-        "unlockEl": "シンキョウ",
-        "song": "シンキョウ",
-        "isSongOnly": true,
-        "reward": "シンキョウ"
-      },
-      {
         "no": "7",
-        "cumulative": 670,
-        "unlockEl": "高天原ちほー",
-        "song": "",
-        "isSongOnly": false,
-        "reward": "高天原ちほー"
+        "cumulative": 600,
+        "unlockEl": "鬼女紅妖",
+        "song": "鬼女紅妖",
+        "isSongOnly": true,
+        "reward": "鬼女紅妖"
       },
       {
         "no": "8",
-        "cumulative": 800,
+        "cumulative": 700,
         "unlockEl": "メノウ",
         "song": "メノウ",
         "isSongOnly": true,
@@ -8767,19 +8775,19 @@
       },
       {
         "no": "9",
-        "cumulative": 999,
-        "unlockEl": "AMABIE",
-        "song": "AMABIE",
+        "cumulative": 800,
+        "unlockEl": "華天月兎",
+        "song": "華天月兎",
         "isSongOnly": true,
-        "reward": "AMABIE"
+        "reward": "華天月兎"
       },
       {
         "no": "10",
-        "cumulative": 1111,
-        "unlockEl": "高天原ちほー",
+        "cumulative": 1000,
+        "unlockEl": "高天原ちほー2",
         "song": "",
         "isSongOnly": false,
-        "reward": "高天原ちほー"
+        "reward": "高天原ちほー2"
       }
     ]
   },
