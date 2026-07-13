@@ -85,11 +85,12 @@
     return s1.includes(s2) || s2.includes(s1);
   }
 
-  /** 根據 type 欄位判斷是否為歌曲類獎勵 */
-  function isSongLike(type) {
+  /** 判斷是否為不在網頁上顯示圖標的純樂曲或譜面解禁 */
+  function isMusicUnlock(type) {
     if (!type) return false;
     const t = type.toLowerCase();
-    return t.includes('楽曲') || t.includes('曲名') || t.includes('課題曲');
+    if (t.includes('課題') || t.includes('チャレンジ')) return false;
+    return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
   }
 
   function escapeHtml(str) {
@@ -136,7 +137,7 @@
     // 優先策略：如果過濾掉樂曲類別後，非樂曲獎勵的數量剛好等於 DOM 區塊數量
     const nonMusicIndices = [];
     processedRewards.forEach((r, idx) => {
-      if (!isSongLike(r.type)) {
+      if (!isMusicUnlock(r.type)) {
         nonMusicIndices.push(idx);
       }
     });
