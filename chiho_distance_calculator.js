@@ -493,11 +493,13 @@
     async function loadChihoDatabase() {
       if (chihoDatabase) return chihoDatabase;
       try {
-        const resp = await fetch('https://raw.githubusercontent.com/Thetom123/maiChiho/main/chiho_data.json');
+        const resp = await fetch('https://raw.githubusercontent.com/Thetom123/maiChiho/main/chiho_data.json?t=' + new Date().getTime());
         if (resp.ok) {
           chihoDatabase = await resp.json();
           console.log('[Chiho] 成功從 GitHub 載入地圖資料庫！');
           return chihoDatabase;
+        } else {
+          console.warn('[Chiho] 載入 GitHub 資料庫失敗，狀態碼:', resp.status);
         }
       } catch (e) {
         console.warn('[Chiho] 無法從 GitHub 載入地圖資料庫，將嘗試即時抓取 Gamerch Wiki:', e);
