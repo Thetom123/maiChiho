@@ -89,6 +89,9 @@
   function isMusicUnlock(type) {
     if (!type) return false;
     const t = type.toLowerCase();
+    if (window.location.href.includes('eventMapLogDetail')) {
+      return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
+    }
     if (t.includes('課題') || t.includes('チャレンジ')) return false;
     return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
   }
@@ -855,7 +858,18 @@
   function refreshUI() {
     if (!activeMapData) return;
 
-    const searchKm = parseInt(document.getElementById('chiho-km-input').value, 10) || 0;
+    let searchKm = parseInt(document.getElementById('chiho-km-input').value, 10) || 0;
+    if (window.location.href.includes('eventMapLogDetail') && searchKm === 0) {
+      if (rewardBlocks.length > 0 && completedIndices.has(rewardBlocks.length - 1)) {
+        const nonMusic = activeMapData.rewards.filter(r => !isMusicUnlock(r.type));
+        if (nonMusic.length > 0) {
+          searchKm = nonMusic[nonMusic.length - 1].cumulative;
+          const kmInput = document.getElementById('chiho-km-input');
+          if (kmInput) kmInput.value = searchKm;
+        }
+      }
+    }
+
     const resultDiv = document.getElementById('chiho-result');
 
     activeMapData.rewards.sort((a, b) => a.cumulative - b.cumulative);
