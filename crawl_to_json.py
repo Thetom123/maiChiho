@@ -62,19 +62,45 @@ def is_valid_distance_table(table):
     return "距離" in text and "報酬" in text
 
 def parse_table(table):
-    """解析 Wiki 距離表格，產出 rewards 陣列（新 4 欄格式）"""
+    """解析 Wiki 距離表格，產出 rewards 陣列（新 4 欄格式，支援 rowspan/colspan）"""
     rows = table.find_all('tr')
-    if len(rows) < 2:
+    if not rows:
         return []
 
-    # 解析 header 列（處理 colspan）
-    headers = []
-    first_cells = rows[0].find_all(['th', 'td'])
-    for cell in first_cells:
-        colspan = int(cell.get('colspan', 1))
-        text = cell.get_text().strip().lower()
-        for _ in range(colspan):
-            headers.append(text)
+    # 計算表格最大列數
+    max_cols = 0
+    for row in rows:
+        cols_in_row = 0
+        for cell in row.find_all(['td', 'th']):
+            cols_in_row += int(cell.get('colspan', 1))
+        if cols_in_row > max_cols:
+            max_cols = cols_in_row
+
+    if max_cols == 0:
+        return []
+
+    # 初始化與填充 2D 網格以攤平 rowspan/colspan
+    grid = [[None] * max_cols for _ in range(len(rows))]
+
+    for r_idx, row in enumerate(rows):
+        c_idx = 0
+        for cell in row.find_all(['td', 'th']):
+            while c_idx < max_cols and grid[r_idx][c_idx] is not None:
+                c_idx += 1
+            if c_idx >= max_cols:
+                break
+
+            rowspan = int(cell.get('rowspan', 1))
+            colspan = int(cell.get('colspan', 1))
+
+            for r in range(rowspan):
+                for c in range(colspan):
+                    if r_idx + r < len(rows) and c_idx + c < max_cols:
+                        grid[r_idx + r][c_idx + c] = cell
+            c_idx += colspan
+
+    # 讀取 header 資訊
+    headers = [cell.get_text().strip().lower() if cell else "" for cell in grid[0]]
 
     # 辨識欄位索引
     cum_idx = -1
@@ -105,17 +131,21 @@ def parse_table(table):
     if reward_idx == -1:
         reward_idx = 2
 
-    # 逐列解析
+    # 解析資料列
     parsed_rewards = []
     seq = 1
-    for i in range(1, len(rows)):
-        cells = rows[i].find_all(['td', 'th'])
-        if len(cells) <= max(cum_idx, type_idx, reward_idx):
+    for r_idx in range(1, len(rows)):
+        row_cells = grid[r_idx]
+        cum_cell = row_cells[cum_idx]
+        type_cell = row_cells[type_idx] if type_idx != -1 else None
+        reward_cell = row_cells[reward_idx]
+
+        if not cum_cell or not reward_cell:
             continue
 
-        cum_val = cells[cum_idx].get_text().strip()
-        type_val = cells[type_idx].get_text().strip() if type_idx != -1 else ""
-        reward_val = cells[reward_idx].get_text().strip()
+        cum_val = cum_cell.get_text().strip()
+        type_val = type_cell.get_text().strip() if type_cell else ""
+        reward_val = reward_cell.get_text().strip()
 
         cum = p_km(cum_val)
         if cum is not None and cum >= 0:

@@ -758,14 +758,50 @@
     const rows = table.querySelectorAll('tr');
     if (rows.length < 2) return [];
 
-    const headers = [];
-    rows[0].querySelectorAll('th, td').forEach(cell => {
-      const colspan = parseInt(cell.getAttribute('colspan') || '1', 10);
-      const text = cell.textContent.trim().toLowerCase();
-      for (let c = 0; c < colspan; c++) {
-        headers.push(text);
-      }
+    // 計算表格最大列數
+    let maxCols = 0;
+    rows.forEach(row => {
+      let cols = 0;
+      row.querySelectorAll('th, td').forEach(cell => {
+        cols += parseInt(cell.getAttribute('colspan') || '1', 10);
+      });
+      if (cols > maxCols) maxCols = cols;
     });
+
+    if (maxCols === 0) return [];
+
+    // 初始化與填充 2D 網格以攤平 rowspan/colspan
+    const grid = [];
+    for (let r = 0; r < rows.length; r++) {
+      grid.push(new Array(maxCols).fill(null));
+    }
+
+    for (let rIdx = 0; rIdx < rows.length; rIdx++) {
+      const cells = rows[rIdx].querySelectorAll('th, td');
+      let cIdx = 0;
+      for (let i = 0; i < cells.length; i++) {
+        const cell = cells[i];
+        while (cIdx < maxCols && grid[rIdx][cIdx] !== null) {
+          cIdx++;
+        }
+        if (cIdx >= maxCols) break;
+
+        const rowspan = parseInt(cell.getAttribute('rowspan') || '1', 10);
+        const colspan = parseInt(cell.getAttribute('colspan') || '1', 10);
+
+        for (let r = 0; r < rowspan; r++) {
+          for (let c = 0; c < colspan; c++) {
+            if (rIdx + r < rows.length && cIdx + c < maxCols) {
+              grid[rIdx + r][cIdx + c] = cell;
+            }
+          }
+        }
+        cIdx += colspan;
+      }
+    }
+
+    // 讀取 header 資訊
+    const headers = grid[0].map(cell => cell ? cell.textContent.trim().toLowerCase() : '');
 
     let cumIdx = headers.findIndex(h => h.includes('距離') || h.includes('累計') || h.includes('km'));
     let typeIdx = headers.findIndex(h => h.includes('種類'));
@@ -780,13 +816,17 @@
 
     const parsedRewards = [];
     let seq = 1;
-    for (let i = 1; i < rows.length; i++) {
-      const cells = rows[i].querySelectorAll('td, th');
-      if (cells.length <= Math.max(cumIdx, typeIdx, rewardIdx)) continue;
+    for (let rIdx = 1; rIdx < rows.length; rIdx++) {
+      const rowCells = grid[rIdx];
+      const cumCell = rowCells[cum_idx = cumIdx]; // match exact indexes
+      const typeCell = typeIdx !== -1 ? rowCells[typeIdx] : null;
+      const rewardCell = rowCells[rewardIdx];
 
-      const cumVal = cells[cumIdx].textContent.trim();
-      const typeVal = typeIdx !== -1 ? cells[typeIdx].textContent.trim() : '';
-      const rewardVal = cells[rewardIdx].textContent.trim();
+      if (!cumCell || !rewardCell) continue;
+
+      const cumVal = cumCell.textContent.trim();
+      const typeVal = typeCell ? typeCell.textContent.trim() : '';
+      const rewardVal = rewardCell.textContent.trim();
 
       const cum = pKm(cumVal);
       if (!isNaN(cum) && cum >= 0) {

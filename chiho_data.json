@@ -2885,42 +2885,66 @@
       },
       {
         "no": 2,
+        "cumulative": 18,
+        "type": "つあーメンバー",
+        "name": "対立／サマー"
+      },
+      {
+        "no": 3,
         "cumulative": 58,
         "type": "楽曲",
         "name": "Cyaegha"
       },
       {
-        "no": 3,
+        "no": 4,
         "cumulative": 88,
         "type": "つあーメンバー",
         "name": "サヤ"
       },
       {
-        "no": 4,
+        "no": 5,
+        "cumulative": 143,
+        "type": "つあーメンバー",
+        "name": "叶永"
+      },
+      {
+        "no": 6,
         "cumulative": 273,
         "type": "楽曲",
         "name": "Grievous Lady"
       },
       {
-        "no": 5,
+        "no": 7,
         "cumulative": 312,
         "type": "つあーメンバー",
         "name": "エト"
       },
       {
-        "no": 6,
+        "no": 8,
+        "cumulative": 382,
+        "type": "つあーメンバー",
+        "name": "ルナ"
+      },
+      {
+        "no": 9,
         "cumulative": 552,
         "type": "ネームプレート",
         "name": "Arcaeaちほー"
       },
       {
-        "no": 7,
+        "no": 10,
         "cumulative": 564,
         "type": "つあーメンバー",
         "name": "紅"
       },
       {
-        "no": 8,
+        "no": 11,
+        "cumulative": 634,
+        "type": "つあーメンバー",
+        "name": "レーテー"
+      },
+      {
+        "no": 12,
         "cumulative": 774,
         "type": "フレーム",
         "name": "Arcaeaちほー"
@@ -2985,30 +3009,72 @@
       },
       {
         "no": 2,
+        "cumulative": 18,
+        "type": "つあーメンバー",
+        "name": "踊っているいぬのイラスト"
+      },
+      {
+        "no": 3,
+        "cumulative": 48,
+        "type": "つあーメンバー",
+        "name": "踊っているねこのイラスト"
+      },
+      {
+        "no": 4,
+        "cumulative": 92,
+        "type": "つあーメンバー",
+        "name": "踊っているうさぎのイラスト"
+      },
+      {
+        "no": 5,
         "cumulative": 170,
         "type": "楽曲",
         "name": "Arty Party"
       },
       {
-        "no": 3,
+        "no": 6,
         "cumulative": 209,
         "type": "つあーメンバー",
         "name": "元気な男性のイラスト"
       },
       {
-        "no": 4,
+        "no": 7,
+        "cumulative": 279,
+        "type": "つあーメンバー",
+        "name": "元気な女性のイラスト"
+      },
+      {
+        "no": 8,
+        "cumulative": 349,
+        "type": "つあーメンバー",
+        "name": "ドラム式洗濯機のイラスト"
+      },
+      {
+        "no": 9,
         "cumulative": 461,
         "type": "ネームプレート",
         "name": "いらすとやちほー"
       },
       {
-        "no": 5,
+        "no": 10,
         "cumulative": 503,
         "type": "つあーメンバー",
         "name": "コウテイペンギンのイラスト"
       },
       {
-        "no": 6,
+        "no": 11,
+        "cumulative": 545,
+        "type": "つあーメンバー",
+        "name": "コウテイペンギンのヒナのイラスト"
+      },
+      {
+        "no": 12,
+        "cumulative": 671,
+        "type": "つあーメンバー",
+        "name": "バナナボートに乗る人たちのイラスト"
+      },
+      {
+        "no": 13,
         "cumulative": 797,
         "type": "フレーム",
         "name": "いらすとやちほー"
@@ -3073,18 +3139,36 @@
       },
       {
         "no": 2,
+        "cumulative": 18,
+        "type": "つあーメンバー",
+        "name": "チノ"
+      },
+      {
+        "no": 3,
+        "cumulative": 38,
+        "type": "つあーメンバー",
+        "name": "リゼ"
+      },
+      {
+        "no": 4,
         "cumulative": 126,
         "type": "ネームプレート",
         "name": "ご注文はうさぎですか？？ちほー"
       },
       {
-        "no": 3,
+        "no": 5,
         "cumulative": 159,
         "type": "つあーメンバー",
         "name": "千夜"
       },
       {
-        "no": 4,
+        "no": 6,
+        "cumulative": 198,
+        "type": "つあーメンバー",
+        "name": "シャロ"
+      },
+      {
+        "no": 7,
         "cumulative": 366,
         "type": "フレーム",
         "name": "ご注文はうさぎですか？？ちほー"
@@ -3102,18 +3186,30 @@
       },
       {
         "no": 2,
+        "cumulative": 17,
+        "type": "つあーメンバー",
+        "name": "さくらみこ"
+      },
+      {
+        "no": 3,
         "cumulative": 58,
         "type": "ネームプレート",
         "name": "そらみこちほー"
       },
       {
-        "no": 3,
+        "no": 4,
         "cumulative": 118,
         "type": "つあーメンバー",
         "name": "ときのそら 舞"
       },
       {
-        "no": 4,
+        "no": 5,
+        "cumulative": 150,
+        "type": "つあーメンバー",
+        "name": "さくらみこ 舞"
+      },
+      {
+        "no": 6,
         "cumulative": 307,
         "type": "フレーム",
         "name": "そらみこちほー"
@@ -3220,18 +3316,54 @@
       },
       {
         "no": 2,
+        "cumulative": 18,
+        "type": "つあーメンバー",
+        "name": "千代田桃"
+      },
+      {
+        "no": 3,
+        "cumulative": 37,
+        "type": "つあーメンバー",
+        "name": "リリス"
+      },
+      {
+        "no": 4,
+        "cumulative": 59,
+        "type": "つあーメンバー",
+        "name": "陽夏木ミカン"
+      },
+      {
+        "no": 5,
         "cumulative": 138,
         "type": "ネームプレート",
         "name": "まちカドまぞくちほー"
       },
       {
-        "no": 3,
+        "no": 6,
         "cumulative": 177,
         "type": "つあーメンバー",
         "name": "佐田杏里"
       },
       {
-        "no": 4,
+        "no": 7,
+        "cumulative": 219,
+        "type": "つあーメンバー",
+        "name": "吉田良子"
+      },
+      {
+        "no": 8,
+        "cumulative": 261,
+        "type": "つあーメンバー",
+        "name": "吉田清子"
+      },
+      {
+        "no": 9,
+        "cumulative": 303,
+        "type": "つあーメンバー",
+        "name": "小倉しおん"
+      },
+      {
+        "no": 10,
         "cumulative": 387,
         "type": "フレーム",
         "name": "まちカドまぞくちほー"
@@ -3302,18 +3434,66 @@
       },
       {
         "no": 2,
+        "cumulative": 28,
+        "type": "つあーメンバー",
+        "name": "白石 杏"
+      },
+      {
+        "no": 3,
+        "cumulative": 70,
+        "type": "つあーメンバー",
+        "name": "小豆沢 こはね"
+      },
+      {
+        "no": 4,
+        "cumulative": 112,
+        "type": "つあーメンバー",
+        "name": "青柳 冬弥"
+      },
+      {
+        "no": 5,
+        "cumulative": 168,
+        "type": "つあーメンバー",
+        "name": "ミク（ViVid BAD SQUAD）"
+      },
+      {
+        "no": 6,
         "cumulative": 294,
         "type": "ネームプレート",
         "name": "プロジェクトセカイちほー"
       },
       {
-        "no": 3,
+        "no": 7,
         "cumulative": 336,
         "type": "つあーメンバー",
         "name": "宵崎 奏"
       },
       {
-        "no": 4,
+        "no": 8,
+        "cumulative": 406,
+        "type": "つあーメンバー",
+        "name": "朝比奈 まふゆ"
+      },
+      {
+        "no": 9,
+        "cumulative": 476,
+        "type": "つあーメンバー",
+        "name": "東雲 絵名"
+      },
+      {
+        "no": 10,
+        "cumulative": 546,
+        "type": "つあーメンバー",
+        "name": "暁山 瑞希"
+      },
+      {
+        "no": 11,
+        "cumulative": 616,
+        "type": "つあーメンバー",
+        "name": "ミク（25時、ナイトコードで。）"
+      },
+      {
+        "no": 12,
         "cumulative": 840,
         "type": "フレーム",
         "name": "プロジェクトセカイちほー"
@@ -3331,18 +3511,36 @@
       },
       {
         "no": 2,
+        "cumulative": 70,
+        "type": "つあーメンバー",
+        "name": "霧雨魔理沙"
+      },
+      {
+        "no": 3,
+        "cumulative": 154,
+        "type": "つあーメンバー",
+        "name": "チルノ"
+      },
+      {
+        "no": 4,
         "cumulative": 252,
         "type": "ネームプレート",
         "name": "東方Projectリバイバルちほー"
       },
       {
-        "no": 3,
+        "no": 5,
         "cumulative": 322,
         "type": "つあーメンバー",
         "name": "博麗霊夢"
       },
       {
-        "no": 4,
+        "no": 6,
+        "cumulative": 420,
+        "type": "つあーメンバー",
+        "name": "射命丸文"
+      },
+      {
+        "no": 7,
         "cumulative": 588,
         "type": "フレーム",
         "name": "東方Projectリバイバルちほー"
@@ -9388,36 +9586,42 @@
     "rewards": [
       {
         "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "からめる/ねこ/ラーメン"
+      },
+      {
+        "no": 2,
         "cumulative": 10,
         "type": "楽曲",
         "name": "♡マイマイマイラブ♡"
       },
       {
-        "no": 2,
+        "no": 3,
         "cumulative": 20,
         "type": "つあーメンバー",
         "name": "からめる/ねこ/DJ"
       },
       {
-        "no": 3,
+        "no": 4,
         "cumulative": 100,
         "type": "つあーメンバー",
         "name": "からめる/人/まいった"
       },
       {
-        "no": 4,
+        "no": 5,
         "cumulative": 210,
         "type": "譜面",
         "name": "ENERGY SYNERGY MATRIX(でらっくす譜面)"
       },
       {
-        "no": 5,
+        "no": 6,
         "cumulative": 800,
         "type": "つあーメンバー",
         "name": "からめる/人/刺身"
       },
       {
-        "no": 6,
+        "no": 7,
         "cumulative": 7000,
         "type": "つあーメンバー",
         "name": "からめる/レース"
@@ -11129,6 +11333,12 @@
         "no": 3,
         "cumulative": 51,
         "type": "ネームプレート",
+        "name": "オーイシ×加藤のピザラジオちほー"
+      },
+      {
+        "no": 4,
+        "cumulative": 132,
+        "type": "フレーム",
         "name": "オーイシ×加藤のピザラジオちほー"
       }
     ]
@@ -15899,60 +16109,66 @@
     "rewards": [
       {
         "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "ブリュンヒルデ"
+      },
+      {
+        "no": 2,
         "cumulative": 12,
         "type": "つあーメンバー",
         "name": "ジグニュー"
       },
       {
-        "no": 2,
+        "no": 3,
         "cumulative": 80,
         "type": "楽曲",
         "name": "GRÄNDIR"
       },
       {
-        "no": 3,
+        "no": 4,
         "cumulative": 125,
         "type": "つあーメンバー",
         "name": "ジークルーネ"
       },
       {
-        "no": 4,
+        "no": 5,
         "cumulative": 280,
         "type": "つあーメンバー",
         "name": "グリムゲルデ"
       },
       {
-        "no": 5,
+        "no": 6,
         "cumulative": 1250,
         "type": "つあーメンバー",
         "name": "シュヴェルトライテ"
       },
       {
-        "no": 6,
+        "no": 7,
         "cumulative": 5000,
         "type": "つあーメンバー",
         "name": "ヴァルトラウテ"
       },
       {
-        "no": 7,
+        "no": 8,
         "cumulative": 13500,
         "type": "楽曲",
         "name": "渦状銀河のシンフォニエッタ"
       },
       {
-        "no": 8,
+        "no": 9,
         "cumulative": 24500,
         "type": "つあーメンバー",
         "name": "オーディン"
       },
       {
-        "no": 9,
+        "no": 10,
         "cumulative": 47000,
         "type": "楽曲",
         "name": "封焔の135秒"
       },
       {
-        "no": 10,
+        "no": 11,
         "cumulative": 82000,
         "type": "ネームプレート",
         "name": "天界ちほー2"
