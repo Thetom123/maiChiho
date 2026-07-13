@@ -60,8 +60,9 @@
   const rewardBlocks = document.querySelectorAll('.see_through_area .basic_block');
   const completedIndices = new Set();
   rewardBlocks.forEach((block, idx) => {
+    const hasGetIcon = !!block.querySelector('img[src*="get"]');
     const hasGrayImg = !!block.querySelector('.gray_img');
-    if (!hasGrayImg) {
+    if (hasGetIcon || !hasGrayImg) {
       if (idx === 0 && currentKm === 0) return;
       completedIndices.add(idx);
     }
@@ -860,10 +861,26 @@
 
     let searchKm = parseInt(document.getElementById('chiho-km-input').value, 10) || 0;
     if (window.location.href.includes('eventMapLogDetail') && searchKm === 0) {
-      if (rewardBlocks.length > 0 && completedIndices.has(rewardBlocks.length - 1)) {
-        const nonMusic = activeMapData.rewards.filter(r => !isMusicUnlock(r.type));
-        if (nonMusic.length > 0) {
-          searchKm = nonMusic[nonMusic.length - 1].cumulative;
+      let lastCompletedDomIdx = -1;
+      for (let idx = rewardBlocks.length - 1; idx >= 0; idx--) {
+        if (completedIndices.has(idx)) {
+          lastCompletedDomIdx = idx;
+          break;
+        }
+      }
+
+      if (lastCompletedDomIdx !== -1) {
+        const tempProcessed = [...activeMapData.rewards].sort((a, b) => a.cumulative - b.cumulative);
+        const tempMap = alignRewardsToBlocks(tempProcessed, rewardBlocks);
+        let targetWikiIdx = -1;
+        for (let i = 0; i < tempMap.length; i++) {
+          if (tempMap[i] === lastCompletedDomIdx) {
+            targetWikiIdx = i;
+            break;
+          }
+        }
+        if (targetWikiIdx !== -1) {
+          searchKm = tempProcessed[targetWikiIdx].cumulative;
           const kmInput = document.getElementById('chiho-km-input');
           if (kmInput) kmInput.value = searchKm;
         }
