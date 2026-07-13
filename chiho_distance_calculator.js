@@ -205,7 +205,7 @@
 
     panel.innerHTML = `
     <div id="chiho-calc-content" style="
-      background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+      background: #0f172a;
       border-radius: 20px; padding: 24px 28px; max-width: 680px; width: 92%;
       max-height: 88vh; overflow-y: auto; color: #e2e8f0;
       box-shadow: 0 25px 60px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.05);
@@ -217,7 +217,7 @@
         <div style="display:flex; align-items:center; gap:10px;">
           <span style="font-size:26px; filter:drop-shadow(0 0 8px rgba(99,102,241,0.5));">🗺️</span>
           <div>
-            <h2 style="margin:0; font-size:17px; font-weight:700; background:linear-gradient(90deg,#818cf8,#a78bfa,#c084fc); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
+            <h2 style="margin:0; font-size:17px; font-weight:700; color:#818cf8;">
               ちほー距離計算器
             </h2>
             <div style="font-size:10px; color:#475569; margin-top:1px;">Chiho Distance Calculator</div>
@@ -266,7 +266,7 @@
         </div>
         <button id="chiho-search-btn" style="
           width:100%; padding:10px; border-radius:10px; border:none;
-          background:linear-gradient(135deg,#6366f1,#8b5cf6,#a855f7);
+          background:#6366f1;
           color:white; font-size:14px; font-weight:600; cursor:pointer;
           box-shadow:0 4px 18px rgba(99,102,241,0.35);
         ">🔍 從 Wiki 查詢獎勵距離資訊</button>
@@ -306,7 +306,7 @@
       <div style="text-align:center; padding:20px;">
         <div style="display:inline-block; width:24px; height:24px; border:3px solid rgba(99,102,241,0.2);
           border-top-color:#818cf8; border-radius:50%; animation:chihoSpin 0.7s linear infinite;"></div>
-        <div style="color:#64748b; margin-top:8px; font-size:12px;">正在從 Fandom Wiki 抓取「${searchName}」的資料...</div>
+        <div style="color:#64748b; margin-top:8px; font-size:12px;">正在從 Gamerch Wiki 抓取「${searchName}」的資料...</div>
       </div>
       <style>@keyframes chihoSpin { to { transform:rotate(360deg); } }</style>
     `;
@@ -322,11 +322,11 @@
             <div style="font-size:28px; margin-bottom:8px;">😢</div>
             <div style="color:#f87171; font-weight:600; font-size:14px; margin-bottom:6px;">找不到「${searchName}」</div>
             <div style="font-size:11px; color:#64748b; line-height:1.7; margin-bottom:12px;">
-              無法在 Wiki 找到地圖或表格資料。<br>您可以使用下方按鈕手動建立全新的獎勵清單：
+              無法在 Gamerch Wiki 找到地圖或表格資料。<br>您可以使用下方按鈕手動建立全新的獎勵清單：
             </div>
             <button id="chiho-create-manual" style="
               padding:8px 16px; border-radius:8px; border:none;
-              background:linear-gradient(135deg,#22c55e,#16a34a);
+              background:#22c55e;
               color:white; font-size:13px; font-weight:600; cursor:pointer;
               box-shadow:0 4px 12px rgba(34,197,94,0.3);
             ">➕ 手動建立地圖資料</button>
@@ -352,192 +352,267 @@
     };
 
     // ── 6. 從 Wiki 抓取 ──
-    async function fetchMapData(name) {
-      const pages = [
-        '現行版本地圖',
-        '版本限定地圖',
-        '期間限定活動',
-        '過期期間限定CiRCLE',
-        '過期期間限定PRiSM',
-        '過期期間限定BUDDiES',
-        '過期期間限定FESTiVAL',
-        '過期期間限定UNiVERSE',
-        '過期期間限定Splash',
-        '過期期間限定DX'
+    const G_CHIHO_MAP = {
+      "7sRefちほー": "https://gamerch.com/maimai/534019#outline__7sRef%E3%81%A1%E3%81%BB%E3%83%BC",
+      "7sRefちほー2": "https://gamerch.com/maimai/534019#outline__7sRef%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "7sRefちほー3": "https://gamerch.com/maimai/534019#outline__7sRef%E3%81%A1%E3%81%BB%E3%83%BC3",
+      "7sRefちほー4": "https://gamerch.com/maimai/534019#outline__7sRef%E3%81%A1%E3%81%BB%E3%83%BC4",
+      "Arcaeaちほー": "https://gamerch.com/maimai/533913#Arcaea",
+      "BLACK ROSEちほー": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC",
+      "BLACK ROSEちほー10": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC10",
+      "BLACK ROSEちほー11": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC11",
+      "BLACK ROSEちほー2 二つの仮面篇": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC2%20%E4%BA%8C%E3%81%A4%E3%81%AE%E4%BB%AE%E9%9D%A2%E7%AF%87",
+      "BLACK ROSEちほー2 黒薔薇病篇": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC2%20%E9%BB%92%E8%96%94%E8%96%87%E7%97%85%E7%AF%87",
+      "BLACK ROSEちほー3": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC3",
+      "BLACK ROSEちほー4": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC4",
+      "BLACK ROSEちほー5": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC5",
+      "BLACK ROSEちほー6": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC6",
+      "BLACK ROSEちほー7": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC7",
+      "BLACK ROSEちほー8": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC8",
+      "BLACK ROSEちほー9": "https://gamerch.com/maimai/534027#outline__BLACK%20ROSE%E3%81%A1%E3%81%BB%E3%83%BC9",
+      "CHUNITHMちほー": "https://gamerch.com/maimai/534688#CHUNITHM",
+      "DEEMOちほー": "https://gamerch.com/maimai/533627#DEEMO",
+      "HaNaMiNaちほー": "https://gamerch.com/maimai/533946#HaNaMiNa",
+      "kawaiiちほー": "https://gamerch.com/maimai/534050#outline__kawaii%E3%81%A1%E3%81%BB%E3%83%BC",
+      "kawaiiちほー2": "https://gamerch.com/maimai/534050#outline__kawaii%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "からめるちほー": "https://gamerch.com/maimai/533828#karameru",
+      "しゅわしゅわちほー": "https://gamerch.com/maimai/533997#outline__%E3%81%97%E3%82%85%E3%82%8F%E3%81%97%E3%82%85%E3%82%8F%E3%81%A1%E3%81%BB%E3%83%BC",
+      "しゅわしゅわちほー2": "https://gamerch.com/maimai/533997#outline__%E3%81%97%E3%82%85%E3%82%8F%E3%81%97%E3%82%85%E3%82%8F%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "しゅわーランドちほー": "https://gamerch.com/maimai/533908#outline__%E3%81%97%E3%82%85%E3%82%8F%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%81%A1%E3%81%BB%E3%83%BC",
+      "しゅわーランドちほー2": "https://gamerch.com/maimai/533908#outline__%E3%81%97%E3%82%85%E3%82%8F%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "でらっくすちほー": "https://gamerch.com/maimai/533908#outline__%E3%81%A7%E3%82%89%E3%81%A3%E3%81%8F%E3%81%99%E3%81%A1%E3%81%BB%E3%83%BC",
+      "でらっくすちほー2": "https://gamerch.com/maimai/533908#outline__%E3%81%A7%E3%82%89%E3%81%A3%E3%81%8F%E3%81%99%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "なないろちほー": "https://gamerch.com/maimai/533997#outline__%E3%81%AA%E3%81%AA%E3%81%84%E3%82%8D%E3%81%A1%E3%81%BB%E3%83%BC",
+      "はじまりのちほー": "https://gamerch.com/maimai/533997#outline__%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A%E3%81%AE%E3%81%A1%E3%81%BB%E3%83%BC",
+      "はじまりのちほー2": "https://gamerch.com/maimai/533997#outline__%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A%E3%81%AE%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "みかんヶ岡ちほー 月夜通り": "https://gamerch.com/maimai/534028#outline__%E3%81%BF%E3%81%8B%E3%82%93%E3%83%B6%E5%B2%A1%E3%81%A1%E3%81%BB%E3%83%BC%20%E6%9C%88%E5%A4%9C%E9%80%9A%E3%82%8A",
+      "みかんヶ岡ちほー 朝焼け通り": "https://gamerch.com/maimai/534028#outline__%E3%81%BF%E3%81%8B%E3%82%93%E3%83%B6%E5%B2%A1%E3%81%A1%E3%81%BB%E3%83%BC%20%E6%9C%88%E5%A4%9C%E9%80%9A%E3%82%8A",
+      "イロドリミドリちほー": "https://gamerch.com/maimai/533828#irodorimidori",
+      "イロドリミドリちほー2": "https://gamerch.com/maimai/533627#irodorimidori2",
+      "オンゲキちほー5": "https://gamerch.com/maimai/533910#ongeki5",
+      "サークルちほー": "https://gamerch.com/maimai/533908#outline__%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%E3%81%A1%E3%81%BB%E3%83%BC",
+      "サークルちほー2": "https://gamerch.com/maimai/533908#outline__%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "スカイストリートちほー": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC",
+      "スカイストリートちほー2": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "スカイストリートちほー3": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC3",
+      "スカイストリートちほー4": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC4",
+      "スカイストリートちほー5": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC5",
+      "スカイストリートちほー6": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC6",
+      "スカイストリートちほー7": "https://gamerch.com/maimai/534028#outline__%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%A1%E3%81%BB%E3%83%BC7",
+      "トリコロちほー": "https://gamerch.com/maimai/533997#outline__%E3%83%88%E3%83%AA%E3%82%B3%E3%83%AD%E3%81%A1%E3%81%BB%E3%83%BC",
+      "トリコロちほー2": "https://gamerch.com/maimai/533997#outline__%E3%83%88%E3%83%AA%E3%82%B3%E3%83%AD%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "ドラゴンちほー": "https://gamerch.com/maimai/534020#outline__%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%A1%E3%81%BB%E3%83%BC",
+      "ドラゴンちほー2": "https://gamerch.com/maimai/534020#outline__%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "ドラゴンちほー3": "https://gamerch.com/maimai/534020#outline__%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%A1%E3%81%BB%E3%83%BC3",
+      "ドラゴンちほー4": "https://gamerch.com/maimai/534020#outline__%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%81%A1%E3%81%BB%E3%83%BC4",
+      "ハピフェスちほー": "https://gamerch.com/maimai/533997#outline__%E3%83%8F%E3%83%94%E3%83%95%E3%82%A7%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC",
+      "ハピフェスちほー2": "https://gamerch.com/maimai/533997#outline__%E3%83%8F%E3%83%94%E3%83%95%E3%82%A7%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "バディーズちほー": "https://gamerch.com/maimai/533908#outline__%E3%83%90%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA%E3%81%A1%E3%81%BB%E3%83%BC",
+      "バディーズちほー2": "https://gamerch.com/maimai/533908#outline__%E3%83%90%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "パーリィちほー": "https://gamerch.com/maimai/533997#outline__%E3%83%91%E3%83%BC%E3%83%AA%E3%82%A3%E3%81%A1%E3%81%BB%E3%83%BC",
+      "パーリィちほー2": "https://gamerch.com/maimai/533997#outline__%E3%83%91%E3%83%BC%E3%83%AA%E3%82%A3%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "ヒメヒナちほー": "https://gamerch.com/maimai/797298#HIMEHINA",
+      "ヒメヒナちほー2": "https://gamerch.com/maimai/533627#HIMEHINA2",
+      "フェスティバルちほー": "https://gamerch.com/maimai/533908#outline__%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB%E3%81%A1%E3%81%BB%E3%83%BC",
+      "フェスティバルちほー2": "https://gamerch.com/maimai/533908#outline__%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "ブルーアーカイブちほー": "https://gamerch.com/maimai/973984#bluearchive",
+      "ブルーアーカイブちほー2": "https://gamerch.com/maimai/533627#bluearchive2",
+      "プリズムちほー": "https://gamerch.com/maimai/533908#outline__%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A1%E3%81%BB%E3%83%BC",
+      "プリズムちほー２": "https://gamerch.com/maimai/533908#outline__%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A1%E3%81%BB%E3%83%BC%EF%BC%92",
+      "メダリストちほー": "https://gamerch.com/maimai/533627#medalist",
+      "メトロポリスちほー": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC",
+      "メトロポリスちほー10": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC10",
+      "メトロポリスちほー2 イーシュ襲来": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC2%20%E3%82%A4%E3%83%BC%E3%82%B7%E3%83%A5%E8%A5%B2%E6%9D%A5",
+      "メトロポリスちほー2 黒姫の逆襲": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC2%20%E9%BB%92%E5%A7%AB%E3%81%AE%E9%80%86%E8%A5%B2",
+      "メトロポリスちほー3": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC3",
+      "メトロポリスちほー4": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC4",
+      "メトロポリスちほー5": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC5",
+      "メトロポリスちほー6": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC6",
+      "メトロポリスちほー7": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC7",
+      "メトロポリスちほー8": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC8",
+      "メトロポリスちほー9": "https://gamerch.com/maimai/534050#outline__%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC9",
+      "ユニバースちほー": "https://gamerch.com/maimai/533908#outline__%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC",
+      "ユニバースちほー2": "https://gamerch.com/maimai/533908#outline__%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "天界ちほー": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC",
+      "天界ちほー2": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "天界ちほー3": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC3",
+      "天界ちほー4": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC4",
+      "天界ちほー5": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC5",
+      "天界ちほー6": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC6",
+      "天界ちほー7": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC7",
+      "天界ちほー8": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC8",
+      "宇宙すてーしょんちほー": "https://gamerch.com/maimai/533997#outline__%E5%AE%87%E5%AE%99%E3%81%99%E3%81%A6%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A1%E3%81%BB%E3%83%BC",
+      "宇宙すてーしょんちほー2": "https://gamerch.com/maimai/533997#outline__%E5%AE%87%E5%AE%99%E3%81%99%E3%81%A6%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A1%E3%81%BB%E3%83%BC2",
+      "東方Projectリバイバルちほー": "https://gamerch.com/maimai/533913#Toho_revival",
+      "森羅万象ちほー": "https://gamerch.com/maimai/533627#shinrabansho",
+      "涼宮ハルヒちほー": "https://gamerch.com/maimai/533627#haruhi",
+      "舞ヶ原シンセ研究会ちほー": "https://gamerch.com/maimai/534104#maigahara",
+      "都市伝説解体センターちほー": "https://gamerch.com/maimai/533627#shueisha",
+      "青春ちほー": "https://gamerch.com/maimai/534028#outline__%E9%9D%92%E6%98%A5%E3%81%A1%E3%81%BB%E3%83%BC",
+      "高天原ちほー": "https://gamerch.com/maimai/533907#outline__%E9%AB%98%E5%A4%A9%E5%8E%9F%E3%81%A1%E3%81%BB%E3%83%BC",
+      "高天原ちほー2": "https://gamerch.com/maimai/533907#outline__%E9%AB%98%E5%A4%A9%E5%8E%9F%E3%81%A1%E3%81%BB%E3%83%BC2",
+    };
+
+    // ── 6.5 跨網域請求 (CORS Proxy) ──
+    async function fetchGamerchPage(url) {
+      const proxies = [
+        u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+        u => `https://corsproxy.io/?${encodeURIComponent(u)}`
       ];
-      for (const page of pages) {
+      let lastErr = null;
+      for (const getProxyUrl of proxies) {
         try {
-          const url = `https://maimai.fandom.com/zh/api.php?action=parse&page=${encodeURIComponent(page)}&prop=text&format=json&origin=*`;
-          const resp = await fetch(url);
-          if (!resp.ok) continue;
-          const json = await resp.json();
-          const html = json?.parse?.text?.['*'];
-          if (!html) continue;
-          const data = parseMap(html, name);
-          if (data && data.rewards.length > 0) {
-            data.source = page;
-            return data;
+          const proxyUrl = getProxyUrl(url);
+          const resp = await fetch(proxyUrl);
+          if (resp.ok) return await resp.text();
+        } catch (e) {
+          lastErr = e;
+        }
+      }
+      throw lastErr || new Error("無法透過 CORS 代理伺服器抓取資料");
+    }
+
+    async function fetchMapData(name) {
+      const cleanedSearch = cleanStr(name);
+      
+      let targetUrl = null;
+      let targetKey = null;
+      for (const key of Object.keys(G_CHIHO_MAP)) {
+        if (cleanStr(key) === cleanedSearch || cleanedSearch.includes(cleanStr(key)) || cleanStr(key).includes(cleanedSearch)) {
+          targetUrl = G_CHIHO_MAP[key];
+          targetKey = key;
+          break;
+        }
+      }
+
+      if (!targetUrl) {
+        console.log(`[Chiho] 「${name}」不在靜態地圖中，開始動態掃描 Gamerch 索引頁...`);
+        const indices = [
+          "https://gamerch.com/maimai/533950",
+          "https://gamerch.com/maimai/533627"
+        ];
+        for (const idxUrl of indices) {
+          try {
+            const html = await fetchGamerchPage(idxUrl);
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            for (const a of doc.querySelectorAll('a')) {
+              const linkText = a.textContent.trim();
+              const cleanLinkText = cleanStr(linkText);
+              if (cleanLinkText && (cleanLinkText === cleanedSearch || cleanedSearch.includes(cleanLinkText) || cleanLinkText.includes(cleanLinkText))) {
+                let href = a.getAttribute('href') || '';
+                if (href) {
+                  if (!href.startsWith('http')) {
+                    href = "https://gamerch.com" + href;
+                  }
+                  targetUrl = href.replace('/entry/', '/');
+                  targetKey = linkText;
+                  break;
+                }
+              }
+            }
+            if (targetUrl) break;
+          } catch (e) {
+            console.warn(`[Chiho] 掃描索引頁 ${idxUrl} 失敗:`, e);
           }
-        } catch (e) { console.warn(`[Chiho] ${page}:`, e); }
+        }
+      }
+
+      if (!targetUrl) {
+        console.warn(`[Chiho] 無法在 Gamerch 找到「${name}」的頁面連結`);
+        return null;
+      }
+
+      const basePageUrl = targetUrl.split('#')[0];
+      const hash = targetUrl.includes('#') ? targetUrl.split('#')[1] : '';
+
+      console.log(`[Chiho] 正在抓取 Gamerch 頁面: ${basePageUrl} (Hash: ${hash})`);
+      try {
+        const html = await fetchGamerchPage(basePageUrl);
+        const data = parseMap(html, name, hash);
+        if (data && data.rewards.length > 0) {
+          data.source = `Gamerch Wiki (${targetKey || name})`;
+          return data;
+        }
+      } catch (e) {
+        console.error(`[Chiho] 抓取頁面 ${basePageUrl} 失敗:`, e);
       }
       return null;
     }
 
-    // ── 7. 解析 Wiki HTML ──
-    function parseMap(html, target) {
+    // ── 7. 解析 Gamerch HTML ──
+    function parseMap(html, target, hash) {
       const doc = new DOMParser().parseFromString(html, 'text/html');
-
-      // 從所有圖片檔名及 alt 屬性中收集額外的歌曲名稱與非歌曲獎勵名稱（如背景/名牌板/角色）
-      doc.querySelectorAll('img').forEach(img => {
-        let src = img.getAttribute('src') || '';
-        if (src.startsWith('data:')) {
-          src = img.getAttribute('data-src') || '';
-        }
-        const alt = img.getAttribute('alt') || '';
-
-        const filenameMatch = src.match(/\/([^\/]+)\.(png|jpg|jpeg|gif)/i);
-        if (filenameMatch) {
-          const filename = decodeURIComponent(filenameMatch[1]);
-
-          // 判斷是否為非歌曲獎勵（TM_角色, Frame_背景, Plate_底板, Ticket_券, Icon_頭像 等）
-          const isNonSong = filename.startsWith('TM_') ||
-            filename.startsWith('Frame_') ||
-            filename.startsWith('Plate_') ||
-            filename.startsWith('Ticket_') ||
-            filename.startsWith('Icon_') ||
-            filename.includes('_tm_') ||
-            filename.includes('_frame_') ||
-            filename.includes('_plate_');
-
-          if (isNonSong) {
-            let name = filename;
-            const prefixes = ['TM_', 'Frame_', 'Plate_', 'Ticket_', 'Icon_'];
-            for (const p of prefixes) {
-              if (name.startsWith(p)) {
-                name = name.substring(p.length);
-                break;
-              }
-            }
-            name = name.replace(/^(\d+\.?\d*|mms)_/, '');
-            name = name.trim();
-            if (name) nonSongRewards.add(name);
-          }
-
-          // 收集歌曲檔名
-          if (filename.includes('_mms_')) {
-            const parts = filename.split('_mms_');
-            if (parts.length > 1) {
-              const songName = parts[1].trim();
-              if (songName) songTitles.add(songName);
-            }
-          } else if (filename.startsWith('mms_')) {
-            const songName = filename.substring(4).trim();
-            if (songName) songTitles.add(songName);
-          }
-        }
-
-        // 從 alt 屬性解析
-        const altLower = alt.toLowerCase();
-        const isNonSongAlt = altLower.startsWith('tm ') ||
-          altLower.startsWith('frame ') ||
-          altLower.startsWith('plate ') ||
-          altLower.startsWith('ticket ') ||
-          altLower.startsWith('icon ') ||
-          alt.includes('背景') ||
-          alt.includes('名牌板') ||
-          alt.includes('底板') ||
-          alt.includes('頭像') ||
-          alt.includes('旅伴');
-
-        if (isNonSongAlt) {
-          let name = alt;
-          const prefixes = ['tm', 'frame', 'plate', 'ticket', 'icon'];
-          const words = alt.split(/\s+/);
-          if (words.length > 1 && prefixes.includes(words[0].toLowerCase())) {
-            name = words.slice(1).join(' ');
-          }
-          name = name.replace(/^(\d+\.?\d*|mms)\s+/, '');
-          name = name.trim();
-          if (name) nonSongRewards.add(name);
-        }
-
-        if (alt.toLowerCase().includes('mms')) {
-          const parts = alt.split(/\s+mms\s+/i);
-          if (parts.length > 1) {
-            const songName = parts[1].trim();
-            if (songName) songTitles.add(songName);
-          } else if (alt.toLowerCase().startsWith('mms ')) {
-            const songName = alt.substring(4).trim();
-            if (songName) songTitles.add(songName);
-          } else {
-            const words = alt.split(/\s+/);
-            const mmsIdx = words.findIndex(w => w.toLowerCase() === 'mms');
-            if (mmsIdx !== -1 && mmsIdx < words.length - 1) {
-              const songName = words.slice(mmsIdx + 1).join(' ').trim();
-              if (songName) songTitles.add(songName);
-            }
-          }
-        }
-      });
-
-      const headings = doc.querySelectorAll('.mw-headline');
-
-      // 更強大的標準化邏輯：轉小寫、去除空白、橫杠、減號、底線、波浪號、各種括號與引號
-      const cleanStr = s => s.toLowerCase()
-        .replace(/[\s\u3000\-－~～_\.]/g, '')
-        .replace(/[「」『』【】()（）[\]]/g, '')
-        .replace(/\*+/g, '');
-
-      // 檢查兩名稱是否匹配：
-      // 1. 標準化後完全相同
-      // 2. 標準化後包含，但「數字部分必須完全一致」（避免將 ちほー8 誤判為 ちほー，或 2 誤判為 8 等）
-      function isMatch(raw1, raw2) {
-        const s1 = cleanStr(raw1);
-        const s2 = cleanStr(raw2);
-        if (s1 === s2) return true;
-
-        const num1 = (s1.match(/\d+/g) || []).join('');
-        const num2 = (s2.match(/\d+/g) || []).join('');
-        if (num1 !== num2) return false;
-
-        return s1.includes(s2) || s2.includes(s1);
-      }
+      const headings = doc.querySelectorAll('h2, h3, h4');
+      const cleanedTarget = cleanStr(target);
 
       let found = null;
-      for (const h of headings) {
-        if (isMatch(h.textContent, target)) {
-          found = h;
-          break;
+      
+      if (hash) {
+        try {
+          const decodedHash = decodeURIComponent(hash);
+          let el = doc.getElementById(decodedHash) || doc.querySelector(`[id*="${decodedHash}"]`);
+          if (el) {
+            if (['H2', 'H3', 'H4'].includes(el.tagName)) {
+              found = el;
+            } else {
+              found = el.querySelector('h2, h3, h4') || el.closest('h2, h3, h4');
+            }
+          }
+        } catch (e) { console.warn("[Chiho] 錨點解析失敗:", e); }
+      }
+      
+      if (!found) {
+        for (const h of headings) {
+          const hText = cleanStr(h.textContent);
+          if (hText === cleanedTarget || hText.includes(cleanedTarget) || cleanedTarget.includes(hText)) {
+            found = h;
+            break;
+          }
         }
       }
-      if (!found) return null;
 
-      const parent = found.closest('h3') || found.closest('h2');
-      if (!parent) return null;
+      if (!found) {
+        const tables = doc.querySelectorAll('table');
+        if (tables.length === 1) {
+          const rewards = parseTable(tables[0]);
+          if (rewards.length) return { mapName: target, rewards };
+        }
+        return null;
+      }
 
       const rewards = [];
-      let el = parent.nextElementSibling;
+      let el = found.nextElementSibling;
       while (el) {
-        if (el.tagName === 'H2' || el.tagName === 'H3') break;
+        if (el.tagName === found.tagName || el.tagName === 'H2' || el.tagName === 'H1') {
+          break;
+        }
+        
         const tables = el.tagName === 'TABLE' ? [el] : [...(el.querySelectorAll?.('table') || [])];
         for (const t of tables) {
-          rewards.push(...parseTable(t));
+          if (isValidDistanceTable(t)) {
+            rewards.push(...parseTable(t));
+          }
         }
+        
+        if (rewards.length > 0) break;
         el = el.nextElementSibling;
       }
+      
       return rewards.length ? { mapName: target, rewards } : null;
+    }
+
+    function isValidDistanceTable(table) {
+      const firstRow = table.querySelector('tr');
+      if (!firstRow) return false;
+      const text = firstRow.textContent;
+      return text.includes('距離') && text.includes('報酬');
     }
 
     // ── 8. 解析距離表格 ──
     function parseTable(table) {
-      const tempRows = [];
       const rows = table.querySelectorAll('tr');
       if (rows.length < 2) return [];
-      const hdr = rows[0].textContent;
-      if (!hdr.includes('距離') && !hdr.includes('累計') && !hdr.includes('Km') &&
-        !(hdr.includes('No') && hdr.includes('解禁'))) return [];
 
-      // 自動展開 colspan 的表頭欄位名稱
       const headers = [];
       rows[0].querySelectorAll('th, td').forEach(cell => {
         const colspan = parseInt(cell.getAttribute('colspan') || '1', 10);
@@ -547,132 +622,44 @@
         }
       });
 
-      // 依據欄位數量及標題關鍵字動態設定對應的索引值
-      let noIdx = 0;
-      let cumIdx = 1;
-      let unlockIdx = 2;
-      let songIdx = -1;
-
-      if (headers.length === 3) {
-        noIdx = 0;
-        cumIdx = 1;
-        unlockIdx = 2;
-      } else if (headers.length === 4) {
-        noIdx = 0;
-        cumIdx = 1;
-        unlockIdx = 2;
-        songIdx = 3;
-      } else if (headers.length >= 5) {
-        noIdx = 0;
-        cumIdx = 2;
-        unlockIdx = 3;
-        songIdx = 4;
+      let cumIdx = headers.findIndex(h => h.includes('距離') || h.includes('累計') || h.includes('km'));
+      let typeIdx = headers.findIndex(h => h.includes('種類'));
+      let rewardIdx = headers.findIndex(h => h === '報酬' || h.includes('解禁') || h.includes('要素'));
+      if (rewardIdx === -1) {
+        rewardIdx = headers.findIndex(h => h.includes('報酬') && !h.includes('種類'));
       }
 
-      // 第一階段：取出文字並將各單元格的歌曲加入 songTitles
+      if (cumIdx === -1) cumIdx = 0;
+      if (typeIdx === -1) typeIdx = 1;
+      if (rewardIdx === -1) rewardIdx = 2;
+
+      const parsedRewards = [];
       for (let i = 1; i < rows.length; i++) {
         const cells = rows[i].querySelectorAll('td, th');
-        if (cells.length < 3) continue;
-        const t = [...cells].map(c => c.textContent.trim());
+        if (cells.length <= Math.max(cumIdx, typeIdx, rewardIdx)) continue;
 
-        const noVal = t[noIdx] || '';
-        const cumVal = t[cumIdx] || '';
-        const unlockVal = t[unlockIdx] || '';
-        const songVal = songIdx !== -1 ? t[songIdx] || '' : '';
+        const cumVal = cells[cumIdx].textContent.trim();
+        const typeVal = typeIdx !== -1 ? cells[typeIdx].textContent.trim() : '';
+        const rewardVal = cells[rewardIdx].textContent.trim();
 
         const cum = pKm(cumVal);
         if (!isNaN(cum) && cum >= 0) {
-          const cleanSong = songVal.replace(/（none）/gi, '').replace(/\(none\)/gi, '').replace(/—/g, '').trim();
-          const cleanUnlock = unlockVal.replace(/—/g, '').trim();
+          const cleanReward = rewardVal.replace(/—/g, '').trim();
+          if (!cleanReward) continue;
 
-          // 收集獎勵樂曲至全局清單中
-          if (cleanSong) {
-            const parts = cleanSong.split(/[\n,，、\u3001]/);
-            parts.forEach(part => {
-              const s = part.trim();
-              if (s && s.length > 1 && !s.includes('&') && !s.includes('category') &&
-                !s.toLowerCase().includes('pops') && !s.toLowerCase().includes('niconico') &&
-                !s.toLowerCase().includes('maimai') && !s.toLowerCase().includes('touhou') &&
-                !s.toLowerCase().includes('game')) {
-                songTitles.add(s);
-              }
-            });
-          }
+          const isSong = typeVal.includes('楽曲') || typeVal.includes('曲名') || checkIsSong(cleanReward);
 
-          // 若解禁要素帶有括號且括號內是歌曲，如「（熱異常）」，亦將其抽出加入歌曲清單
-          if (cleanUnlock && isBracketed(cleanUnlock)) {
-            const stripped = cleanUnlock.substring(1, cleanUnlock.length - 1).trim();
-            if (stripped) songTitles.add(stripped);
-          }
-
-          tempRows.push({
-            no: noVal,
+          parsedRewards.push({
+            no: i.toString(),
             cumulative: cum,
-            unlockEl: cleanUnlock || '—',
-            song: cleanSong || '',
-            reward: cleanUnlock || cleanSong || '—'
+            unlockEl: cleanReward,
+            song: isSong ? cleanReward : '',
+            isSongOnly: isSong,
+            reward: cleanReward
           });
         }
       }
-
-      const cleanStr = s => s.toLowerCase().replace(/[\s\u3000\-－~～_\.]/g, '').replace(/[「」『』【】()（）[\]]/g, '').replace(/\*+/g, '');
-
-      function checkIsSong(text) {
-        if (!text) return false;
-        const trimmed = text.trim();
-        let testText = trimmed;
-        // 去除可能包圍在歌曲外的括號進行比對
-        if (isBracketed(trimmed)) {
-          testText = trimmed.substring(1, trimmed.length - 1).trim();
-        }
-        const cleaned = cleanStr(testText);
-        for (const song of songTitles) {
-          if (cleanStr(song) === cleaned) {
-            return true;
-          }
-        }
-        return false;
-      }
-
-      function checkIsNonSong(text) {
-        if (!text) return false;
-        const cleaned = cleanStr(text);
-        for (const item of nonSongRewards) {
-          if (cleanStr(item) === cleaned) {
-            return true;
-          }
-        }
-        return false;
-      }
-
-      // 第二階段：判定是否為僅解禁歌曲之里程碑，並識別特別的條件/課題曲
-      const finalRewards = tempRows.map(r => {
-        const cleanUnlock = r.unlockEl;
-        const cleanSong = r.song;
-
-        // 判斷是否為帶有括號的條件曲（如「（熱異常）」）
-        const isTaskMusic = isBracketed(cleanUnlock);
-
-        let isSongOnly = false;
-        if (!isTaskMusic) {
-          // 如果該里程碑其實是非歌曲獎勵（例如背景/角色），即使名稱與某首歌曲重疊（如背景名「コスモポップファンクラブ」），也不應視為僅解禁歌曲
-          const isNonSongReward = checkIsNonSong(cleanUnlock);
-          if (!isNonSongReward) {
-            if (checkIsSong(cleanUnlock)) {
-              isSongOnly = true;
-            } else if (cleanSong && (!cleanUnlock || cleanUnlock.toLowerCase() === 'none' || cleanStr(cleanUnlock) === cleanStr(cleanSong))) {
-              isSongOnly = true;
-            }
-          }
-        }
-
-        return {
-          ...r,
-          isSongOnly
-        };
-      });
-
-      return finalRewards;
+      return parsedRewards;
     }
 
     function pKm(s) { return s ? parseInt(s.replace(/,/g, '').replace(/\s/g, ''), 10) : NaN; }
@@ -802,7 +789,7 @@
           <span style="font-size:12px; color:#818cf8; font-weight:600;">${done}/${processedRewards.length} 已達成 · ${pct.toFixed(1)}%</span>
         </div>
         <div style="height:5px; background:rgba(99,102,241,0.12); border-radius:3px; overflow:hidden;">
-          <div style="height:100%; width:${pct}%; background:linear-gradient(90deg,#6366f1,#a855f7); border-radius:3px;"></div>
+          <div style="height:100%; width:${pct}%; background:#6366f1; border-radius:3px;"></div>
         </div>
         <div style="display:flex; justify-content:space-between; margin-top:4px; font-size:10px; color:#475569;">
           <span>${km.toLocaleString()} Km</span><span>${maxCum.toLocaleString()} Km</span>
@@ -923,7 +910,7 @@
         if (isDone) {
           lbl.style.cssText = `
           text-align:center; font-size:10px; line-height:1.3;
-          color:#fff; background:linear-gradient(135deg,#22c55e,#16a34a);
+          color:#fff; background:#22c55e;
           border-radius:6px; padding:3px 6px; margin-top:4px;
           font-weight:700; text-shadow:0 1px 2px rgba(0,0,0,0.3);
           box-shadow:0 2px 6px rgba(34,197,94,0.3);
@@ -933,7 +920,7 @@
           const isNext = i === nextIdx;
           lbl.style.cssText = `
           text-align:center; font-size:10px; line-height:1.3;
-          color:#fff; background:linear-gradient(135deg,#f59e0b,#d97706);
+          color:#fff; background:#f59e0b;
           border-radius:6px; padding:3px 6px; margin-top:4px;
           font-weight:700; text-shadow:0 1px 2px rgba(0,0,0,0.3);
           box-shadow:0 2px 6px rgba(245,158,11,0.3);
