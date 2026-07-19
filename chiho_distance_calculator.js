@@ -568,6 +568,7 @@
     "高天原ちほー": "https://gamerch.com/maimai/533907#outline__%E9%AB%98%E5%A4%A9%E5%8E%9F%E3%81%A1%E3%81%BB%E3%83%BC",
     "高天原ちほー2": "https://gamerch.com/maimai/533907#outline__%E9%AB%98%E5%A4%A9%E5%8E%9F%E3%81%A1%E3%81%BB%E3%83%BC2",
     "＃コンパスちほー2": "https://gamerch.com/maimai/871568#compass2",
+    "マサラダちほー": "https://gamerch.com/maimai/533627#masarada"
   };
 
   // ── 6.5 跨網域請求 (CORS Proxy) ──

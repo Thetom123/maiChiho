@@ -8297,6 +8297,101 @@
       }
     ]
   },
+  "マサラダちほー": {
+    "mapName": "マサラダちほー",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "重音テト（イレギュラーマン）"
+      },
+      {
+        "no": 2,
+        "cumulative": 20,
+        "type": "課題曲",
+        "name": "イレギュラーマン"
+      },
+      {
+        "no": 3,
+        "cumulative": 45,
+        "type": "フレーム",
+        "name": "マサラダちほー その1"
+      },
+      {
+        "no": 4,
+        "cumulative": 60,
+        "type": "つあーメンバー",
+        "name": "重音テト（ライアーダンサー）"
+      },
+      {
+        "no": 5,
+        "cumulative": 80,
+        "type": "つあーメンバー",
+        "name": "重音テト（ウルトラトレーラー）"
+      },
+      {
+        "no": 6,
+        "cumulative": 100,
+        "type": "つあーメンバー",
+        "name": "私（ちっちゃな私）"
+      },
+      {
+        "no": 7,
+        "cumulative": 120,
+        "type": "つあーメンバー",
+        "name": "ちっちゃいの（ちっちゃな私）"
+      },
+      {
+        "no": 8,
+        "cumulative": 150,
+        "type": "ネームプレート",
+        "name": "マサラダちほー その1"
+      },
+      {
+        "no": 9,
+        "cumulative": 170,
+        "type": "フレーム",
+        "name": "マサラダちほー その2"
+      },
+      {
+        "no": 10,
+        "cumulative": 200,
+        "type": "課題曲",
+        "name": "ちっちゃな私"
+      },
+      {
+        "no": 11,
+        "cumulative": 220,
+        "type": "フレーム",
+        "name": "マサラダちほー その3"
+      },
+      {
+        "no": 12,
+        "cumulative": 250,
+        "type": "つあーメンバー",
+        "name": "マサラダ"
+      },
+      {
+        "no": 13,
+        "cumulative": 300,
+        "type": "ネームプレート",
+        "name": "マサラダちほー その2"
+      },
+      {
+        "no": 14,
+        "cumulative": 350,
+        "type": "課題曲",
+        "name": "㋰責任集合体"
+      },
+      {
+        "no": 15,
+        "cumulative": 400,
+        "type": "フレーム",
+        "name": "マサラダちほー その4"
+      }
+    ]
+  },
   "FEAT CONTESTちほー": {
     "mapName": "FEAT CONTESTちほー",
     "rewards": [
