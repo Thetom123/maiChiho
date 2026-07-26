@@ -98,10 +98,12 @@
   }
 
   /** 判斷是否為課題曲（預設解禁，不會在網頁上顯示圖標） */
+  /** 注意：パーフェクトチャレンジ有圖標，不在此過濾範圍 */
   function isTaskSong(type) {
     if (!type) return false;
     const t = type.toLowerCase();
-    return t.includes('課題') || t.includes('チャレンジ');
+    if (t.includes('パーフェクトチャレンジ')) return false;
+    return t.includes('課題');
   }
 
   function escapeHtml(str) {
