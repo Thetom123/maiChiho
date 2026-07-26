@@ -93,7 +93,7 @@
     if (window.location.href.includes('eventMapLogDetail')) {
       return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
     }
-    if (t.includes('課題') || t.includes('チャレンジ')) return false;
+    if (t.includes('課題') || t.includes('チャレンジ')) return true;
     return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
   }
 
