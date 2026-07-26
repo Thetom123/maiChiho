@@ -93,8 +93,15 @@
     if (window.location.href.includes('eventMapLogDetail')) {
       return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
     }
-    if (t.includes('課題') || t.includes('チャレンジ')) return true;
+    if (t.includes('課題') || t.includes('チャレンジ')) return false;
     return t.includes('楽曲') || t.includes('曲名') || t.includes('譜面') || t.includes('曲');
+  }
+
+  /** 判斷是否為課題曲（預設解禁，不會在網頁上顯示圖標） */
+  function isTaskSong(type) {
+    if (!type) return false;
+    const t = type.toLowerCase();
+    return t.includes('課題') || t.includes('チャレンジ');
   }
 
   function escapeHtml(str) {
@@ -138,15 +145,33 @@
       return processedRewards.map((_, idx) => idx);
     }
 
-    // 優先策略：如果過濾掉樂曲類別後，非樂曲獎勵的數量剛好等於 DOM 區塊數量
+    // 策略一：先扣除課題曲，檢查與圖標數量是否相符
+    const nonTaskIndices = [];
+    processedRewards.forEach((r, idx) => {
+      if (!isTaskSong(r.type)) {
+        nonTaskIndices.push(idx);
+      }
+    });
+
+    if (nonTaskIndices.length === blocks.length) {
+      console.log('[Chiho] 策略一命中：扣除課題曲後數量相符，使用課題曲過濾對齊');
+      const wikiToDomMap = new Array(processedRewards.length).fill(-1);
+      nonTaskIndices.forEach((wikiIdx, domIdx) => {
+        wikiToDomMap[wikiIdx] = domIdx;
+      });
+      return wikiToDomMap;
+    }
+
+    // 策略二：扣除所有樂曲相關獎勵（含課題曲），檢查與圖標數量是否相符
     const nonMusicIndices = [];
     processedRewards.forEach((r, idx) => {
-      if (!isMusicUnlock(r.type)) {
+      if (!isMusicUnlock(r.type) && !isTaskSong(r.type)) {
         nonMusicIndices.push(idx);
       }
     });
 
     if (nonMusicIndices.length === blocks.length) {
+      console.log('[Chiho] 策略二命中：扣除所有樂曲相關獎勵後數量相符，使用樂曲過濾對齊');
       const wikiToDomMap = new Array(processedRewards.length).fill(-1);
       nonMusicIndices.forEach((wikiIdx, domIdx) => {
         wikiToDomMap[wikiIdx] = domIdx;
@@ -154,6 +179,7 @@
       return wikiToDomMap;
     }
 
+    // 策略三：智慧對齊（按任務/獎勵分類）
     const domTaskBlocks = [];
     const domRewardBlocks = [];
     blocks.forEach((block, idx) => {
