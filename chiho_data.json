@@ -13148,7 +13148,7 @@
         "no": 11,
         "cumulative": 700,
         "type": "パーフェクトチャレンジ楽曲",
-        "name": "［X］"
+        "name": "[X]"
       },
       {
         "no": 12,
@@ -16627,6 +16627,77 @@
         "cumulative": 1100,
         "type": "KALEIDXSCOPE",
         "name": "白の扉"
+      }
+    ]
+  },
+  "天界ちほー9": {
+    "mapName": "天界ちほー9",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "モンベルド"
+      },
+      {
+        "no": 2,
+        "cumulative": 150,
+        "type": "解禁楽曲",
+        "name": "Story Continued"
+      },
+      {
+        "no": 3,
+        "cumulative": 200,
+        "type": "つあーメンバー",
+        "name": "サラ"
+      },
+      {
+        "no": 4,
+        "cumulative": 300,
+        "type": "つあーメンバー",
+        "name": "庭白ガヴィ"
+      },
+      {
+        "no": 5,
+        "cumulative": 500,
+        "type": "解禁楽曲",
+        "name": "SERAPHIC SYNDROME"
+      },
+      {
+        "no": 6,
+        "cumulative": 550,
+        "type": "ネームプレート",
+        "name": "天界ちほー9"
+      },
+      {
+        "no": 7,
+        "cumulative": 600,
+        "type": "つあーメンバー",
+        "name": "白銅寺アズリ"
+      },
+      {
+        "no": 8,
+        "cumulative": 850,
+        "type": "解禁楽曲",
+        "name": "終幕の傀儡"
+      },
+      {
+        "no": 9,
+        "cumulative": 900,
+        "type": "つあーメンバー",
+        "name": "百合咲ミカ"
+      },
+      {
+        "no": 10,
+        "cumulative": 1200,
+        "type": "パーフェクトチャレンジ楽曲",
+        "name": "Aegisfortia"
+      },
+      {
+        "no": 11,
+        "cumulative": 1400,
+        "type": "フレーム",
+        "name": "天界ちほー9"
       }
     ]
   },

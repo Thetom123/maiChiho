@@ -559,6 +559,7 @@
     "天界ちほー6": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC6",
     "天界ちほー7": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC7",
     "天界ちほー8": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC8",
+    "天界ちほー9": "https://gamerch.com/maimai/533907#outline__%E5%A4%A9%E7%95%8C%E3%81%A1%E3%81%BB%E3%83%BC9",
     "宇宙すてーしょんちほー": "https://gamerch.com/maimai/533997#outline__%E5%AE%87%E5%AE%99%E3%81%99%E3%81%A6%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A1%E3%81%BB%E3%83%BC",
     "宇宙すてーしょんちほー2": "https://gamerch.com/maimai/533997#outline__%E5%AE%87%E5%AE%99%E3%81%99%E3%81%A6%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A1%E3%81%BB%E3%83%BC2",
     "宇崎ちゃんは遊びたい！ちほー": "https://gamerch.com/maimai/534104#uzakichan",
