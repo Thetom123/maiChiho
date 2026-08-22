@@ -8392,6 +8392,77 @@
       }
     ]
   },
+  "Rotaenoちほー": {
+    "mapName": "Rotaenoちほー",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "イロ"
+      },
+      {
+        "no": 2,
+        "cumulative": 75,
+        "type": "課題曲",
+        "name": "Broomstick adventure!"
+      },
+      {
+        "no": 3,
+        "cumulative": 100,
+        "type": "ネームプレート",
+        "name": "Rotaenoちほー"
+      },
+      {
+        "no": 4,
+        "cumulative": 125,
+        "type": "つあーメンバー",
+        "name": "ホッパ"
+      },
+      {
+        "no": 5,
+        "cumulative": 150,
+        "type": "つあーメンバー",
+        "name": "ノア"
+      },
+      {
+        "no": 6,
+        "cumulative": 175,
+        "type": "つあーメンバー",
+        "name": "カール"
+      },
+      {
+        "no": 7,
+        "cumulative": 200,
+        "type": "課題曲",
+        "name": "無彩色のディストピア"
+      },
+      {
+        "no": 8,
+        "cumulative": 300,
+        "type": "つあーメンバー",
+        "name": "イロ（ドジっ子メイド）"
+      },
+      {
+        "no": 9,
+        "cumulative": 400,
+        "type": "解禁楽曲",
+        "name": "Manifold Hypothesis"
+      },
+      {
+        "no": 10,
+        "cumulative": 550,
+        "type": "解禁楽曲",
+        "name": "Inverted World"
+      },
+      {
+        "no": 11,
+        "cumulative": 600,
+        "type": "フレーム",
+        "name": "Rotaenoちほー"
+      }
+    ]
+  },
   "FEAT CONTESTちほー": {
     "mapName": "FEAT CONTESTちほー",
     "rewards": [
