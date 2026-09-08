@@ -59,9 +59,11 @@
   // ── 3. 偵測獎勵圖標完成狀態 ──
   const rewardBlocks = document.querySelectorAll('.see_through_area .basic_block');
   const completedIndices = new Set();
+  const getIconIndices = new Set(); // 追蹤有 GET icon 的 block（用於 rem===0 嚴格判定）
   rewardBlocks.forEach((block, idx) => {
     const hasGetIcon = !!block.querySelector('img[src*="get"]');
     const hasGrayImg = !!block.querySelector('.gray_img');
+    if (hasGetIcon) getIconIndices.add(idx);
     if (hasGetIcon || !hasGrayImg) {
       if (idx === 0 && currentKm === 0) return;
       completedIndices.add(idx);
@@ -126,7 +128,9 @@
     if (rem < 0) return true;
     if (rem === 0) {
       if (mappedDomIdx !== undefined && mappedDomIdx !== -1) {
-        if (completedIndices.has(mappedDomIdx)) return true;
+        // rem === 0 時，要求有 GET icon 才算完成
+        // 避免課題曲到達距離但尚未解鎖時被誤判為已達成
+        if (getIconIndices.has(mappedDomIdx)) return true;
       } else {
         if (completedIndices.has(i)) return true;
       }
