@@ -1069,7 +1069,7 @@
       {
         "no": 3,
         "cumulative": 100,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "Estahv"
       },
       {
@@ -1081,7 +1081,7 @@
       {
         "no": 5,
         "cumulative": 200,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "First Dance"
       },
       {
@@ -1093,7 +1093,7 @@
       {
         "no": 7,
         "cumulative": 300,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "Mjölnir"
       },
       {
@@ -1105,7 +1105,7 @@
       {
         "no": 9,
         "cumulative": 700,
-        "type": "楽曲",
+        "type": "パーフェクトチャレンジ楽曲",
         "name": "Love’s Theme of BADASS ～バッド・アス 愛のテーマ～"
       },
       {
@@ -9522,7 +9522,7 @@
       {
         "no": 2,
         "cumulative": 10,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "アカリがやってきたぞっ"
       },
       {
@@ -9551,7 +9551,7 @@
       },
       {
         "no": 7,
-        "cumulative": 8610,
+        "cumulative": 8600,
         "type": "つあーメンバー",
         "name": "GYARI"
       }
@@ -9575,7 +9575,7 @@
       {
         "no": 3,
         "cumulative": 10,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "アマツキツネ"
       },
       {
@@ -9587,7 +9587,7 @@
       {
         "no": 5,
         "cumulative": 160,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "星屑ユートピア"
       },
       {
@@ -9599,7 +9599,7 @@
       {
         "no": 7,
         "cumulative": 350,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "骸骨楽団とリリア"
       },
       {
@@ -9611,7 +9611,7 @@
       {
         "no": 9,
         "cumulative": 2500,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "デンパラダイム"
       },
       {
@@ -9652,7 +9652,7 @@
       {
         "no": 2,
         "cumulative": 10,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "UNION"
       },
       {
@@ -9924,7 +9924,7 @@
       {
         "no": 2,
         "cumulative": 10,
-        "type": "楽曲",
+        "type": "解禁楽曲",
         "name": "POPPY PAPPY DAY"
       },
       {
@@ -9936,8 +9936,8 @@
       {
         "no": 4,
         "cumulative": 140,
-        "type": "楽曲",
-        "name": "POP TEAM EPIC(でらっくす譜面)*1"
+        "type": "解禁楽曲",
+        "name": "POP TEAM EPIC(DX)"
       },
       {
         "no": 5,
@@ -16952,6 +16952,457 @@
         "cumulative": 240,
         "type": "フレーム",
         "name": "月面ちほー"
+      }
+    ]
+  },
+  "野原ひろし 昼メシの流儀 ちほー": {
+    "mapName": "野原ひろし 昼メシの流儀 ちほー",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "野原ひろし"
+      },
+      {
+        "no": 2,
+        "cumulative": 12,
+        "type": "課題曲",
+        "name": "ごはん食べヨ"
+      },
+      {
+        "no": 3,
+        "cumulative": 25,
+        "type": "ネームプレート",
+        "name": "野原ひろし 昼メシの流儀 ちほー その1"
+      },
+      {
+        "no": 4,
+        "cumulative": 50,
+        "type": "フレーム",
+        "name": "野原ひろし 昼メシの流儀 ちほー その1"
+      },
+      {
+        "no": 5,
+        "cumulative": 75,
+        "type": "つあーメンバー",
+        "name": "川口"
+      },
+      {
+        "no": 6,
+        "cumulative": 100,
+        "type": "つあーメンバー",
+        "name": "四杉遥"
+      },
+      {
+        "no": 7,
+        "cumulative": 125,
+        "type": "つあーメンバー",
+        "name": "高桐あきたけ"
+      },
+      {
+        "no": 8,
+        "cumulative": 150,
+        "type": "ネームプレート",
+        "name": "野原ひろし 昼メシの流儀 ちほー その2"
+      },
+      {
+        "no": 9,
+        "cumulative": 200,
+        "type": "フレーム",
+        "name": "野原ひろし 昼メシの流儀 ちほー その2"
+      },
+      {
+        "no": 10,
+        "cumulative": 240,
+        "type": "フレーム",
+        "name": "野原ひろし 昼メシの流儀 ちほー その3"
+      },
+      {
+        "no": 11,
+        "cumulative": 280,
+        "type": "称号",
+        "name": "昼メシのプロ"
+      },
+      {
+        "no": 12,
+        "cumulative": 300,
+        "type": "フレーム",
+        "name": "野原ひろし 昼メシの流儀 ちほー その4"
+      }
+    ]
+  },
+  "超かぐや姫！ちほー": {
+    "mapName": "超かぐや姫！ちほー",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "かぐや（現実）"
+      },
+      {
+        "no": 2,
+        "cumulative": 25,
+        "type": "課題曲",
+        "name": "Ex-Otogibanashi (Anime ver.)"
+      },
+      {
+        "no": 3,
+        "cumulative": 50,
+        "type": "ネームプレート",
+        "name": "超かぐや姫！ちほー その1"
+      },
+      {
+        "no": 4,
+        "cumulative": 75,
+        "type": "つあーメンバー",
+        "name": "かぐや（VR）"
+      },
+      {
+        "no": 5,
+        "cumulative": 100,
+        "type": "フレーム",
+        "name": "超かぐや姫！ちほー その1"
+      },
+      {
+        "no": 6,
+        "cumulative": 120,
+        "type": "つあーメンバー",
+        "name": "酒寄彩葉（現実）"
+      },
+      {
+        "no": 7,
+        "cumulative": 140,
+        "type": "つあーメンバー",
+        "name": "酒寄彩葉（VR）"
+      },
+      {
+        "no": 8,
+        "cumulative": 160,
+        "type": "つあーメンバー",
+        "name": "月見ヤチヨ"
+      },
+      {
+        "no": 9,
+        "cumulative": 180,
+        "type": "フレーム",
+        "name": "超かぐや姫！ちほー その2"
+      },
+      {
+        "no": 10,
+        "cumulative": 200,
+        "type": "課題曲",
+        "name": "私は、わたしの事が好き。(Short ver.)"
+      },
+      {
+        "no": 11,
+        "cumulative": 225,
+        "type": "フレーム",
+        "name": "超かぐや姫！ちほー その3"
+      },
+      {
+        "no": 12,
+        "cumulative": 250,
+        "type": "つあーメンバー",
+        "name": "帝アキラ"
+      },
+      {
+        "no": 13,
+        "cumulative": 270,
+        "type": "つあーメンバー",
+        "name": "駒沢雷"
+      },
+      {
+        "no": 14,
+        "cumulative": 290,
+        "type": "つあーメンバー",
+        "name": "駒沢乃依"
+      },
+      {
+        "no": 15,
+        "cumulative": 310,
+        "type": "つあーメンバー",
+        "name": "綾紬芦花"
+      },
+      {
+        "no": 16,
+        "cumulative": 325,
+        "type": "課題曲",
+        "name": "ワールドイズマイン CPK! Remix (Anime ver.)"
+      },
+      {
+        "no": 17,
+        "cumulative": 350,
+        "type": "ネームプレート",
+        "name": "超かぐや姫！ちほー その2"
+      },
+      {
+        "no": 18,
+        "cumulative": 375,
+        "type": "フレーム",
+        "name": "超かぐや姫！ちほー その4"
+      },
+      {
+        "no": 19,
+        "cumulative": 400,
+        "type": "つあーメンバー",
+        "name": "諌山真実"
+      },
+      {
+        "no": 20,
+        "cumulative": 420,
+        "type": "ネームプレート",
+        "name": "超かぐや姫！ちほー その3"
+      },
+      {
+        "no": 21,
+        "cumulative": 440,
+        "type": "称号",
+        "name": "蛇足ぅ～！"
+      },
+      {
+        "no": 22,
+        "cumulative": 450,
+        "type": "フレーム",
+        "name": "超かぐや姫！ちほー その5"
+      }
+    ]
+  },
+  "Muse Dashちほー2": {
+    "mapName": "Muse Dashちほー2",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "ブロウ（道士）"
+      },
+      {
+        "no": 2,
+        "cumulative": 30,
+        "type": "課題曲",
+        "name": "天靈靈地靈靈"
+      },
+      {
+        "no": 3,
+        "cumulative": 50,
+        "type": "ネームプレート",
+        "name": "Muse Dashちほー2 その1"
+      },
+      {
+        "no": 4,
+        "cumulative": 75,
+        "type": "つあーメンバー",
+        "name": "リン（焚海ノ魔賊）"
+      },
+      {
+        "no": 5,
+        "cumulative": 100,
+        "type": "つあーメンバー",
+        "name": "マリヤ（黒衣の女王）"
+      },
+      {
+        "no": 6,
+        "cumulative": 150,
+        "type": "課題曲",
+        "name": "The Happycore Idol"
+      },
+      {
+        "no": 7,
+        "cumulative": 200,
+        "type": "フレーム",
+        "name": "Muse Dashちほー2 その1"
+      },
+      {
+        "no": 8,
+        "cumulative": 230,
+        "type": "つあーメンバー",
+        "name": "ブロウ（制服少女）"
+      },
+      {
+        "no": 9,
+        "cumulative": 260,
+        "type": "つあーメンバー",
+        "name": "リン（夢遊少女）"
+      },
+      {
+        "no": 10,
+        "cumulative": 290,
+        "type": "つあーメンバー",
+        "name": "マリヤ（魔法少女）"
+      },
+      {
+        "no": 11,
+        "cumulative": 320,
+        "type": "ネームプレート",
+        "name": "Muse Dashちほー2 その2"
+      },
+      {
+        "no": 12,
+        "cumulative": 450,
+        "type": "解禁楽曲",
+        "name": "XODUS"
+      },
+      {
+        "no": 13,
+        "cumulative": 500,
+        "type": "フレーム",
+        "name": "Muse Dashちほー2 その2"
+      }
+    ]
+  },
+  "k4sen ＆ Diverse Systemちほー2": {
+    "mapName": "k4sen ＆ Diverse Systemちほー2",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "k4sen"
+      },
+      {
+        "no": 2,
+        "cumulative": 50,
+        "type": "課題曲",
+        "name": "All Over Again"
+      },
+      {
+        "no": 3,
+        "cumulative": 75,
+        "type": "ネームプレート",
+        "name": "k4sen ＆ Diverse Systemちほー2 その1"
+      },
+      {
+        "no": 4,
+        "cumulative": 125,
+        "type": "つあーメンバー",
+        "name": "silky6（Stream Palette 5）"
+      },
+      {
+        "no": 5,
+        "cumulative": 150,
+        "type": "つあーメンバー",
+        "name": "NENE（Stream Palette 5）"
+      },
+      {
+        "no": 6,
+        "cumulative": 200,
+        "type": "課題曲",
+        "name": "Energy"
+      },
+      {
+        "no": 7,
+        "cumulative": 225,
+        "type": "ネームプレート",
+        "name": "k4sen ＆ Diverse Systemちほー2 その2"
+      },
+      {
+        "no": 8,
+        "cumulative": 250,
+        "type": "フレーム",
+        "name": "k4sen ＆ Diverse Systemちほー2 その1"
+      },
+      {
+        "no": 9,
+        "cumulative": 275,
+        "type": "つあーメンバー",
+        "name": "silky6（Stream Palette 6）"
+      },
+      {
+        "no": 10,
+        "cumulative": 300,
+        "type": "つあーメンバー",
+        "name": "NENE（Stream Palette 6）"
+      },
+      {
+        "no": 11,
+        "cumulative": 400,
+        "type": "解禁楽曲",
+        "name": "Crossfire"
+      },
+      {
+        "no": 12,
+        "cumulative": 425,
+        "type": "ネームプレート",
+        "name": "k4sen ＆ Diverse Systemちほー2 その3"
+      },
+      {
+        "no": 13,
+        "cumulative": 550,
+        "type": "解禁楽曲",
+        "name": "RE!NCARN4T10N"
+      },
+      {
+        "no": 14,
+        "cumulative": 600,
+        "type": "フレーム",
+        "name": "k4sen ＆ Diverse Systemちほー2 その2"
+      }
+    ]
+  },
+  "GRANRODEOちほー": {
+    "mapName": "GRANRODEOちほー",
+    "rewards": [
+      {
+        "no": 1,
+        "cumulative": 0,
+        "type": "つあーメンバー",
+        "name": "KISHOW (谷山紀章)"
+      },
+      {
+        "no": 2,
+        "cumulative": 20,
+        "type": "課題曲",
+        "name": "ChaosBlue"
+      },
+      {
+        "no": 3,
+        "cumulative": 50,
+        "type": "ネームプレート",
+        "name": "GRANRODEOちほー"
+      },
+      {
+        "no": 4,
+        "cumulative": 75,
+        "type": "つあーメンバー",
+        "name": "e-ZUKA (飯塚昌明)"
+      },
+      {
+        "no": 5,
+        "cumulative": 100,
+        "type": "つあーメンバー",
+        "name": "ロジャー"
+      },
+      {
+        "no": 6,
+        "cumulative": 125,
+        "type": "つあーメンバー",
+        "name": "ジーナ"
+      },
+      {
+        "no": 7,
+        "cumulative": 150,
+        "type": "課題曲",
+        "name": "GO GO PARADISE!!"
+      },
+      {
+        "no": 8,
+        "cumulative": 175,
+        "type": "つあーメンバー",
+        "name": "カオトン"
+      },
+      {
+        "no": 9,
+        "cumulative": 225,
+        "type": "課題曲",
+        "name": "Can Do"
+      },
+      {
+        "no": 10,
+        "cumulative": 250,
+        "type": "フレーム",
+        "name": "GRANRODEOちほー"
       }
     ]
   }
